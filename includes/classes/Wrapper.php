@@ -9,333 +9,474 @@ class Wrapper {
    public $description;
    public $keywords;
    public $page;
-    
-    public function __construct() {
-        $this->title = '';
-        $this->baseClass = '';
-        
-        $this->scripts = array();
-        $this->styles = array();
-		
-		$path = $_SERVER['REQUEST_URI'];
-		$tokens = preg_split('#/#', $path, -1, PREG_SPLIT_NO_EMPTY);
-		if( count($tokens) > 0 ) {
-			$this->page = strtolower( $tokens[ count($tokens)-1 ] );
-		}
-		else {
-			$this->page = '';
-		}
-    }
-    
-    public function setTitle($title) {
-        $this->title = $title;
-    }
-    
-    public function addScript($script) {
-        $this->scripts[] = $script;
-    }
-    
-    public function addStyle($style) {
-        $this->styles[] = $style;
-    }
-    
-    public function setBaseClass($baseClass) {
-        $this->baseClass = ' '. $baseClass;
-    }
-	
-	public function setDescription($description) {
-		$this->description = $description;
-	}
-	
-	public function setKeywords($keywords) {
-		$this->keywords = $keywords;
-	}
 
-    public function writeHeader() { 
+   public function __construct() {
+      $this->title = '';
+      $this->baseClass = '';
+
+      $this->scripts = array();
+      $this->styles = array();
+
+      $path = $_SERVER['REQUEST_URI'];
+      $tokens = preg_split('#/#', $path, -1, PREG_SPLIT_NO_EMPTY);
+      if( count($tokens) > 0 ) {
+         $this->page = strtolower( $tokens[ count($tokens)-1 ] );
+      }
+      else {
+         $this->page = '';
+      }
+   }
+
+   public function setTitle($title) {
+      $this->title = $title;
+   }
+
+   public function addScript($script) {
+      $this->scripts[] = $script;
+   }
+
+   public function addStyle($style) {
+      $this->styles[] = $style;
+   }
+
+   public function setBaseClass($baseClass) {
+      $this->baseClass = ' '. $baseClass;
+   }
+
+   public function setDescription($description) {
+      $this->description = $description;
+   }
+
+   public function setKeywords($keywords) {
+      $this->keywords = $keywords;
+   }
+
+
+   /********************************************************************************
+/*************************Write Header Function**********************************
+/********************************************************************************/
+
+   public function writeHeader() { 
       $session = Session::getSession();
       $user = $session->getUser(); ?>
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="images/favicon.ico">
+      <!DOCTYPE html>
+      <!--[if IE 8]>			<html class="ie ie8"> <![endif]-->
+      <!--[if IE 9]>			<html class="ie ie9"> <![endif]-->
+      <!--[if gt IE 9]><!-->	<html> <!--<![endif]-->
+      <head>
+      <meta charset="utf-8" />
+      <title><?php echo $this->title; ?></title>
+      <meta name="keywords" content="<?php echo $this->keywords; ?>" />
+      <meta name="description" content="<?php echo $this->description; ?>" />
+      <meta name="Author" content="Victor Pirkle [www.victorpirkle.com]" />
 
-    <title><?php echo $this->title; ?></title>
+      <!-- mobile settings -->
+      <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
+      <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
 
-    <!-- Bootstrap core CSS -->
-    <link href="<?php echo Config::getBaseDir(); ?>Bootstrap/css/bootstrap.min.css" rel="stylesheet">
-	<link href="<?php echo Config::getBaseDir(); ?>Bootstrap/css/font-awesome.min.css" rel="stylesheet">
+      <!-- WEB FONTS : use %7C instead of | (pipe) -->
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400%7CRaleway:300,400,500,600,700%7CLato:300,400,400italic,600,700" rel="stylesheet" type="text/css" />
 
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="<?php echo Config::getBaseDir(); ?>Bootstrap/assets/ie10-viewport-bug-workaround.css" rel="stylesheet">
+      <!-- CORE CSS -->
+      <link href="<?php echo Config::getBaseDir(); ?>assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 
-	<link href="<?php echo Config::getBaseDir(); ?>css/style.css" rel="stylesheet">
-	<link href="<?php echo Config::getBaseDir(); ?>css/sky-forms.css" rel="stylesheet">
-	
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    
-	<style type="text/css">
-    
-	#navbar-main { z-index: 2000; margin-bottom: 0; border-right: 0; }
-	
-	#navbar-main.affixed-top {
-		// background: #24D8D8;
-	}
-	#navbar-main.affix {
-		// background: #24D8D8;
-		top: 0;
-		left: 0;
-		right: 0;
-	}
-	#navbar-main.affix-bottom {
-		// background: #24D8D8; 
-	}
+      <!-- LAYER SLIDER -->
+      <link href="<?php echo Config::getBaseDir(); ?>assets/plugins/slider.layerslider/css/layerslider.css" rel="stylesheet" type="text/css" />
 
-	/* Not important */
-	.footer {
-		background: #eee;
-		height: 500px;
-	}
-	
-	.nav-wrapper
-	{
-		min-height:52px;
-	}
-    </style>
+      <!-- THEME CSS -->
+      <link href="<?php echo Config::getBaseDir(); ?>assets/css/essentials.css" rel="stylesheet" type="text/css" />
+      <link href="<?php echo Config::getBaseDir(); ?>assets/css/layout.css" rel="stylesheet" type="text/css" />
 
-    
-    <?php
-		foreach($this->styles as $style) {
-            print('	<link rel="stylesheet" type="text/css" href="'. $style. '" />'. "\n");
-        }?>
+      <!-- PAGE LEVEL SCRIPTS -->
+      <link href="<?php echo Config::getBaseDir(); ?>assets/css/header-1.css" rel="stylesheet" type="text/css" />
+      <link href="<?php echo Config::getBaseDir(); ?>assets/css/color_scheme/green.css" rel="stylesheet" type="text/css" id="color_scheme" />
+      </head>
 
-  </head>
+      <!--
+      AVAILABLE BODY CLASSES:
 
-  <body<?php if($this->baseClass != '') { echo ' class="'. $this->baseClass. '"'; }?>>
+      smoothscroll 			= create a browser smooth scroll
+      enable-animation		= enable WOW animations
 
-  <div class="top-bar-dark">            
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-4 hidden-xs">
-                        <div class="top-bar-socials">
-                            <a href="#" class="social-icon-sm si-dark si-gray-round si-colored-facebook">
-                                <i class="fa fa-facebook"></i>
-                                <i class="fa fa-facebook"></i>
-                            </a>
-                            <a href="#" class="social-icon-sm si-dark si-gray-round si-colored-twitter">
-                                <i class="fa fa-twitter"></i>
-                                <i class="fa fa-twitter"></i>
-                            </a>
-                            <a href="#" class="social-icon-sm si-dark si-gray-round si-colored-google-plus">
-                                <i class="fa fa-google-plus"></i>
-                                <i class="fa fa-google-plus"></i>
-                            </a>
-                            <a href="#" class="social-icon-sm si-dark si-gray-round si-colored-google-plus">
-                                <i class="fa fa-youtube"></i>
-                                <i class="fa fa-youtube"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-sm-8 text-right">
-                        <ul class="list-inline top-dark-right">                      
-                            <li class="hidden-sm hidden-xs"><i class="fa fa-envelope"></i> <?php echo hide_email('jgaston00@gmail.com') ?></li>
-                            <li class="hidden-sm hidden-xs"><i class="fa fa-phone"></i> <?php echo hide_string('(615) 230-7393'); ?></li>
-                            <li><a href="<?php echo Config::getBaseDir(). 'console'; ?>"><i class="fa fa-lock"></i> <?php print( ($user && $user->isSystemAdmin()) ? 'Admin Console' : 'Login');?></a></li>
-                            <li><a class="topbar-icons" href="#"><span><i class="fa fa-search top-search"></i></span></a></li>
-                        </ul>
-                        <div class="search">
-                            <form role="form">
-                                <input type="text" class="form-control" autocomplete="off" placeholder="Write something and press enter">
-                                <span class="search-close"><i class="fa fa-times"></i></span>
-                            </form>
-                        </div>
+      bg-grey					= grey background
+      grain-grey				= grey grain background
+      grain-blue				= blue grain background
+      grain-green				= green grain background
+      grain-blue				= blue grain background
+      grain-orange			= orange grain background
+      grain-yellow			= yellow grain background
 
-                    </div>
-                </div>
-            </div>
-        </div>
-  
-    <!-- Fixed navbar -->
-	<div class="nav-wrapper">
-		<nav id="navbar-main" class="navbar navbar-default">
-		  <div class="container">
-			<div class="navbar-header">
-			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			  </button>
-			  <a class="navbar-brand" href="#" style="padding: 0px 15px;">
-				<img alt="Brand" src="<?php echo Config::getBaseDir(); ?>images/logo_small.png" style="height: 58px; width: auto; display: inline;">
-				<span class="hidden-xs">Tennessee Autorack</span>
-			  </a>
-			</div>
-			<div id="navbar" class="navbar-collapse collapse">
-			  <ul class="nav navbar-nav">
-				<li <?php if($this->page == 'tnautorack' || $this->page == '') print('class="active"'); ?> ><a href="<?php echo Config::getBaseDir(); ?>">Home</a></li>
-				<li <?php if($this->page == 'about') print('class="active"'); ?> ><a href="<?php echo Config::getBaseDir(); ?>about">About</a></li>
-				<li <?php if($this->page == 'services') print('class="active"'); ?> ><a href="<?php echo Config::getBaseDir(); ?>services">Services</a></li>
-				<li <?php if($this->page == 'contact') print('class="active"'); ?> ><a href="<?php echo Config::getBaseDir(); ?>contact">Contact</a></li>
-			  </ul>
-			  <!--<ul class="nav navbar-nav navbar-right">
-				<li><a href="../navbar/">Default</a></li>
-				<li><a href="../navbar-static-top/">Static top</a></li>
-				<li class="active"><a href="./">Fixed top <span class="sr-only">(current)</span></a></li>
-			  </ul>-->
-			</div><!--/.nav-collapse -->
-		  </div>
-		</nav>
-    </div>
- <?php } 
-    
+      boxed 					= boxed layout
+      pattern1 ... patern11	= pattern background
+      menu-vertical-hide		= hidden, open on click
 
-	public function writeFooter() {
-?>
+      BACKGROUND IMAGE [together with .boxed class]
+      data-background="assets/images/boxed_background/1.jpg"
+      -->
+      <body class="smoothscroll enable-animation">
 
-<footer id="footer">
-	<div class="container">
+      <!-- wrapper -->
+      <div id="wrapper"<?php print ($this->baseClass != '' ? ' class="' + $this->baseClass + '"' : ''); ?> >
+      
+      			<!-- 
+				AVAILABLE HEADER CLASSES
 
-		<div class="row">
-			<div class="col-md-3 col-sm-6 margin30">
-				<div class="footer-col">
-					<h3>About assan</h3>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lorem quam, adipiscing condimentum tristique vel, eleifend sed turpis. Pellentesque cursus arcu id magna euismod in elementum purus molestie.
-					</p>
-					<ul class="list-inline footer-social">
-						<li>
-							<a href="#" class="social-icon si-dark si-gray-round si-colored-facebook">
-								<i class="fa fa-facebook"></i>
-								<i class="fa fa-facebook"></i>
-							</a>
-						</li>
-						<li>
-							<a href="#" class="social-icon si-dark si-gray-round si-colored-twitter">
-								<i class="fa fa-twitter"></i>
-								<i class="fa fa-twitter"></i>
-							</a>
-						</li>
-						<li>
-							<a href="#" class="social-icon si-dark si-gray-round si-colored-google-plus">
-								<i class="fa fa-google-plus"></i>
-								<i class="fa fa-google-plus"></i>
-							</a>
-						</li>
-						<li>
-							<a href="#" class="social-icon si-dark si-gray-round si-colored-pinterest">
-								<i class="fa fa-pinterest"></i>
-								<i class="fa fa-pinterest"></i>
-							</a>
-						</li>
-						<li>
-							<a href="#" class="social-icon si-dark si-gray-round si-colored-linkedin">
-								<i class="fa fa-linkedin"></i>
-								<i class="fa fa-linkedin"></i>
-							</a>
-						</li>
-					</ul>
-				</div>                        
-			</div><!--footer col-->
-			<div class="col-md-3 col-sm-6 margin30">
-				<div class="footer-col">
-					<h3>Contact</h3>
+				Default nav height: 96px
+				.header-md 		= 70px nav height
+				.header-sm 		= 60px nav height
 
-					<ul class="list-unstyled contact">
-						<li><p><strong><i class="fa fa-map-marker"></i> Address:</strong> 634 Steam Plant Rd, Gallatin, TN 37066</p></li> 
-						<li><p><strong><i class="fa fa-envelope"></i> Mail Us:</strong> <?php echo hide_email('jgaston00@gmail.com') ?></p></li>
-						<li><p><strong><i class="fa fa-phone"></i> Phone:</strong> <?php echo hide_string('(615) 230-7393'); ?></p></li>
-						<li><p><strong><i class="fa fa-print"></i> Fax:</strong> <?php echo hide_string('(615) 230-7392'); ?></p></li>
-					</ul>
-				</div>                        
-			</div><!--footer col-->
-			<div class="col-md-3 col-sm-6 margin30">
-				<div class="footer-col">
-					<h3>Featured Work</h3>
-					<!--<ul class="list-inline f2-work">
-						<li><a href="portfolio-single.html"><img src="img/img-1.jpg" class="img-responsive" alt=""></a></li>
-						<li><a href="portfolio-single.html"><img src="img/img-2.jpg" class="img-responsive" alt=""></a></li>
-						<li><a href="portfolio-single.html"><img src="img/img-3.jpg" class="img-responsive" alt=""></a></li>
-						<li><a href="portfolio-single.html"><img src="img/img-4.jpg" class="img-responsive" alt=""></a></li>
-						<li><a href="portfolio-single.html"><img src="img/img-5.jpg" class="img-responsive" alt=""></a></li>
-						<li><a href="portfolio-single.html"><img src="img/img-6.jpg" class="img-responsive" alt=""></a></li>
-						<li><a href="portfolio-single.html"><img src="img/img-7.jpg" class="img-responsive" alt=""></a></li>
-						<li><a href="portfolio-single.html"><img src="img/img-8.jpg" class="img-responsive" alt=""></a></li>
-						<li><a href="portfolio-single.html"><img src="img/img-9.jpg" class="img-responsive" alt=""></a></li>
-					</ul>-->
-				</div>                        
-			</div><!--footer col-->
-			<div class="col-md-3 col-sm-6 margin30">
-				<div class="footer-col">
-					<h3>Career</h3>
-					<p>
-						Looking for work and have a can do attitude?  Send us your resume and get started with a great future.
-					</p>
-					<form role="form" class="subscribe-form">
-						<span class="input-group-btn">
-								<button class="btn  btn-theme-dark btn-lg" type="submit">Career Oportunites</button>
-							</span>
+				.noborder 		= remove bottom border (only with transparent use)
+				.transparent	= transparent header
+				.translucent	= translucent header
+				.sticky			= sticky header
+				.static			= static header
+				.dark			= dark header
+				.bottom			= header on bottom
+				
+				shadow-before-1 = shadow 1 header top
+				shadow-after-1 	= shadow 1 header bottom
+				shadow-before-2 = shadow 2 header top
+				shadow-after-2 	= shadow 2 header bottom
+				shadow-before-3 = shadow 3 header top
+				shadow-after-3 	= shadow 3 header bottom
+
+				.clearfix		= required for mobile menu, do not remove!
+
+				Example Usage:  class="clearfix sticky header-sm transparent noborder"
+			-->
+			<div id="header" class="sticky shadow-after-3 clearfix">
+
+				<!-- SEARCH HEADER -->
+				<div class="search-box over-header">
+					<a id="closeSearch" href="#" class="glyphicon glyphicon-remove"></a>
+
+					<form action="page-search-result-1.html" method="get">
+						<input type="text" class="form-control" placeholder="SEARCH" />
 					</form>
-				</div>                        
-			</div><!--footer col-->
+				</div> 
+				<!-- /SEARCH HEADER -->
 
-		</div>
-		<div class="row">
-			<div class="col-md-12 text-center">
-				<div class="footer-btm">
-					<span>©2017. Tennessee Autorack LLC</span>
-				</div>
+				<!-- TOP NAV -->
+				<header id="topNav">
+					<div class="container">
+
+						<!-- Mobile Menu Button -->
+						<button class="btn btn-mobile" data-toggle="collapse" data-target=".nav-main-collapse">
+							<i class="fa fa-bars"></i>
+						</button>
+
+						<!-- BUTTONS -->
+						<ul class="pull-right nav nav-pills nav-second-main">
+
+							<!-- SEARCH -->
+							<li class="search">
+								<a href="javascript:;">
+									<i class="fa fa-search"></i>
+								</a>
+							</li>
+							<!-- /SEARCH -->
+
+							<!-- QUICK SHOP CART -->
+							<li class="quick-cart">
+								<a href="#">
+									<span class="badge badge-aqua btn-xs badge-corner">2</span>
+									<i class="fa fa-shopping-cart"></i> 
+								</a>
+								<div class="quick-cart-box">
+									<h4>Shop Cart</h4>
+
+									<div class="quick-cart-wrapper">
+
+										<a href="#"><!-- cart item -->
+											<img src="assets/images/demo/people/300x300/4-min.jpg" width="45" height="45" alt="" />
+											<h6><span>2x</span> RED BAG WITH HUGE POCKETS</h6>
+											<small>$37.21</small>
+										</a><!-- /cart item -->
+
+										<a href="#"><!-- cart item -->
+											<img src="assets/images/demo/people/300x300/5-min.jpg" width="45" height="45" alt="" />
+											<h6><span>2x</span> THIS IS A VERY LONG TEXT AND WILL BE TRUNCATED</h6>
+											<small>$17.18</small>
+										</a><!-- /cart item -->
+
+										<!-- cart no items example -->
+										<!--
+										<a class="text-center" href="#">
+											<h6>0 ITEMS ON YOUR CART</h6>
+										</a>
+										-->
+
+									</div>
+
+									<!-- quick cart footer -->
+									<div class="quick-cart-footer clearfix">
+										<a href="shop-cart.html" class="btn btn-primary btn-xs pull-right">VIEW CART</a>
+										<span class="pull-left"><strong>TOTAL:</strong> $54.39</span>
+									</div>
+									<!-- /quick cart footer -->
+
+								</div>
+							</li>
+							<!-- /QUICK SHOP CART -->
+
+						</ul>
+						<!-- /BUTTONS -->
+
+
+						<!-- Logo -->
+						<a class="logo pull-left" href="index.html">
+							<img src="assets/images/logo_dark.png" alt="" />
+						</a>
+
+						<!-- 
+							Top Nav 
+							
+							AVAILABLE CLASSES:
+							submenu-dark = dark sub menu
+						-->
+						<div class="navbar-collapse pull-right nav-main-collapse collapse submenu-dark">
+							<nav class="nav-main">
+
+								<!--
+									NOTE
+									
+									For a regular link, remove "dropdown" class from LI tag and "dropdown-toggle" class from the href.
+									Direct Link Example: 
+
+									<li>
+										<a href="#">HOME</a>
+									</li>
+								-->
+								<ul id="topMain" class="nav nav-pills nav-main">
+									<li class="dropdown active"><!-- Home -->
+										<a class="dropdown-toggle" href="<?php Config::getBaseDir(); ?>">
+											HOME
+										</a>
+                           </li>
+                           <li class="dropdown active"><!-- About -->
+										<a class="dropdown-toggle" href="<?php Config::getBaseDir(); ?>about">
+											ABOUT
+										</a>
+                           </li>
+                           <li class="dropdown active"><!-- Products -->
+										<a class="dropdown-toggle" href="<?php Config::getBaseDir(); ?>products">
+											PRODUCTS
+										</a>
+                           </li>
+                           <li class="dropdown active"><!-- Accessories -->
+										<a class="dropdown-toggle" href="<?php Config::getBaseDir(); ?>accessories">
+											ACCESSORIES
+										</a>
+                           </li>
+                           <li class="dropdown active"><!-- Contact -->
+										<a class="dropdown-toggle" href="<?php Config::getBaseDir(); ?>contact">
+											CONTACT
+										</a>
+                           </li>
+                           <li class="dropdown active"><!-- Resources -->
+										<a class="dropdown-toggle" href="<?php Config::getBaseDir(); ?>resources">
+                                 RESOURCES
+										</a>
+                           </li>
+                        </ul>
+							</nav>
+                     
+						</div>
+
+					</div>
+				</header>
+				<!-- /Top Nav -->
+
 			</div>
-		</div>
-	</div>
-</footer>
-	
-	<!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="<?php echo Config::getBaseDir(); ?>js/jquery.min.js"></script>
-    <script src="<?php echo Config::getBaseDir(); ?>Bootstrap/js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="<?php echo Config::getBaseDir(); ?>Bootstrap/assets/ie10-viewport-bug-workaround.js"></script>
-    
-	<script>
-    
-      $(function() {
-         
-         var affixElement = '#navbar-main';
 
-            $(affixElement).affix({
-              offset: {
-                // Distance of between element and top page
-                top: function () {
-                  return (this.top = $(affixElement).offset().top)
-                },
-                // when start #footer 
-                bottom: function () { 
-                  return (this.bottom = $('#footer').outerHeight(true))
-                }
-              }
-            });
-      });
-    
-    </script>
-	
-    <?php
-        foreach($this->scripts as $script) {
-            print('      <script type="text/javascript" src="'. $script. '"></script>'. "\n");
-        } ?>
-  </body>
-</html>
-<?php
-    }
+
+      <?php
+       
+         //Include the home page slider
+         require_once('includes/iHomeSlider.php');
+      
+      } 
+
+
+
+
+   /********************************************************************************
+/*************************Write Footer Function**********************************
+/********************************************************************************/ 
+
+   public function writeFooter() { ?>
+      <!-- FOOTER -->
+      <footer id="footer">
+      <div class="container">
+
+      <div class="row">
+
+      <div class="col-md-3">
+      <!-- Footer Logo -->
+      <img class="footer-logo" src="assets/images/logo-footer.png" alt="" />
+
+      <!-- Small Description -->
+      <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+
+      <!-- Contact Address -->
+      <address>
+      <ul class="list-unstyled">
+      <li class="footer-sprite address">
+      PO Box 21132<br>
+      Here Weare St, Melbourne<br>
+      Vivas 2355 Australia<br>
+      </li>
+      <li class="footer-sprite phone">
+Phone: 1-800-565-2390
+      </li>
+      <li class="footer-sprite email">
+      <a href="mailto:support@yourname.com">support@yourname.com</a>
+      </li>
+      </ul>
+      </address>
+      <!-- /Contact Address -->
+
+      </div>
+
+      <div class="col-md-3">
+
+      <!-- Latest Blog Post -->
+      <h4 class="letter-spacing-1">LATEST NEWS</h4>
+      <ul class="footer-posts list-unstyled">
+      <li>
+      <a href="#">Donec sed odio dui. Nulla vitae elit libero, a pharetra augue</a>
+      <small>29 June 2015</small>
+      </li>
+      <li>
+      <a href="#">Nullam id dolor id nibh ultricies</a>
+      <small>29 June 2015</small>
+      </li>
+      <li>
+      <a href="#">Duis mollis, est non commodo luctus</a>
+      <small>29 June 2015</small>
+      </li>
+      </ul>
+      <!-- /Latest Blog Post -->
+
+      </div>
+
+      <div class="col-md-2">
+
+      <!-- Links -->
+      <h4 class="letter-spacing-1">EXPLORE SMARTY</h4>
+      <ul class="footer-links list-unstyled">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Our Services</a></li>
+      <li><a href="#">Our Clients</a></li>
+      <li><a href="#">Our Pricing</a></li>
+      <li><a href="#">Smarty Tour</a></li>
+      <li><a href="#">Contact Us</a></li>
+      </ul>
+      <!-- /Links -->
+
+      </div>
+
+      <div class="col-md-4">
+
+      <!-- Newsletter Form -->
+      <h4 class="letter-spacing-1">KEEP IN TOUCH</h4>
+      <p>Subscribe to Our Newsletter to get Important News &amp; Offers</p>
+
+      <form class="validate" action="php/newsletter.php" method="post" data-success="Subscribed! Thank you!" data-toastr-position="bottom-right">
+      <div class="input-group">
+      <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+      <input type="email" id="email" name="email" class="form-control required" placeholder="Enter your Email">
+      <span class="input-group-btn">
+      <button class="btn btn-success" type="submit">Subscribe</button>
+      </span>
+      </div>
+      </form>
+      <!-- /Newsletter Form -->
+
+      <!-- Social Icons -->
+      <div class="margin-top-20">
+      <a href="#" class="social-icon social-icon-border social-facebook pull-left" data-toggle="tooltip" data-placement="top" title="Facebook">
+
+      <i class="icon-facebook"></i>
+      <i class="icon-facebook"></i>
+      </a>
+
+      <a href="#" class="social-icon social-icon-border social-twitter pull-left" data-toggle="tooltip" data-placement="top" title="Twitter">
+      <i class="icon-twitter"></i>
+      <i class="icon-twitter"></i>
+      </a>
+
+      <a href="#" class="social-icon social-icon-border social-gplus pull-left" data-toggle="tooltip" data-placement="top" title="Google plus">
+      <i class="icon-gplus"></i>
+      <i class="icon-gplus"></i>
+      </a>
+
+      <a href="#" class="social-icon social-icon-border social-linkedin pull-left" data-toggle="tooltip" data-placement="top" title="Linkedin">
+      <i class="icon-linkedin"></i>
+      <i class="icon-linkedin"></i>
+      </a>
+
+      <a href="#" class="social-icon social-icon-border social-rss pull-left" data-toggle="tooltip" data-placement="top" title="Rss">
+      <i class="icon-rss"></i>
+      <i class="icon-rss"></i>
+      </a>
+
+      </div>
+      <!-- /Social Icons -->
+
+      </div>
+
+      </div>
+
+      </div>
+
+      <div class="copyright">
+      <div class="container">
+      <ul class="pull-right nomargin list-inline mobile-block">
+      <li><a href="#">Terms &amp; Conditions</a></li>
+      <li>&bull;</li>
+      <li><a href="#">Privacy</a></li>
+      </ul>
+      &copy; All Rights Reserved, Company LTD
+      </div>
+      </div>
+      </footer>
+      <!-- /FOOTER -->
+
+      </div>
+      <!-- /wrapper -->
+
+
+      <!-- SCROLL TO TOP -->
+      <a href="#" id="toTop"></a>
+
+
+      <!-- PRELOADER -->
+      <div id="preloader">
+      <div class="inner">
+      <span class="loader"></span>
+      </div>
+      </div><!-- /PRELOADER -->
+
+
+      <!-- JAVASCRIPT FILES -->
+      <script type="text/javascript">var plugin_path = 'assets/plugins/';</script>
+      <script type="text/javascript" src="<?php echo Config::getBaseDir(); ?>assets/plugins/jquery/jquery-2.2.3.min.js"></script>
+
+      <script type="text/javascript" src="<?php echo Config::getBaseDir(); ?>assets/js/scripts.js"></script>
+
+      <!-- STYLESWITCHER - REMOVE -->
+      <script async type="text/javascript" src="<?php echo Config::getBaseDir(); ?>assets/plugins/styleswitcher/styleswitcher.js"></script>
+
+      <!-- LAYER SLIDER -->
+      <script type="text/javascript" src="<?php echo Config::getBaseDir(); ?>assets/plugins/slider.layerslider/js/layerslider_pack.js"></script>
+      <script type="text/javascript" src="<?php echo Config::getBaseDir(); ?>assets/js/view/demo.layerslider_slider.js"></script>
+
+      </body>
+      </html>
+
+      <?php
+   }
 }
 ?>
