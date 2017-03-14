@@ -319,7 +319,7 @@ $commands[] = sprintf(
 	, $exclude
 );
 
-$commands[] = 'sudo chown -R ec2-user:www /var/www/html/victorpirkle/sentryuv/';
+$commands[] = 'sudo chown -R ec2-user:ec2-user /var/www/html/victorpirkle/sentryuv/';
 
 $commands[] = 'sudo chmod -R 2775 /var/www/html/victorpirkle/sentryuv/';
 
