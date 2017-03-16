@@ -288,8 +288,7 @@ class Wrapper {
          Phone: <?php echo hide_string('(706) 379-2670'); ?>
       </li>
       <li class="footer-sprite email">
-         <?php echo hide_email('jgaston00@gmail.com') ?>
-         <a href="mailto:support@yourname.com">support@yourname.com</a>
+         <?php echo hide_email('royu@sentryuv.com') ?>
       </li>
       </ul>
       </address>
