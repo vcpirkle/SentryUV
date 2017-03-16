@@ -273,21 +273,23 @@ class Wrapper {
       <img class="footer-logo" src="assets/images/logo-footer.png" alt="" />
 
       <!-- Small Description -->
-      <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+      <p>Sentry UV, Inc. is a global provider of ultraviolet solutions.</p>
 
       <!-- Contact Address -->
       <address>
       <ul class="list-unstyled">
       <li class="footer-sprite address">
-      PO Box 21132<br>
-      Here Weare St, Melbourne<br>
-      Vivas 2355 Australia<br>
+         6767 Peachtree Industrial Blvd.<br>
+         Suite G<br>
+         Norcross, GA 30092<br>
       </li>
       <li class="footer-sprite phone">
-Phone: 1-800-565-2390
+         Toll Free: <?php echo hide_string('(866) 226-0820'); ?><br>
+         Phone: <?php echo hide_string('(706) 379-2670'); ?>
       </li>
       <li class="footer-sprite email">
-      <a href="mailto:support@yourname.com">support@yourname.com</a>
+         <?php echo hide_email('jgaston00@gmail.com') ?>
+         <a href="mailto:support@yourname.com">support@yourname.com</a>
       </li>
       </ul>
       </address>
@@ -320,15 +322,14 @@ Phone: 1-800-565-2390
       <div class="col-md-2">
 
       <!-- Links -->
-      <h4 class="letter-spacing-1">EXPLORE SMARTY</h4>
+      <h4 class="letter-spacing-1">EXPLORE SENTRYUV</h4>
       <ul class="footer-links list-unstyled">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About Us</a></li>
-      <li><a href="#">Our Services</a></li>
-      <li><a href="#">Our Clients</a></li>
-      <li><a href="#">Our Pricing</a></li>
-      <li><a href="#">Smarty Tour</a></li>
-      <li><a href="#">Contact Us</a></li>
+      <li><a href="<?php echo Config::getBaseDir(); ?>">Home</a></li>
+      <li><a href="<?php echo Config::getBaseDir(); ?>about">About Us</a></li>
+      <li><a href="<?php echo Config::getBaseDir(); ?>products">Products</a></li>
+      <li><a href="<?php echo Config::getBaseDir(); ?>accessories">Accessories</a></li>
+      <li><a href="<?php echo Config::getBaseDir(); ?>contact">Contact Us</a></li>
+      <li><a href="<?php echo Config::getBaseDir(); ?>resources">Resources</a></li>
       </ul>
       <!-- /Links -->
 
@@ -395,7 +396,7 @@ Phone: 1-800-565-2390
       <li>&bull;</li>
       <li><a href="#">Privacy</a></li>
       </ul>
-      &copy; All Rights Reserved, Company LTD
+      &copy; All Rights Reserved, Sentry UV, Inc.
       </div>
       </div>
       </footer>
