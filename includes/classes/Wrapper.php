@@ -423,9 +423,6 @@ class Wrapper {
 
       <script type="text/javascript" src="<?php echo Config::getBaseDir(); ?>assets/js/scripts.js"></script>
 
-      <!-- STYLESWITCHER - REMOVE -->
-      <script async type="text/javascript" src="<?php echo Config::getBaseDir(); ?>assets/plugins/styleswitcher/styleswitcher.js"></script>
-
       <!-- LAYER SLIDER -->
       <script type="text/javascript" src="<?php echo Config::getBaseDir(); ?>assets/plugins/slider.layerslider/js/layerslider_pack.js"></script>
       <script type="text/javascript" src="<?php echo Config::getBaseDir(); ?>assets/js/view/demo.layerslider_slider.js"></script>
