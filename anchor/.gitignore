@@ -17,7 +17,7 @@ Thumbs.db
 /.htaccess
 
 # debug and custom themes
-!/themes/default
+/themes/*
 
 # uploaded content
 /content/*
