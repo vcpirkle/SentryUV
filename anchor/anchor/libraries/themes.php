@@ -24,21 +24,14 @@ class Themes {
 
 	public static function parse($theme) {
 		$file = PATH . 'themes/' . $theme . '/about.txt';
-      
-      print($file); exit();
 
 		if( ! is_readable($file)) {
-         print('File not readable'); exit();
 			return false;
 		}
-
-      print('<br><br>');
       
 		// read file into a array
 		$contents = explode("\n", trim(file_get_contents($file)));
 		$about = array();
-      
-      print_r($contents);
 
 		foreach(array('name', 'description', 'author', 'site', 'license') as $index => $key) {
 			// temp value
