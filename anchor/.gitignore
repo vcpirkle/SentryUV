@@ -19,10 +19,15 @@ Thumbs.db
 # debug and custom themes
 /themes/*
 !/themes/Awetheme
+!/themes/Awetheme/*
 !/themes/Plain
-!/themes/prototype-master
+!/themes/Plain/*
 !/themes/Prototype
+!/themes/Prototype/*
+!/themes/Default
+!/themes/Default/*
 !/themes/Sando
+!/themes/Sando/*
 
 # uploaded content
 /content/*
