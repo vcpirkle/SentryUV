@@ -18,11 +18,11 @@ Thumbs.db
 
 # debug and custom themes
 /themes/*
-!/themes/awetheme-master
-!/themes/plain-master
+!/themes/Awetheme
+!/themes/Plain
 !/themes/prototype-master
-!/themes/sando-master
-!/themes/default
+!/themes/Prototype
+!/themes/Sando
 
 # uploaded content
 /content/*
