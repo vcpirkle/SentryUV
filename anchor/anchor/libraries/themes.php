@@ -5,8 +5,8 @@ class Themes {
 	public static function all() {
 		$themes = array();
       
-      var path = PATH . 'themes';
-      print(path);
+      $path = PATH . 'themes';
+      print($path);
       exit();
       
 		$fi = new FilesystemIterator(PATH . 'themes', FilesystemIterator::SKIP_DOTS);
