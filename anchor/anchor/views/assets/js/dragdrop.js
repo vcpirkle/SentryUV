@@ -4,7 +4,7 @@
  * Allows the drag and drop of single files into posts
  */
 $(function() {
-	var zone = $(document), body = $('body'), uploader = $('<div id="upload-file"><span>Upload your file</span></div>');
+	var zone = $(document), body = $('body');
 
 	var allowed = ['text/css',
 		'text/javascript', 'application/javascript',
@@ -16,20 +16,19 @@ $(function() {
 	}
 
 	var cancel = function(event) {
-		uploader.hide().removeClass('active');
 		event.preventDefault();
 		return false;
 	};
 
 	var open = function(event) {
 		event.preventDefault();
-		uploader.show().addClass('active');
+		body.addClass('draggy');
 		return false;
 	};
 
 	var close = function(event) {
 		event.preventDefault();
-		uploader.hide().removeClass('active');
+		body.removeClass('draggy');
 		return false;
 	};
 
@@ -49,7 +48,7 @@ $(function() {
 			}
 		}
 
-		uploader.hide().removeClass('active');
+		body.removeClass('draggy');
 
 		return false;
 	};
@@ -165,7 +164,7 @@ $(function() {
 		zone.on('dragleave', cancel);
 		zone.on('dragexit', close);
 
-		body.append(uploader);
+		body.append('<div id="upload-file"><span>Upload your file</span></div>');
 		body.append('<div id="upload-file-progress"><progress value="0"></progress></div>');
 	}
 });

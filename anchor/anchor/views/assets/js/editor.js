@@ -106,16 +106,7 @@
 				wrap('*', '*');
 			},
 			code: function() {
-				var wrapping = '`';
-				var element = textarea[0];
-				var start = element.selectionStart, end = element.selectionEnd;
-				var value = element.value;
-
-				var selection = value.substring(start, end);
-				if(/\n+.*/gm.test(selection)) {
-					wrapping = '\n```\n';
-				}
-				wrap(wrapping, wrapping);
+				wrap('`', '`');
 			},
 			link: function() {
 				var element = textarea[0];
@@ -191,7 +182,6 @@
 		submitProgress = submit.data('loading'),
 		activeMenu = $('.top nav .active a'),
 		wrapper = $('.header .wrap'),
-		notificationWrapper = $('.notifications'),
 		title = document.title;
 
 	// Press `CTRL + S` to `Save`
@@ -214,9 +204,7 @@
 		
 		submit.prop('disabled', true).css('cursor', 'wait').html(submitProgress);
 
-		if (submitProgress) {
-			document.title = submitProgress;
-		}
+		document.title = submitProgress;
 
 		$.ajax({
 			url: form.attr('action'),
@@ -224,52 +212,35 @@
 			data: data,
 			success: function(data, textStatus, jqXHR) {
 
-				data = JSON.parse(data);
+				var notification = $(data).find('.notifications').clone(true),
+					message = notification.children().first().text();
 
-				if (data.notification) {				
-					document.title = data.notification;
+				wrapper.prepend(notification);
 
-					var notification = $('<p class="success">' + data.notification + '</p>');
-					notificationWrapper.append(notification);
+				document.title = message;
 
-					setTimeout(function() {
-						notification.animate({
-							opacity: 0
-						}, 600, "ease-out", function() {
-							$(this).remove();
-						});
-					}, 3000);
-				} else if (data.errors) {
-					for(index in data.errors) {
-						var error = data.errors[index];
-						var notification = $('<p class="error">' + error + '</p>');
-						notificationWrapper.append(notification);
+				setTimeout(function() {
+					notification.animate({
+						opacity: 0
+					}, 600, "ease-out", function() {
 
-						setTimeout(function() {
-							notification.animate({
-								opacity: 0
-							}, 600, "ease-out", function() {
-								$(this).remove();
-							});
-						}, 3000);
-					};
-				}
-
-				if (data.redirect && data.redirect != window.location.href) {
-					setTimeout(function() {
-						window.location.href = data.redirect;
-					}, 1000);
-				} else {
-					setTimeout(function() {
-						document.title = title;
-					}, 3000);
-				}
+						if(jqXHR.responseURL != window.location.href) {
+							window.location.href = jqXHR.responseURL;
+						}
+						
+						$(this).remove();
+					});
+					document.title = title;
+				}, 3000);
 
 				submit.prop('disabled', false).html(submitText).removeAttr('style');
 			},
 			error: function(jqXHR, textStatus, errorThrown) {
 				var notification = $('<div class="notifications"><p class="error">Error</p></div>');
+
 				wrapper.prepend(notification);
+
+				document.title = "Error";
 
 				setTimeout(function() {
 					notification.animate({

@@ -1,12 +1,6 @@
 
 .notifications {
-	position: fixed;
-    bottom: 20px;
-    right: 20px;
-    left: 20px;
-    height: auto;
-    max-width: 350px;
-    z-index: 999;
+	margin-bottom: 10px;
 }
 
 	.notifications .notice, .notifications .error, .notifications .success {
@@ -18,10 +12,6 @@
 		font-weight: 500;
 
 		border-radius: 5px;
-	}
-
-	.notifications .notice:last-of-type, .notifications .error:last-of-type, .notifications .success:last-of-type {
-		margin-bottom: 0px !important;
 	}
 
 	.notifications .notice {

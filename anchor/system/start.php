@@ -33,7 +33,7 @@ Input::detect(Request::method());
 /**
  * Load session config
  */
-Session::setOptions(Config::get('session', array()));
+Session::setOptions(Config::get('session'));
 
 /**
  * Read session data
