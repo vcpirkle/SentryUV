@@ -24,6 +24,8 @@ class Themes {
 
 	public static function parse($theme) {
 		$file = PATH . 'themes/' . $theme . '/about.txt';
+      
+      print($file); exit();
 
 		if( ! is_readable($file)) {
          print('File not readable'); exit();
