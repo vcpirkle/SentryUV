@@ -5,10 +5,6 @@ class Themes {
 	public static function all() {
 		$themes = array();
       
-      $path = PATH . 'themes';
-      print($path);
-      exit();
-      
 		$fi = new FilesystemIterator(PATH . 'themes', FilesystemIterator::SKIP_DOTS);
 
 		foreach($fi as $file) {
@@ -20,6 +16,9 @@ class Themes {
 				}
 			}
 		}
+      
+      print_r($themes);
+      exit();
 
 		ksort($themes);
 
