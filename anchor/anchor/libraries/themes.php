@@ -10,14 +10,16 @@ class Themes {
 		foreach($fi as $file) {
 			if($file->isDir()) {
 				$theme = $file->getFilename();
+            
+            print('ThemeName: '. $theme. '<br>');
+            print('ParsedName: '. static::parse($theme). '<br><br>');
 
 				if($about = static::parse($theme)) {
 					$themes[$theme] = $about;
 				}
 			}
 		}
-      
-      print_r($themes);
+
       exit();
 
 		ksort($themes);
