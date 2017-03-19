@@ -10,17 +10,12 @@ class Themes {
 		foreach($fi as $file) {
 			if($file->isDir()) {
 				$theme = $file->getFilename();
-            
-            print('ThemeName: '. $theme. '<br>');
-            print('ParsedName: '. static::parse($theme). '<br><br>');
 
 				if($about = static::parse($theme)) {
 					$themes[$theme] = $about;
 				}
 			}
 		}
-
-      exit();
 
 		ksort($themes);
 
@@ -31,12 +26,17 @@ class Themes {
 		$file = PATH . 'themes/' . $theme . '/about.txt';
 
 		if( ! is_readable($file)) {
+         print('File not readable'); exit();
 			return false;
 		}
 
+      print('<br><br>');
+      
 		// read file into a array
 		$contents = explode("\n", trim(file_get_contents($file)));
 		$about = array();
+      
+      print_r($contents);
 
 		foreach(array('name', 'description', 'author', 'site', 'license') as $index => $key) {
 			// temp value
