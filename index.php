@@ -33,8 +33,7 @@ $wrapper->writeHeader();
       <!-- breadcrumbs -->
       <ol class="breadcrumb">
          <li><a href="#">Home</a></li>
-         <li><a href="#">Blog</a></li>
-         <li class="active">Right Sidebar</li>
+         <li class="active">Blog</li>
       </ol><!-- /breadcrumbs -->
 
    </div>
