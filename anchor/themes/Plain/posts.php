@@ -9,7 +9,8 @@
                 <time datetime="<?php echo date(DATE_W3C, article_time()); ?>"><?php if(PLAIN_POST_RELATIVE_TIME == false): echo date('F j, Y', article_time()); else: echo relative_time(article_time()); endif; ?></time>
             </div>
             <div class="entry">
-                <?php echo article_html(); ?>
+                <p><?php echo substr(article_markdown(),0,250); ?></p>
+                <a class="btn btn-primary" href="<?php echo article_url(); ?>">Read More</a>
             </div>
         </article>
         <?php endwhile; ?>
