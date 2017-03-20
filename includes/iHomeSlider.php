@@ -20,33 +20,25 @@
 					-->
 					<div class="layerslider height-500" style="width:100%;">
 
+						<!-- SLIDE -->
+						<div class="ls-slide" data-ls="slidedelay:8000;transition2d:75,79;">
+
 							<!-- background image -->
-							<img src="<?php echo Config::getBaseDir(); ?>assets/images/demo/layerslider/slide-b-bg.jpg" class="ls-bg" alt="Slide background"/>
+							<img src="assets/images/demo/layerslider/bg.jpg" class="ls-bg" alt="Slide background"/>
 
-							<p class="ls-l" style="top:44%;left:50%;font-weight: 300;font-size:30px;color:#ffffff;white-space: nowrap;" data-ls="offsetxin:50;durationin:750;easingin:easeOutBack;skewxin:-50;offsetxout:-50;durationout:600;showuntil:500;easingout:easeInBack;skewxout:50;">
-								welcome
-							</p>
-							<p class="ls-l" style="top:52%;left:50%;font-weight: 300;font-size:50px;color:#ffffff;white-space: nowrap;" data-ls="offsetxin:-100;durationin:750;delayin:250;easingin:easeOutBack;skewxin:-50;offsetxout:100;durationout:600;showuntil:500;easingout:easeInBack;skewxout:50;">
-								SMARTY TEMPLATE
-							</p>
+							<img class="ls-l" data-ls="
+								durationin:1500;
+								scalexin:0.8;
+								scaleyin:0.8;
+								scalexout:0.8;
+								scaleyout:0.8;" 
+								style="top:40px;left:65%;white-space: nowrap;" src="assets/images/demo/desktop.png" alt="">
 
-							<img class="ls-l" data-ls="offsetxin:-100;durationin:2000;delayin:1500;offsetxout:-100;durationout:1000;parallaxlevel:-2;" style="top:30%;left:50%;width:120%;height:auto;white-space: nowrap;" src="<?php echo Config::getBaseDir(); ?>assets/images/demo/layerslider/slide-b-1.png" alt="">
-							<img class="ls-l" data-ls="offsetxin:50;durationin:2000;delayin:1500;offsetxout:50;durationout:1000;parallaxlevel:1;" style="top:3px;left:137px;white-space: nowrap;" src="<?php echo Config::getBaseDir(); ?>assets/images/demo/layerslider/slide-b-2.png" alt="">
-							<img class="ls-l" data-ls="offsetxin:100;durationin:2000;delayin:1500;offsetxout:100;durationout:1000;parallaxlevel:3;" style="top:203px;left:383px;white-space: nowrap;" src="<?php echo Config::getBaseDir(); ?>assets/images/demo/layerslider/slide-b-3.png" alt="">
-							<img class="ls-l" data-ls="offsetxin:150;durationin:2000;delayin:1500;offsetxout:150;durationout:1000;parallaxlevel:5;" style="top:206px;left:486px;white-space: nowrap;" src="<?php echo Config::getBaseDir(); ?>assets/images/demo/layerslider/slide-b-4.png" alt="">
-							<img class="ls-l" data-ls="offsetxin:200;durationin:2000;delayin:1500;offsetxout:200;durationout:1000;parallaxlevel:7;" style="top:171px;left:559px;white-space: nowrap;" src="<?php echo Config::getBaseDir(); ?>assets/images/demo/layerslider/slide-b-5.png" alt="">
-							
-							<p class="ls-l" style="top:47%;left:690px;font-weight: 500;font-size:35px;color:#ffffff;white-space: nowrap;" data-ls="offsetxin:0;durationin:1500;delayin:1500;rotateyin:90;transformoriginin:left 50% 0;offsetxout:0;durationout:1500;showuntil:1000;rotateyout:-90;transformoriginout:left 50% 0;">
-								Move your mouse<br />
-								over this slide!
-							</p>
-							<img class="ls-l" style="top:45%;left:585px;white-space: nowrap;" data-ls="offsetxin:0;durationin:1500;delayin:1500;rotateyin:90;transformoriginin:right 50% 0;offsetxout:0;durationout:1500;showuntil:1000;rotateyout:-90;transformoriginout:right 50% 0;" src="<?php echo Config::getBaseDir(); ?>assets/images/demo/layerslider/mouse.png" alt="">
-							<p class="ls-l" style="top:340px;left:150px;font-weight: 300;height:40px;padding-right:10px;padding-left:10px;font-size:30px;line-height:37px;color:#849e00;background:#ffffff;border-radius:4px;white-space: nowrap;" data-ls="offsetxin:0;durationin:2000;delayin:3500;rotatein:-45;rotateyin:-1;scalexin:0.5;scaleyin:0.5;transformoriginin:left bottom 0;offsetxout:0;durationout:1000;rotateout:45;scalexout:2;scaleyout:2;transformoriginout:right bottom 0;">
-								INCREDIBLE FEATURES
-							</p>
-							<p class="ls-l" style="top:300px;left:150px;font-weight: 500;font-size:30px;color:#ffffff;white-space: nowrap;" data-ls="offsetxin:0;durationin:2000;delayin:3500;rotatein:-45;scalexin:2;scaleyin:2;transformoriginin:right top 0;offsetxout:0;durationout:1000;rotateout:45;scalexout:2;scaleyout:2;transformoriginout:left top 0;">
-								responsive template
-							</p>
+							<img class="ls-l" style="top:-601px;left:70px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:top;delayin:350;fadein:false;offsetxout:right;durationout:1000;fadeout:false;" src="assets/images/1x1.png" data-src="assets/images/caption_bg.png" alt="">
+							<p class="ls-l" style="top:48px;left:100px;color: #fff; text-shadow: none; font-size: 22px; line-height: 34px; padding: 0px 10px; padding-top: 1px; margin: 0px; border-width: 0px; border-style: none; background-color:#000; white-space: nowrap;" data-ls="offsetxin:0;durationin:1500;delayin:500;rotatein:30;scalexin:0.2;scaleyin:0.2;offsetxout:0;offsetyout:top;durationout:1000;fadeout:false;rotateout:30;scalexout:0.2;scaleyout:0.2;">Smarty Reponsive Template</p>
+							<p class="ls-l" style="top:92px;left:100px;font-size: 35px; line-height: 45px; color:#ffffff; white-space: nowrap;" data-ls="offsetxin:0;durationin:1500;delayin:750;rotatein:30;scalexin:0.2;scaleyin:0.2;offsetxout:right;durationout:1000;fadeout:false;rotateout:45;scalexout:0.2;scaleyout:0.2;">Great Captions</p>
+							<p class="ls-l" style="top:152px;left:100px;color: #fff; font-size: 13px; line-height: 20px; text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5); font-weight: 300; ;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:bottom;durationin:1500;delayin:1200;fadein:false;offsetxout:0;offsetyout:bottom;durationout:1000;fadeout:false;">Awesome sliders give you the opportunity to <br />showcase important content. Smarty will constantly be <br /> updatedwith brand new features and additions</p>
+
 						</div>
 
 						<!-- SLIDE -->
@@ -88,41 +80,6 @@
 								working with the plugin is more easy
 							</p>
 						</div>
-                  
-                  <!-- SLIDE -->
-						<div class="ls-slide" data-ls="slidedelay:8000;transition2d:75,79;">
-
-							<!-- background image -->
-							<img src="assets/images/demo/layerslider/bg.jpg" class="ls-bg" alt="Slide background"/>
-
-							<img class="ls-l" data-ls="
-								durationin:1500;
-								scalexin:0.8;
-								scaleyin:0.8;
-								scalexout:0.8;
-								scaleyout:0.8;" 
-								style="top:40px;left:65%;white-space: nowrap;" src="assets/images/demo/desktop.png" alt="">
-
-							<img class="ls-l" style="top:-601px;left:70px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:top;delayin:350;fadein:false;offsetxout:right;durationout:1000;fadeout:false;" src="assets/images/1x1.png" data-src="assets/images/caption_bg.png" alt="">
-							<p class="ls-l" style="top:48px;left:100px;color: #fff; text-shadow: none; font-size: 22px; line-height: 34px; padding: 0px 10px; padding-top: 1px; margin: 0px; border-width: 0px; border-style: none; background-color:#000; white-space: nowrap;" data-ls="offsetxin:0;durationin:1500;delayin:500;rotatein:30;scalexin:0.2;scaleyin:0.2;offsetxout:0;offsetyout:top;durationout:1000;fadeout:false;rotateout:30;scalexout:0.2;scaleyout:0.2;">Smarty Reponsive Template</p>
-							<p class="ls-l" style="top:92px;left:100px;font-size: 35px; line-height: 45px; color:#ffffff; white-space: nowrap;" data-ls="offsetxin:0;durationin:1500;delayin:750;rotatein:30;scalexin:0.2;scaleyin:0.2;offsetxout:right;durationout:1000;fadeout:false;rotateout:45;scalexout:0.2;scaleyout:0.2;">Great Captions</p>
-							<p class="ls-l" style="top:152px;left:100px;color: #fff; font-size: 13px; line-height: 20px; text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5); font-weight: 300; ;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:bottom;durationin:1500;delayin:1200;fadein:false;offsetxout:0;offsetyout:bottom;durationout:1000;fadeout:false;">Awesome sliders give you the opportunity to <br />showcase important content. Smarty will constantly be <br /> updatedwith brand new features and additions</p>
-
-						</div>
-
-						<!-- SLIDE -->
-						<div class="ls-slide" data-ls="slidedelay:6000; transition2d: all;">
-							
-							<img src="assets/images/1x1.png" data-src="assets/images/demo/1200x800/20-min.jpg" class="ls-bg" alt="Slide background" />
-							<img class="ls-l" style="top:-201px;left:70px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:top;delayin:350;fadein:false;offsetxout:right;durationout:1000;fadeout:false;" src="assets/images/1x1.png" data-src="assets/images/caption_bg.png" alt="">
-
-							<p class="ls-l" style="top:48px;left:100px;color: #fff; text-shadow: none; font-size: 22px; line-height: 34px; padding: 0px 10px; padding-top: 1px; margin: 0px; border-width: 0px; border-style: none; background-color:#000; white-space: nowrap;" data-ls="offsetxin:0;durationin:1500;delayin:500;rotatein:30;scalexin:0.2;scaleyin:0.2;offsetxout:0;offsetyout:top;durationout:1000;fadeout:false;rotateout:30;scalexout:0.2;scaleyout:0.2;">Smarty Reponsive Template</p>
-							<p class="ls-l" style="top:92px;left:100px;font-size: 35px; line-height: 45px; color:#ffffff; white-space: nowrap;" data-ls="offsetxin:0;durationin:1500;delayin:750;rotatein:30;scalexin:0.2;scaleyin:0.2;offsetxout:right;durationout:1000;fadeout:false;rotateout:45;scalexout:0.2;scaleyout:0.2;">Great Captions</p>
-							<p class="ls-l" style="top:152px;left:100px;color: #fff; font-size: 13px; line-height: 20px; text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5); font-weight: 300; ;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:bottom;durationin:1500;delayin:1200;fadein:false;offsetxout:0;offsetyout:bottom;durationout:1000;fadeout:false;">Awesome sliders give you the opportunity to <br />showcase important content. Smarty will constantly be <br /> updatedwith brand new features and additions</p>
-						</div>
-
-						<!-- SLIDE -->
-						<div class="ls-slide" data-ls="slidedelay:7000; transition2d: all;">
 
 						<!-- SLIDE -->
 						<div class="ls-slide" data-ls="slidedelay:8000;transition2d:21,105;timeshift:-1000;">
@@ -237,6 +194,8 @@
 								scaleyout:0.8;" 
 								style="top:80px;left:50%;white-space: nowrap;" src="<?php echo Config::getBaseDir(); ?>assets/images/demo/layerslider/ls5box.png" alt="">
 						</div>
+                  
+                  
 
 					</div>
 
