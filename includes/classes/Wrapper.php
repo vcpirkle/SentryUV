@@ -114,6 +114,50 @@ class Wrapper {
       data-background="assets/images/boxed_background/1.jpg"
       -->
       <body class="smoothscroll enable-animation">
+      
+      		<!-- SLIDE TOP -->
+		<div id="slidetop">
+
+			<div class="container">
+				
+				<div class="row">
+
+					<div class="col-md-4">
+						<h6><i class="icon-heart"></i> WHY SENTRYUV?</h6>
+						<p>We pledge high quality products sold at a fair price. Products they will not have to apologize for and products that they can make a reasonable and fair profit. Service and support for them and their customers and products that are proudly American made.</p>
+					</div>
+
+					<div class="col-md-4">
+						<h6><i class="icon-attachment"></i> RECENTLY VISITED</h6>
+						<ul class="list-unstyled">
+							<li><a href="#"><i class="fa fa-angle-right"></i> Consectetur adipiscing elit amet</a></li>
+							<li><a href="#"><i class="fa fa-angle-right"></i> This is a very long text, very very very very very very very very very very very very </a></li>
+							<li><a href="#"><i class="fa fa-angle-right"></i> Lorem ipsum dolor sit amet</a></li>
+							<li><a href="#"><i class="fa fa-angle-right"></i> Dolor sit amet,consectetur adipiscing elit amet</a></li>
+							<li><a href="#"><i class="fa fa-angle-right"></i> Consectetur adipiscing elit amet,consectetur adipiscing elit</a></li>
+						</ul>
+					</div>
+
+					<div class="col-md-4">
+						<h6><i class="icon-envelope"></i> CONTACT INFO</h6>
+						<ul class="list-unstyled">
+							<li><b>Address:</b> 6767 Peachtree Industrial Blvd.<br>
+                                         Suite G<br>
+                                         Norcross, GA 30092</li>
+							<li><b>Toll Free:</b> <?php echo hide_string('(866) 226-0820'); ?></li>
+                     <li><b>Phone:</b> <?php echo hide_string('(706) 379-2670'); ?></li>        
+							<li><b>Email:</b> <?php echo hide_email('royu@sentryuv.com') ?></li>
+						</ul>
+					</div>
+
+				</div>
+
+			</div>
+
+			<a class="slidetop-toggle" href="#"><!-- toggle button --></a>
+
+		</div>
+		<!-- /SLIDE TOP -->
 
       <!-- wrapper -->
       <div id="wrapper"<?php print ($this->baseClass != '' ? ' class="' + $this->baseClass + '"' : ''); ?> >
