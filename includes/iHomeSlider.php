@@ -40,6 +40,25 @@
 							<p class="ls-l" style="top:152px;left:100px;color: #fff; font-size: 13px; line-height: 20px; text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5); font-weight: 300; ;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:bottom;durationin:1500;delayin:1200;fadein:false;offsetxout:0;offsetyout:bottom;durationout:1000;fadeout:false;">Awesome sliders give you the opportunity to <br />showcase important content. Smarty will constantly be <br /> updatedwith brand new features and additions</p>
 
 						</div>
+                  
+                  <!-- SLIDE -->
+						<div class="ls-slide" data-ls="slidedelay:4500;transition2d:all;transition3d:36;timeshift:-1000;">
+							<img src="assets/images/demo/wall2.jpg" class="ls-bg" alt="Slide background"/>
+
+							<img class="ls-l" style="top:20px;left:106px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:top;durationin:3000;easingin:easeOutElastic;fadein:false;offsetxout:right;durationout:1500;showuntil:1;easingout:easeInBack;fadeout:false;" src="assets/images/demo/layerslider/small-cube-blur.png" alt="Cube">
+							<img class="ls-l" style="top:153px;left:342px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:top;durationin:3000;delayin:50;easingin:easeOutElastic;fadein:false;offsetxout:right;durationout:1500;showuntil:700;easingout:easeInBack;fadeout:false;" src="assets/images/demo/layerslider/small-cube-blur.png" alt="Cube">
+							<img class="ls-l" style="top:276px;left:252px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:top;durationin:3000;delayin:100;easingin:easeOutElastic;fadein:false;offsetxout:left;durationout:1500;showuntil:400;easingout:easeInBack;fadeout:false;" src="assets/images/demo/layerslider/small-cube-blur.png" alt="Cube">
+							<img class="ls-l" style="top:199px;left:585px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:top;durationin:3000;delayin:50;easingin:easeOutElastic;fadein:false;offsetxout:left;durationout:1500;showuntil:950;easingout:easeInBack;fadeout:false;" src="assets/images/demo/layerslider/small-cube-blur.png" alt="Cube">
+							<img class="ls-l" style="top:37px;left:525px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:top;durationin:3000;easingin:easeOutElastic;fadein:false;offsetxout:left;durationout:1500;showuntil:250;easingout:easeInBack;fadeout:false;" src="assets/images/demo/layerslider/small-cube-blur.png" alt="Cube">
+
+							<img class="ls-l" style="top:116px;left:450px;white-space: nowrap;" data-ls="offsetxin:0;durationin:1500;delayin:1500;offsetxout:0;durationout:1500;" src="assets/images/demo/layerslider/sayhello.png" alt="Say hello">
+
+							<img class="ls-l" style="top:190px;left:135px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:top;durationin:3000;delayin:50;easingin:easeOutElastic;fadein:false;offsetxout:right;durationout:1500;showuntil:100;easingout:easeInBack;fadeout:false;" src="assets/images/demo/layerslider/mid-cube-blur.png" alt="Cube">
+							<img class="ls-l" style="top:340px;left:322px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:top;durationin:3000;delayin:150;easingin:easeOutElastic;fadein:false;offsetxout:right;durationout:1500;showuntil:500;easingout:easeInBack;fadeout:false;" src="assets/images/demo/layerslider/mid-cube-blur.png" alt="Cube">
+							<img class="ls-l" style="top:398px;left:587px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:top;durationin:3000;delayin:100;easingin:easeOutElastic;fadein:false;offsetxout:left;durationout:1500;showuntil:300;easingout:easeInBack;fadeout:false;" src="assets/images/demo/layerslider/mid-cube-blur.png" alt="Cube">
+							<img class="ls-l" style="top:211px;left:16px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:top;durationin:3000;delayin:100;easingin:easeOutElastic;fadein:false;offsetxout:right;durationout:1500;showuntil:300;easingout:easeInBack;fadeout:false;" src="assets/images/demo/layerslider/big-cube.png" alt="Cube">
+							<img class="ls-l" style="top:251px;left:746px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:top;durationin:3000;delayin:200;easingin:easeOutElastic;fadein:false;offsetxout:left;durationout:1500;showuntil:50;easingout:easeInBack;fadeout:false;" src="assets/images/demo/layerslider/big-cube.png" alt="Cube">
+						</div>
 
 						<!-- SLIDE -->
 						<div class="ls-slide" data-ls="slidedelay:8000;transition2d:75,79;">
