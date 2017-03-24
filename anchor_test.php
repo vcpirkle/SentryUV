@@ -6,8 +6,10 @@ $wrapper->setTitle('SentryUV');
 $wrapper->writeHeader();
 ?>
 
-<link rel="import" href="<?php Config::getBaseDir(). 'anchor/posts'; ?>">
+<?php 
 
+   $postHtml = curl_get(Config::getBaseDir(). 'anchor/posts');
+   print($postHtml);
 
 <?php
 
