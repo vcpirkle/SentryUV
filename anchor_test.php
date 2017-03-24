@@ -8,7 +8,7 @@ $wrapper->writeHeader();
 
 <?php 
 
-   $postHtml = curl_get(Config::getBaseDir(). 'anchor/posts');
+   $postHtml = curl_get(Config::getBaseDir(). 'anchor/posts/');
    print($postHtml);
 
 <?php
