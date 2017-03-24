@@ -103,7 +103,7 @@ class SentrySession extends Saveable {
    
    public static function login($user) {
       if(!is_null($user)) {
-         self::$session = SentrySession::begin($user->getId());
+         self::$session = SentrySentrySession::begin($user->getId());
          self::$user = $user;
          return self::$session;
       }
