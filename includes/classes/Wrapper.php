@@ -144,9 +144,9 @@ class Wrapper {
 							<li><b>Address:</b> 6767 Peachtree Industrial Blvd.<br>
                                          Suite G<br>
                                          Norcross, GA 30092</li>
-							<li><b>Toll Free:</b> <?php echo hide_string('(866) 226-0820'); ?></li>
-                     <li><b>Phone:</b> <?php echo hide_string('(706) 379-2670'); ?></li>        
-							<li><b>Email:</b> <?php echo hide_email('royu@sentryuv.com') ?></li>
+							<li><b>Toll Free:</b> <?php print( hide_string('(866) 226-0820')); ?></li>
+                     <li><b>Phone:</b> <?php print( hide_string('(706) 379-2670')); ?></li>        
+							<li><b>Email:</b> <?php print( hide_email('royu@sentryuv.com')); ?></li>
 						</ul>
 					</div>
 
@@ -328,11 +328,11 @@ class Wrapper {
          Norcross, GA 30092<br>
       </li>
       <li class="footer-sprite phone">
-         Toll Free: <?php echo hide_string('(866) 226-0820'); ?><br>
-         Phone: <?php echo hide_string('(706) 379-2670'); ?>
+         Toll Free: <?php print( hide_string('(866) 226-0820')); ?><br>
+         Phone: <?php print( hide_string('(706) 379-2670')); ?>
       </li>
       <li class="footer-sprite email">
-         <?php echo hide_email('royu@sentryuv.com') ?>
+         <?php print( hide_email('royu@sentryuv.com')); ?>
       </li>
       </ul>
       </address>
