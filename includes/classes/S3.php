@@ -7,7 +7,7 @@ class S3 {
       $aws = Aws::factory('includes/AWSConfig.php');
       $s3Client = $aws->get('s3');
       
-      $bucket = Config::getEnv() == 'dev' ? 'dev.tennesseeautorack.com' : 'www.tennesseeautorack.com';
+      $bucket = Configuration::getEnv() == 'dev' ? 'dev.tennesseeautorack.com' : 'www.tennesseeautorack.com';
       if(!$s3Client->doesBucketExist($bucket)) {
          $s3Client->createBucket(array('Bucket' => $bucket));
          $s3Client->waitUntil('BucketExists', array('Bucket' => $bucket));
@@ -37,7 +37,7 @@ class S3 {
       $aws = Aws::factory('includes/AWSConfig.php');
       $s3Client = $aws->get('s3');
       
-      $bucket = Config::getEnv() == 'dev' ? 'dev.tennesseeautorack.com' : 'www.tennesseeautorack.com';
+      $bucket = Configuration::getEnv() == 'dev' ? 'dev.tennesseeautorack.com' : 'www.tennesseeautorack.com';
       if(!$s3Client->doesBucketExist($bucket)) {
          $s3Client->createBucket(array('Bucket' => $bucket));
          $s3Client->waitUntil('BucketExists', array('Bucket' => $bucket));
@@ -61,7 +61,7 @@ class S3 {
       $aws = Aws::factory('includes/AWSConfig.php');
       $s3Client = $aws->get('s3');
       
-      $bucket = Config::getEnv() == 'dev' ? 'dev.tennesseeautorack.com' : 'www.tennesseeautorack.com';
+      $bucket = Configuration::getEnv() == 'dev' ? 'dev.tennesseeautorack.com' : 'www.tennesseeautorack.com';
       if(!$s3Client->doesBucketExist($bucket)) {
          $s3Client->createBucket(array('Bucket' => $bucket));
          $s3Client->waitUntil('BucketExists', array('Bucket' => $bucket));

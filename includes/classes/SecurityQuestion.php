@@ -12,7 +12,7 @@ class SecurityQuestion extends Saveable {
       $questions = array();
 
       $sql = 'SELECT id, question, createDate, updateDate, deleted FROM '. self::getTableName();
-      $db = Config::getInstance();
+      $db = Configuration::getInstance();
       if($result = $db->sql_query($sql)) {
          while($row = $db->sql_fetchrow($result)) {
             $question = new Securityquestion();

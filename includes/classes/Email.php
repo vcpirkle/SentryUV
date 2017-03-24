@@ -7,7 +7,7 @@ class Email {
    private $noReply;
 
    public function __construct() {
-      $smtpConfig = Config::getSmptConfig();
+      $smtpConfig = Configuration::getSmptConfig();
       $this->smtpHost = $smtpConfig['host'];
       $this->smtpUser = $smtpConfig['user'];
       $this->smtpPassword = $smtpConfig['password'];

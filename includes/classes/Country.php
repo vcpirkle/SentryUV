@@ -14,7 +14,7 @@ class Country extends Saveable {
 		$fields = 'id, name, fips104, iso2, iso3, ison, internet, capital, mapReference, nationalitySingular, nationalityPlural, currency, currencyCode, population, title, comment, createDate, updateDate';
 		$sql = 'SELECT '. $fields. ' FROM '. self::getTablename(). ' ORDER BY  CASE  WHEN id=254 THEN \'a\'  ELSE name  END ASC ';
       
-		$db = Config::getGeoInstance();
+		$db = Configuration::getGeoInstance();
 		if($result = $db->sql_query($sql)) {
 			while($row = $db->sql_fetchrow($result)) {
 				$country = new Country();
@@ -51,7 +51,7 @@ class Country extends Saveable {
     }
     
     protected function getDatabase() {
-      return Config::getGeoInstance();
+      return Configuration::getGeoInstance();
    }
    
    public static function getDataFields() {

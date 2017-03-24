@@ -78,18 +78,18 @@ class Wrapper {
       <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400%7CRaleway:300,400,500,600,700%7CLato:300,400,400italic,600,700" rel="stylesheet" type="text/css" />
 
       <!-- CORE CSS -->
-      <link href="<?php echo Config::getBaseDir(); ?>assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+      <link href="<?php echo Configuration::getBaseDir(); ?>assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 
       <!-- LAYER SLIDER -->
-      <link href="<?php echo Config::getBaseDir(); ?>assets/plugins/slider.layerslider/css/layerslider.css" rel="stylesheet" type="text/css" />
+      <link href="<?php echo Configuration::getBaseDir(); ?>assets/plugins/slider.layerslider/css/layerslider.css" rel="stylesheet" type="text/css" />
 
       <!-- THEME CSS -->
-      <link href="<?php echo Config::getBaseDir(); ?>assets/css/essentials.css" rel="stylesheet" type="text/css" />
-      <link href="<?php echo Config::getBaseDir(); ?>assets/css/layout.css" rel="stylesheet" type="text/css" />
+      <link href="<?php echo Configuration::getBaseDir(); ?>assets/css/essentials.css" rel="stylesheet" type="text/css" />
+      <link href="<?php echo Configuration::getBaseDir(); ?>assets/css/layout.css" rel="stylesheet" type="text/css" />
 
       <!-- PAGE LEVEL SCRIPTS -->
-      <link href="<?php echo Config::getBaseDir(); ?>assets/css/header-1.css" rel="stylesheet" type="text/css" />
-      <link href="<?php echo Config::getBaseDir(); ?>assets/css/color_scheme/green.css" rel="stylesheet" type="text/css" id="color_scheme" />
+      <link href="<?php echo Configuration::getBaseDir(); ?>assets/css/header-1.css" rel="stylesheet" type="text/css" />
+      <link href="<?php echo Configuration::getBaseDir(); ?>assets/css/color_scheme/green.css" rel="stylesheet" type="text/css" id="color_scheme" />
       </head>
 
       <!--
@@ -250,32 +250,32 @@ class Wrapper {
 								-->
 								<ul id="topMain" class="nav nav-pills nav-main">
 									<li class="dropdown active"><!-- Home -->
-										<a class="dropdown-toggle" href="<?php Config::getBaseDir(); ?>">
+										<a class="dropdown-toggle" href="<?php Configuration::getBaseDir(); ?>">
 											HOME
 										</a>
                            </li>
                            <li class="dropdown active"><!-- About -->
-										<a class="dropdown-toggle" href="<?php Config::getBaseDir(); ?>about">
+										<a class="dropdown-toggle" href="<?php Configuration::getBaseDir(); ?>about">
 											ABOUT
 										</a>
                            </li>
                            <li class="dropdown active"><!-- Products -->
-										<a class="dropdown-toggle" href="<?php Config::getBaseDir(); ?>products">
+										<a class="dropdown-toggle" href="<?php Configuration::getBaseDir(); ?>products">
 											PRODUCTS
 										</a>
                            </li>
                            <li class="dropdown active"><!-- Accessories -->
-										<a class="dropdown-toggle" href="<?php Config::getBaseDir(); ?>accessories">
+										<a class="dropdown-toggle" href="<?php Configuration::getBaseDir(); ?>accessories">
 											ACCESSORIES
 										</a>
                            </li>
                            <li class="dropdown active"><!-- Contact -->
-										<a class="dropdown-toggle" href="<?php Config::getBaseDir(); ?>contact">
+										<a class="dropdown-toggle" href="<?php Configuration::getBaseDir(); ?>contact">
 											CONTACT
 										</a>
                            </li>
                            <li class="dropdown active"><!-- Resources -->
-										<a class="dropdown-toggle" href="<?php Config::getBaseDir(); ?>resources">
+										<a class="dropdown-toggle" href="<?php Configuration::getBaseDir(); ?>resources">
                                  RESOURCES
 										</a>
                            </li>
@@ -367,12 +367,12 @@ class Wrapper {
       <!-- Links -->
       <h4 class="letter-spacing-1">EXPLORE SENTRYUV</h4>
       <ul class="footer-links list-unstyled">
-      <li><a href="<?php echo Config::getBaseDir(); ?>">Home</a></li>
-      <li><a href="<?php echo Config::getBaseDir(); ?>about">About Us</a></li>
-      <li><a href="<?php echo Config::getBaseDir(); ?>products">Products</a></li>
-      <li><a href="<?php echo Config::getBaseDir(); ?>accessories">Accessories</a></li>
-      <li><a href="<?php echo Config::getBaseDir(); ?>contact">Contact Us</a></li>
-      <li><a href="<?php echo Config::getBaseDir(); ?>resources">Resources</a></li>
+      <li><a href="<?php echo Configuration::getBaseDir(); ?>">Home</a></li>
+      <li><a href="<?php echo Configuration::getBaseDir(); ?>about">About Us</a></li>
+      <li><a href="<?php echo Configuration::getBaseDir(); ?>products">Products</a></li>
+      <li><a href="<?php echo Configuration::getBaseDir(); ?>accessories">Accessories</a></li>
+      <li><a href="<?php echo Configuration::getBaseDir(); ?>contact">Contact Us</a></li>
+      <li><a href="<?php echo Configuration::getBaseDir(); ?>resources">Resources</a></li>
       </ul>
       <!-- /Links -->
 
@@ -463,13 +463,13 @@ class Wrapper {
 
       <!-- JAVASCRIPT FILES -->
       <script type="text/javascript">var plugin_path = 'assets/plugins/';</script>
-      <script type="text/javascript" src="<?php echo Config::getBaseDir(); ?>assets/plugins/jquery/jquery-2.2.3.min.js"></script>
+      <script type="text/javascript" src="<?php echo Configuration::getBaseDir(); ?>assets/plugins/jquery/jquery-2.2.3.min.js"></script>
 
-      <script type="text/javascript" src="<?php echo Config::getBaseDir(); ?>assets/js/scripts.js"></script>
+      <script type="text/javascript" src="<?php echo Configuration::getBaseDir(); ?>assets/js/scripts.js"></script>
 
       <!-- LAYER SLIDER -->
-      <script type="text/javascript" src="<?php echo Config::getBaseDir(); ?>assets/plugins/slider.layerslider/js/layerslider_pack.js"></script>
-      <script type="text/javascript" src="<?php echo Config::getBaseDir(); ?>assets/js/view/demo.layerslider_slider.js"></script>
+      <script type="text/javascript" src="<?php echo Configuration::getBaseDir(); ?>assets/plugins/slider.layerslider/js/layerslider_pack.js"></script>
+      <script type="text/javascript" src="<?php echo Configuration::getBaseDir(); ?>assets/js/view/demo.layerslider_slider.js"></script>
 
       </body>
       </html>
