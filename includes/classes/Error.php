@@ -13,7 +13,7 @@ class Error extends Saveable {
 		$errors = $cache->get('errors');
       
       if(!$errors) {
-         $db = Config::getInstance();
+         $db = Configuration::getInstance();
          
          $fields = 'id, code, message, createDate, updateDate';
          $sql = 'SELECT '. $fields. ' FROM '. self::getTablename();
@@ -68,7 +68,7 @@ class Error extends Saveable {
     }
     
     protected function getDatabase() {
-      return Config::getGeoInstance();
+      return Configuration::getGeoInstance();
    }
    
    public static function getDataFields() {

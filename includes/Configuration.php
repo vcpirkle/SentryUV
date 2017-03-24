@@ -1,7 +1,7 @@
 <?php
    //Global includes and other global variablesheader('Pragma: no-cache');
    
-   if(Config::getEnv() == 'dev') {
+   if(Configuration::getEnv() == 'dev') {
       header('Pragma: no-cache');
       header('Cache-Control: s-maxage=0, max-age=0, must-revalidate, no-cache');
       ini_set('display_errors', '1');
@@ -21,7 +21,7 @@
    //TODO: Link from the new php mailer location
    // include_once('includes/PHPMailer/PHPMailerAutoload.php');
 
-   class Config {
+   class Configuration {
       //TODO: Update smpt web mail configuration
       // private static $smtpHost = 'smtpout.secureserver.net';
       // private static $smtpUser = 'info@weddingkrewe.com';
@@ -31,7 +31,7 @@
       public static $googleApiKey = 'AIzaSyDKXXXoyEOHYP5bBclObOYJ0Ee8FqI36iY';
       
          
-      public static function getSmptConfig() {
+      public static function getSmptConfiguration() {
          return array (
             'host' => self::$smtpHost,
             'user' => self::$smtpUser,
@@ -40,7 +40,7 @@
          );
       }
          
-      public static function getDatabaseConfig($name) {
+      public static function getDatabaseConfiguration($name) {
          if($name == 'prod') {
              return array (
                'database' => 'SentryUV',
@@ -108,7 +108,7 @@
             }
          }
       
-         $config = Config::getDatabaseConfig($name);
+         $config = Configuration::getDatabaseConfiguration($name);
          if(!is_null($config)) {
             $db = new dbal_mysql();
             if(is_array($db->sql_connect(

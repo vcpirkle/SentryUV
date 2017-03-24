@@ -96,7 +96,7 @@ class Historical extends SoftDelete {
    }
 
    protected function getDatabase() {
-      return Config::getInstance();
+      return Configuration::getInstance();
    }
 
    public static function getDataFields() {
