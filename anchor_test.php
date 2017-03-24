@@ -11,7 +11,6 @@ $wrapper->writeHeader();
    $postHtml = curl_get(Config::getBaseDir(). 'anchor/posts/');
    print($postHtml);
 
-<?php
 
    //Include the home page slider
    require_once('includes/iCalloutProductBanner.php');
