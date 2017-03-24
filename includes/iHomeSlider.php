@@ -64,7 +64,7 @@
 						<div class="ls-slide" data-ls="slidedelay:8000;transition2d:75,79;">
 
 							<!-- background image -->
-							<img src="<?php echo Configuration::getBaseDir(); ?>assets/images/demo/layerslider/bg.jpg" class="ls-bg" alt="Slide background"/>
+							<img src="<?php echo Config::getBaseDir(); ?>assets/images/demo/layerslider/bg.jpg" class="ls-bg" alt="Slide background"/>
 
 							<img class="ls-l" data-ls="
 								durationin:1500;
@@ -72,7 +72,7 @@
 								scaleyin:0.8;
 								scalexout:0.8;
 								scaleyout:0.8;" 
-								style="top:40px;left:65%;white-space: nowrap;" src="<?php echo Configuration::getBaseDir(); ?>assets/images/demo/desktop.png" alt="">
+								style="top:40px;left:65%;white-space: nowrap;" src="<?php echo Config::getBaseDir(); ?>assets/images/demo/desktop.png" alt="">
 
 							<p class="ls-l" style="top:50px;left:100px;font-weight: 300;height:40px;padding-right:10px;padding-left:10px;font-size:30px;line-height:37px;color:#ffffff;background:#fa6b4b;border-radius:4px;white-space: nowrap;" data-ls="durationin:1500;delayin:300;rotatein:20;rotatexin:30;scalexin:1.5;scaleyin:1.5;transformoriginin:left 50% 0;durationout:750;rotateout:20;rotatexout:-30;scalexout:0;scaleyout:0;transformoriginout:left 50% 0;">
 								FULLY RESPONSIVE
@@ -104,7 +104,7 @@
 						<div class="ls-slide" data-ls="slidedelay:8000;transition2d:21,105;timeshift:-1000;">
 
 							<!-- background -->
-							<img src="<?php echo Configuration::getBaseDir(); ?>assets/images/demo/blue.jpg" class="ls-bg" alt="Slide background"/>
+							<img src="<?php echo Config::getBaseDir(); ?>assets/images/demo/blue.jpg" class="ls-bg" alt="Slide background"/>
 
 							<img class="ls-l" data-ls="
 								offsetxin:0;
@@ -119,7 +119,7 @@
 								easingout:linear;
 								scalexout:2;
 								scaleyout:2;" 
-								style="top:20px;left:50%;white-space: nowrap;" src="<?php echo Configuration::getBaseDir(); ?>assets/images/demo/layerslider/circle.png" alt="">
+								style="top:20px;left:50%;white-space: nowrap;" src="<?php echo Config::getBaseDir(); ?>assets/images/demo/layerslider/circle.png" alt="">
 							<img class="ls-l" data-ls="
 								offsetxin:0;
 								durationin:1500;
@@ -133,7 +133,7 @@
 								easingout:linear;
 								scalexout:2;
 								scaleyout:2;" 
-								style="top:20px;left:50%;white-space: nowrap;" src="<?php echo Configuration::getBaseDir(); ?>assets/images/demo/layerslider/circle.png" alt="">
+								style="top:20px;left:50%;white-space: nowrap;" src="<?php echo Config::getBaseDir(); ?>assets/images/demo/layerslider/circle.png" alt="">
 
 							<!-- left -->
 							<p class="ls-l" data-ls="
@@ -211,7 +211,7 @@
 								scaleyin:0.8;
 								scalexout:0.8;
 								scaleyout:0.8;" 
-								style="top:80px;left:50%;white-space: nowrap;" src="<?php echo Configuration::getBaseDir(); ?>assets/images/demo/layerslider/ls5box.png" alt="">
+								style="top:80px;left:50%;white-space: nowrap;" src="<?php echo Config::getBaseDir(); ?>assets/images/demo/layerslider/ls5box.png" alt="">
 						</div>
                   
                   
@@ -224,7 +224,7 @@
 							responsiveUnder: 	1280,
 							layersContainer: 	1280,
 							hoverPrevNext: 		true,
-							skinsPath: 			'<?php echo Configuration::getBaseDir(); ?>assets/plugins/slider.layerslider/skins/'
+							skinsPath: 			'<?php echo Config::getBaseDir(); ?>assets/plugins/slider.layerslider/skins/'
 						}
 					</script>
 

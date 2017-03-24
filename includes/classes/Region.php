@@ -11,7 +11,7 @@ class Region extends Saveable {
 	public static function getRegions($countryId = null) {
 		$regions = array();
       
-      $db = Configuration::getGeoInstance();
+      $db = Config::getGeoInstance();
 		
 		$fields = 'id, countryId, name, code, createDate, updateDate';
 		$sql = 'SELECT '. $fields. ' FROM '. self::getTablename(). 
@@ -54,7 +54,7 @@ class Region extends Saveable {
     }
     
     protected function getDatabase() {
-      return Configuration::getGeoInstance();
+      return Config::getGeoInstance();
    }
    
    public static function getDataFields() {

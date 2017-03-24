@@ -63,14 +63,14 @@ class ConsoleWrapper {
     <title><?php echo $this->title; ?></title>
 
     <!-- Bootstrap core CSS -->
-    <link href="<?php echo Configuration::getBaseDir(); ?>Bootstrap/css/bootstrap.min.css" rel="stylesheet">
-	<link href="<?php echo Configuration::getBaseDir(); ?>Bootstrap/css/font-awesome.min.css" rel="stylesheet">
+    <link href="<?php echo Config::getBaseDir(); ?>Bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="<?php echo Config::getBaseDir(); ?>Bootstrap/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="<?php echo Configuration::getBaseDir(); ?>Bootstrap/assets/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <link href="<?php echo Config::getBaseDir(); ?>Bootstrap/assets/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
-	<link href="<?php echo Configuration::getBaseDir(); ?>css/style.css" rel="stylesheet">
-	<link href="<?php echo Configuration::getBaseDir(); ?>css/sky-forms.css" rel="stylesheet">
+	<link href="<?php echo Config::getBaseDir(); ?>css/style.css" rel="stylesheet">
+	<link href="<?php echo Config::getBaseDir(); ?>css/sky-forms.css" rel="stylesheet">
 	
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -128,8 +128,8 @@ class ConsoleWrapper {
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			  </button>
-			  <a class="navbar-brand" href="<?php echo Configuration::getBaseDir(); ?>" style="padding: 0px 15px;">
-				<img alt="Brand" src="<?php echo Configuration::getBaseDir(); ?>images/logo_small.png" style="height: 58px; width: auto; display: inline;">
+			  <a class="navbar-brand" href="<?php echo Config::getBaseDir(); ?>" style="padding: 0px 15px;">
+				<img alt="Brand" src="<?php echo Config::getBaseDir(); ?>images/logo_small.png" style="height: 58px; width: auto; display: inline;">
 				<span class="hidden-xs">Tennessee Autorack</span>
 			  </a>
 			</div>
@@ -137,11 +137,11 @@ class ConsoleWrapper {
          
 			<div id="navbar" class="navbar-collapse collapse">
 			  <ul class="nav navbar-nav">
-				<li <?php if($this->page == 'settings') print('class="active"'); ?> ><a href="<?php echo Configuration::getBaseDir(); ?>console/settings">Site Settings</a></li>
-				<li <?php if($this->page == 'home') print('class="active"'); ?> ><a href="<?php echo Configuration::getBaseDir(); ?>console/home">Home Page</a></li>
-				<li <?php if($this->page == 'about') print('class="active"'); ?> ><a href="<?php echo Configuration::getBaseDir(); ?>console/about">About Page</a></li>
-				<li <?php if($this->page == 'services') print('class="active"'); ?> ><a href="<?php echo Configuration::getBaseDir(); ?>console/services">Services Page</a></li>
-				<li <?php if($this->page == 'contact') print('class="active"'); ?> ><a href="<?php echo Configuration::getBaseDir(); ?>console/contact">Contact Page</a></li>
+				<li <?php if($this->page == 'settings') print('class="active"'); ?> ><a href="<?php echo Config::getBaseDir(); ?>console/settings">Site Settings</a></li>
+				<li <?php if($this->page == 'home') print('class="active"'); ?> ><a href="<?php echo Config::getBaseDir(); ?>console/home">Home Page</a></li>
+				<li <?php if($this->page == 'about') print('class="active"'); ?> ><a href="<?php echo Config::getBaseDir(); ?>console/about">About Page</a></li>
+				<li <?php if($this->page == 'services') print('class="active"'); ?> ><a href="<?php echo Config::getBaseDir(); ?>console/services">Services Page</a></li>
+				<li <?php if($this->page == 'contact') print('class="active"'); ?> ><a href="<?php echo Config::getBaseDir(); ?>console/contact">Contact Page</a></li>
 			  </ul>
 			  <!--<ul class="nav navbar-nav navbar-right">
 				<li><a href="../navbar/">Default</a></li>
@@ -261,11 +261,11 @@ class ConsoleWrapper {
 	<!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="<?php echo Configuration::getBaseDir(); ?>js/jquery.min.js"></script>
-    <script src="<?php echo Configuration::getBaseDir(); ?>Bootstrap/js/bootstrap.min.js"></script>
-    <script src="<?php echo Configuration::getBaseDir(); ?>js/jquery-ui.min.js"></script>
+    <script src="<?php echo Config::getBaseDir(); ?>js/jquery.min.js"></script>
+    <script src="<?php echo Config::getBaseDir(); ?>Bootstrap/js/bootstrap.min.js"></script>
+    <script src="<?php echo Config::getBaseDir(); ?>js/jquery-ui.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="<?php echo Configuration::getBaseDir(); ?>Bootstrap/assets/ie10-viewport-bug-workaround.js"></script>
+    <script src="<?php echo Config::getBaseDir(); ?>Bootstrap/assets/ie10-viewport-bug-workaround.js"></script>
     
 	<script>
     

@@ -1,5 +1,5 @@
 <?php
-include_once('includes/Configuration.php');  
+include_once('includes/Config.php');  
 
 $wrapper = new Wrapper();
 $wrapper->setTitle('SentryUV');
