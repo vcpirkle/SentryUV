@@ -6,12 +6,7 @@ $wrapper->setTitle('SentryUV');
 $wrapper->writeHeader();
 ?>
 
-//Include Anchor
-<?php
-
-include_once('anchor/index.php');
-
-?>
+<link rel="import" href="<?php Config::getBaseDir(). 'anchor'; ?>">
 
 
 <?php
