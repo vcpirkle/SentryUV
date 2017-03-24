@@ -48,7 +48,7 @@ class SentrySession extends Saveable {
       $s = null;
       if($result = $db->sql_query($sql)) {
          if($row = $db->sql_fetchrow($result)) {
-            $s = new Session();
+            $s = new SentrySession();
             $s->setData($row);
          }
       }
@@ -58,7 +58,7 @@ class SentrySession extends Saveable {
    }
 
    public static function begin($userId = null) {
-      $s = new Session();
+      $s = new SentrySession();
       
       if(!is_null($userId)) {
          // $db = Configuration::getInstance();
