@@ -59,7 +59,7 @@ class User extends SoftDelete {
       
       if($loginValid) {
          //Password was a match. Login the user
-         Session::login($user);
+         SentrySession::login($user);
          
          $user->setField('lastSigninDate', time());
          $user->save();

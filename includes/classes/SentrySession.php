@@ -1,6 +1,6 @@
 <?php
 
-class Session extends Saveable {
+class SentrySession extends Saveable {
 	
    protected static $fields;
    const COOKIE = 'sessionid';
@@ -103,7 +103,7 @@ class Session extends Saveable {
    
    public static function login($user) {
       if(!is_null($user)) {
-         self::$session = Session::begin($user->getId());
+         self::$session = SentrySession::begin($user->getId());
          self::$user = $user;
          return self::$session;
       }

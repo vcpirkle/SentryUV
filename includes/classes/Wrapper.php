@@ -57,7 +57,7 @@ class Wrapper {
 /********************************************************************************/
 
    public function writeHeader() { 
-      $session = Session::getSession();
+      $session = SentrySession::getSession();
       $user = $session->getUser(); ?>
       <!DOCTYPE html>
       <!--[if IE 8]>			<html class="ie ie8"> <![endif]-->

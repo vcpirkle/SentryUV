@@ -47,7 +47,7 @@ class ConsoleWrapper {
 	}
 
     public function writeHeader() { 
-      $session = Session::getSession();
+      $session = SentrySession::getSession();
       $user = $session->getUser(); ?>
 <!DOCTYPE html>
 <html lang="en">
