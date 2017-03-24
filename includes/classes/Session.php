@@ -41,7 +41,7 @@ class Session extends Saveable {
    }
 
    public static function getSessionFromId($sessionGuid) {
-      $db = Configuration::getInstance();
+      $db = Config::getInstance();
       $fields = 'id, userId, sessionGuid, startTime, lastTime, createDate, updateDate';
       $sql = 'SELECT '. $fields. ' FROM '. self::getTableName(). ' WHERE sessionGuid = \''. $db->sql_escape($sessionGuid). '\' AND lastTime > '. (time() - self::EXPIRE);
 
@@ -61,7 +61,7 @@ class Session extends Saveable {
       $s = new Session();
       
       if(!is_null($userId)) {
-         // $db = Configuration::getInstance();
+         // $db = Config::getInstance();
          // $sql = 'DELETE FROM session WHERE userId = '. $db->sql_escape($userId);
          // $db->sql_query($sql);
          // $db->_sql_close();
