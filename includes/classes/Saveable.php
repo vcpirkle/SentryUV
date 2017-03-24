@@ -332,7 +332,7 @@ abstract class Saveable implements iSaveable {
    }
   
    protected function getDatabase() {
-      return Configuration::getInstance();
+      return Config::getInstance();
    }
   
    protected function getIdWrapper() {

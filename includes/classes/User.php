@@ -9,7 +9,7 @@ class User extends SoftDelete {
    }
 
    public static function isEmailTaken($email) {
-      $db = Configuration::getInstance();
+      $db = Config::getInstance();
       $email = $db->sql_escape($email);
       $sql = "SELECT COUNT(*) num FROM ". self::getTableName(). " WHERE email = '$email'";
 
@@ -36,7 +36,7 @@ class User extends SoftDelete {
    }
    
    public static function login($email, $password) {
-      $db = Configuration::getInstance();
+      $db = Config::getInstance();
 		$sql =  'SELECT u.id, '. self::getSelectionFromFields(self::getDataFields(), 'u'). 
               ' FROM '. self::getTablename(). ' as u' . 
               ' WHERE u.email = \'' . $db->sql_escape($email). '\'';
@@ -59,7 +59,7 @@ class User extends SoftDelete {
       
       if($loginValid) {
          //Password was a match. Login the user
-         SentrySession::login($user);
+         Session::login($user);
          
          $user->setField('lastSigninDate', time());
          $user->save();
@@ -69,7 +69,7 @@ class User extends SoftDelete {
    }
    
    public static function getByUserGuid($userGuid) {
-      $db = Configuration::getInstance();
+      $db = Config::getInstance();
 		$sql =  'SELECT u.id, '. self::getSelectionFromFields(self::getDataFields(), 'u').
               ' FROM '. self::getTablename(). ' as u' . 
               ' WHERE u.userGuid = \'' . $db->sql_escape($userGuid). '\'';
@@ -92,7 +92,7 @@ class User extends SoftDelete {
    }
    
    public static function getByUserIds($userIds) {
-      $db = Configuration::getInstance();
+      $db = Config::getInstance();
 		$sql =  'SELECT u.id, '. self::getSelectionFromFields(self::getDataFields(), 'u'). 
               ' FROM '. self::getTablename(). ' as u' . 
               ' WHERE u.id IN ('. implode(',', $userIds). ')'.
@@ -116,7 +116,7 @@ class User extends SoftDelete {
    }
    
    public static function getByUserGuids($userGuids) {
-      $db = Configuration::getInstance();
+      $db = Config::getInstance();
 		$sql =  'SELECT u.id, '. self::getSelectionFromFields(self::getDataFields(), 'u'). 
               ' FROM '. self::getTablename(). ' as u' . 
               ' WHERE u.userGuid IN (\''. implode("','", $userGuids). '\')'.

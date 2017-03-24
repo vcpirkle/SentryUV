@@ -11,7 +11,7 @@ class City extends Saveable {
 	public static function getCities($regionId = null) {
 		$cities = array();
       
-      $db = Configuration::getGeoInstance();
+      $db = Config::getGeoInstance();
 		
 		$fields = 'id, countryId, regionId, name, lat, lon, code, createDate, updateDate';
 		$sql = 'SELECT '. $fields. ' FROM '. self::getTablename(). 
@@ -50,7 +50,7 @@ class City extends Saveable {
     }
     
     protected function getDatabase() {
-      return Configuration::getGeoInstance();
+      return Config::getGeoInstance();
    }
    
    public static function getDataFields() {
