@@ -22,12 +22,10 @@
          <h4>CATEGORIES</h4>
       </div>
       <ul class="list-group list-group-bordered list-group-noicon uppercase">
-         <li class="list-group-item"><a href="#"><span class="size-11 text-muted pull-right">(12)</span> MEDIA</a></li>
-         <li class="list-group-item"><a href="#"><span class="size-11 text-muted pull-right">(8)</span> MOVIES</a></li>
-         <li class="list-group-item"><a href="#"><span class="size-11 text-muted pull-right">(32)</span> NEW</a></li>
-         <li class="list-group-item"><a href="#"><span class="size-11 text-muted pull-right">(16)</span> TUTORIALS</a></li>
-         <li class="list-group-item"><a href="#"><span class="size-11 text-muted pull-right">(2)</span> DEVELOPMENT</a></li>
-         <li class="list-group-item"><a href="#"><span class="size-11 text-muted pull-right">(1)</span> UNCATEGORIZED</a></li>
+      
+         <?php while(categories()): ?>
+            <li class="list-group-item"><a href="<?php echo category_url(); ?>"><span class="size-11 text-muted pull-right">(<?php echo category_count(); ?>)</span> <?php echo category_title(); ?></a></li>
+         <?php endwhile; ?>
 
       </ul>
       <!-- /side navigation -->
