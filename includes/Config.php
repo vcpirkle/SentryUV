@@ -2,8 +2,9 @@
    //Global includes and other global variablesheader('Pragma: no-cache');
    
    if(Config::getEnv() == 'dev') {
-      header('Pragma: no-cache');
-      header('Cache-Control: s-maxage=0, max-age=0, must-revalidate, no-cache');
+      header('Cache-Control: no-cache, no-store, must-revalidate'); // HTTP 1.1.
+      header('Pragma: no-cache'); // HTTP 1.0.
+      header('Expires: 0'); // Proxies.
       ini_set('display_errors', '1');
    }
    
