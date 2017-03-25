@@ -161,6 +161,7 @@ class Extend extends Base {
 	}
 
 	public static function process_image($extend) {
+      
 		$file = Arr::get(static::files(), $extend->key);
 
 		if($file and $file['error'] === UPLOAD_ERR_OK) {
@@ -177,8 +178,14 @@ class Extend extends Base {
 		// not as files.
 		$image_upload = Input::get('extend.' . $extend->key);
 		if ($image_upload) {
+         
 			$filename = basename($image_upload);
 			$name = $filename;
+
+         $fullpath = 'content/'. $filename;
+
+         //Resize the indirect image
+         self::resizeImage($extend, $fullpath);
 		}
 
 		$data = compact('name', 'filename');
@@ -186,6 +193,7 @@ class Extend extends Base {
 	}
 
 	private static function resizeImage($extend, $filepath) {
+
 		// resize image
 		if(isset($extend->attributes->size->width) and isset($extend->attributes->size->height)) {
 			$image = Image::open($filepath);
@@ -200,7 +208,7 @@ class Extend extends Base {
 			) {
 				$image->resize($width, $height);
 
-				$image->output($ext, $filepath);
+				$image->output(pathinfo($filepath, PATHINFO_EXTENSION), $filepath);
 			}
 		}
 	}
@@ -240,7 +248,7 @@ class Extend extends Base {
 			if($extend->attributes) {
 				$extend->attributes = Json::decode($extend->attributes);
 			}
-
+         
 			$data = call_user_func_array(array('Extend', 'process_' . $extend->field), array($extend, $item));
 
 			// save data
