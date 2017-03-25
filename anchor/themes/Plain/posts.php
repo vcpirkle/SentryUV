@@ -202,4 +202,3 @@
 <?php else: ?>
     <p>404...</p>
 <?php endif; ?>
-<?php theme_include('footer'); ?>
