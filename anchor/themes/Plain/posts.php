@@ -1,6 +1,5 @@
+<?php theme_include('header'); ?>
 <?php if(has_posts()): ?>
-
-
 
 <!-- -->
 <section>
@@ -340,3 +339,4 @@
 <?php else: ?>
     <p>404...</p>
 <?php endif; ?>
+<?php theme_include('footer'); ?>
