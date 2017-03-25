@@ -15,6 +15,10 @@
 
             <!-- POST ITEM -->
             <div class="blog-post-item article-<?php echo article_id(); ?>">
+            
+            <?php $postImage1 = article_custom_field('post_image_1'); ?>
+            <?php $postImage2 = article_custom_field('post_image_2'); ?>
+            <?php $postImage3 = article_custom_field('post_image_3'); ?>
 
                <!-- OWL SLIDER -->
                <!--<div class="owl-carousel buttons-autohide controlls-over" data-plugin-options='{"items": 1, "autoPlay": 3000, "autoHeight": false, "navigation": true, "pagination": true, "transitionStyle":"fadeUp", "progressBar":"false"}'>
@@ -29,6 +33,13 @@
                   </div>
                </div>-->
                <!-- /OWL SLIDER -->
+               
+               <!-- IMAGE -->
+               <?php if(!empty($postImage1) && empty($postImage2)): ?>
+               <figure class="margin-bottom-20">
+                  <img class="img-responsive" src="<?php echo $postImage1; ?>" alt="<?php echo article_title(); ?>">
+               </figure>
+               <?php endif; ?>
 
                <h2><a href="<?php echo article_url(); ?>" title="<?php echo article_title(); ?>"><?php echo article_title(); ?></a></h2>
 
