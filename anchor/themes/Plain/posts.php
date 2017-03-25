@@ -43,7 +43,7 @@
                </figure>
                <?php endif; ?>
 
-               <h2><a href="<?php echo article_url(); ?>" title="<?php echo article_title(); ?>"><?php echo article_title(); ?></a></h2>
+               <h2><a href="blog/<?php echo article_slug(); ?>.html" title="<?php echo article_title(); ?>"><?php echo article_title(); ?></a></h2>
 
                <ul class="blog-post-info list-inline">
                   <li>
@@ -76,7 +76,7 @@
 
                <p><?php echo substr(article_markdown(),0,500); ?></p>
 
-               <a href="<?php echo article_url(); ?>" class="btn btn-reveal btn-default">
+               <a href="blog/<?php echo article_slug(); ?>.html" class="btn btn-reveal btn-default">
                   <i class="fa fa-plus"></i>
                   <span>Read More</span>
                </a>
