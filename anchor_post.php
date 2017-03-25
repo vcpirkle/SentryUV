@@ -15,11 +15,8 @@
 <?php 
 
    $slug = $_GET['slug'];
-   
-   print('If re-write mod is working the blog slug is: '. $slug. '</br></br>');
-
-   // $postHtml = curl_get(Config::getBaseDir(). 'anchor/posts/');
-   // print($postHtml);
+   $postHtml = curl_get(Config::getBaseDir(). 'anchor/posts/'. $slug);
+   print($postHtml);
 
    //Include the home page slider
    require_once('includes/iCalloutProductBanner.php');
