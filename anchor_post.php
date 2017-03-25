@@ -1,9 +1,9 @@
 <?php
-include_once('includes/Config.php');  
+   include_once('includes/Config.php');  
 
-$wrapper = new Wrapper();
-$wrapper->setTitle('SentryUV');
-$wrapper->writeHeader();
+   $wrapper = new Wrapper();
+   $wrapper->setTitle('SentryUV');
+   $wrapper->writeHeader();
 ?>
 
 <?php 

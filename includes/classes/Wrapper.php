@@ -115,7 +115,7 @@ class Wrapper {
       -->
       <body class="smoothscroll enable-animation">
       
-      		<!-- SLIDE TOP -->
+      <!-- SLIDE TOP -->
 		<div id="slidetop">
 
 			<div class="container">
@@ -292,10 +292,7 @@ class Wrapper {
 
 
       <?php
-       
-         //Include the home page slider
-         require_once('includes/iHomeSlider.php');
-      
+
       } 
 
 
