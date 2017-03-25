@@ -225,8 +225,8 @@ class Wrapper {
 
 
 						<!-- Logo -->
-						<a class="logo pull-left" href="<?php Config::getBaseDir(); ?>">
-							<img src="<?php Config::getBaseDir(); ?>assets/images/logo_dark.png" alt="" />
+						<a class="logo pull-left" href="<?php echo Config::getBaseDir(); ?>">
+							<img src="<?php echo Config::getBaseDir(); ?>assets/images/logo_dark.png" alt="" />
 						</a>
 
 						<!-- 
@@ -250,32 +250,32 @@ class Wrapper {
 								-->
 								<ul id="topMain" class="nav nav-pills nav-main">
 									<li class="dropdown active"><!-- Home -->
-										<a class="dropdown-toggle" href="<?php Config::getBaseDir(); ?>">
+										<a class="dropdown-toggle" href="<?php echo Config::getBaseDir(); ?>">
 											HOME
 										</a>
                            </li>
                            <li class="dropdown active"><!-- About -->
-										<a class="dropdown-toggle" href="<?php Config::getBaseDir(); ?>about">
+										<a class="dropdown-toggle" href="<?php echo Config::getBaseDir(); ?>about">
 											ABOUT
 										</a>
                            </li>
                            <li class="dropdown active"><!-- Products -->
-										<a class="dropdown-toggle" href="<?php Config::getBaseDir(); ?>products">
+										<a class="dropdown-toggle" href="<?php echo Config::getBaseDir(); ?>products">
 											PRODUCTS
 										</a>
                            </li>
                            <li class="dropdown active"><!-- Accessories -->
-										<a class="dropdown-toggle" href="<?php Config::getBaseDir(); ?>accessories">
+										<a class="dropdown-toggle" href="<?php echo Config::getBaseDir(); ?>accessories">
 											ACCESSORIES
 										</a>
                            </li>
                            <li class="dropdown active"><!-- Contact -->
-										<a class="dropdown-toggle" href="<?php Config::getBaseDir(); ?>contact">
+										<a class="dropdown-toggle" href="<?php echo Config::getBaseDir(); ?>contact">
 											CONTACT
 										</a>
                            </li>
                            <li class="dropdown active"><!-- Resources -->
-										<a class="dropdown-toggle" href="<?php Config::getBaseDir(); ?>resources">
+										<a class="dropdown-toggle" href="<?php echo Config::getBaseDir(); ?>resources">
                                  RESOURCES
 										</a>
                            </li>
@@ -311,7 +311,7 @@ class Wrapper {
 
       <div class="col-md-3">
       <!-- Footer Logo -->
-      <img class="footer-logo" src="<?php Config::getBaseDir(); ?>assets/images/logo-footer.png" alt="" />
+      <img class="footer-logo" src="<?php echo Config::getBaseDir(); ?>assets/images/logo-footer.png" alt="" />
 
       <!-- Small Description -->
       <p>Sentry UV, Inc. is a global provider of ultraviolet solutions.</p>
@@ -459,7 +459,7 @@ class Wrapper {
 
 
       <!-- JAVASCRIPT FILES -->
-      <script type="text/javascript">var plugin_path = '<?php Config::getBaseDir(); ?>assets/plugins/';</script>
+      <script type="text/javascript">var plugin_path = '<?php echo Config::getBaseDir(); ?>assets/plugins/';</script>
       <script type="text/javascript" src="<?php echo Config::getBaseDir(); ?>assets/plugins/jquery/jquery-2.2.3.min.js"></script>
 
       <script type="text/javascript" src="<?php echo Config::getBaseDir(); ?>assets/js/scripts.js"></script>
