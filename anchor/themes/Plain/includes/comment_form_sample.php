@@ -10,7 +10,7 @@
 
       <!-- user-avatar -->
       <span class="user-avatar">
-         <img class="pull-left media-object" src="assets/images/avatar.png" width="64" height="64" alt="">
+         <img class="pull-left media-object" src="../assets/images/avatar.png" width="64" height="64" alt="">
       </span>
 
       <div class="media-body">
@@ -26,7 +26,7 @@
 
       <!-- user-avatar -->
       <span class="user-avatar">
-         <img class="pull-left media-object" src="assets/images/avatar.png" width="64" height="64" alt="">
+         <img class="pull-left media-object" src="../assets/images/avatar.png" width="64" height="64" alt="">
       </span>
 
       <div class="media-body">
@@ -42,7 +42,7 @@
 
       <!-- user-avatar -->
       <span class="user-avatar">
-         <img class="media-object" src="assets/images/avatar.png" width="64" height="64" alt="">
+         <img class="media-object" src="../assets/images/avatar.png" width="64" height="64" alt="">
       </span>
 
       <div class="media-body">
@@ -56,7 +56,7 @@
 
             <!-- user-avatar -->
             <span class="user-avatar">
-               <img class="media-object" src="assets/images/avatar.png" width="64" height="64" alt="">
+               <img class="media-object" src="../assets/images/avatar.png" width="64" height="64" alt="">
             </span>
 
             <div class="media-body">
