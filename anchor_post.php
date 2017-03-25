@@ -8,8 +8,12 @@ $wrapper->writeHeader();
 
 <?php 
 
-   $postHtml = curl_get(Config::getBaseDir(). 'anchor/posts/');
-   print($postHtml);
+   $slug = $_GET['slug'];
+   
+   print('If re-write mod is working the blog slug is: '. $slug. '</br></br>');
+
+   // $postHtml = curl_get(Config::getBaseDir(). 'anchor/posts/');
+   // print($postHtml);
 
    //Include the home page slider
    require_once('includes/iCalloutProductBanner.php');

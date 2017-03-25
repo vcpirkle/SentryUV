@@ -1,0 +1,16 @@
+Options -indexes
+
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+
+	# Allow any files or directories that exist to be displayed directly
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+
+	# Rewrite blog/blog-title-name.html to anchor_post.php?
+	RewriteRule ^blog-([0-9]+)\.html$ anchor_post.php?slug=$1
+</IfModule>
+
+<IfModule !mod_rewrite.c>
+	ErrorDocument 404 index.php
+</IfModule>

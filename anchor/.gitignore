@@ -14,7 +14,7 @@ Thumbs.db
 /anchor/config/session.php
 
 # user mod_rewrite
-/.htaccess
+!/.htaccess
 
 # debug and custom themes
 /themes/*
