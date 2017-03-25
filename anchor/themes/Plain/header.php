@@ -1,22 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<title><?php echo page_title('Page can’t be found'); ?> - <?php echo site_name(); ?></title>
-	<meta charset="UTF-8">
-	<meta name="description" content="<?php echo site_description(); ?>">
-	<meta name="viewport" content="width=device-width">
-	<link rel="stylesheet" href="<?php echo theme_url('/css/reset.css'); ?>">
-	<link rel="stylesheet" href="<?php echo theme_url('/css/style.css'); ?>">
-	<link rel="alternate" type="application/rss+xml" title="RSS" href="<?php echo rss_url(); ?>">
-	<script src="<?php echo theme_url('/js/jquery.js'); ?>"></script>
-	<script src="<?php echo theme_url('/js/plain.min.js'); ?>"></script>
-	<?php if(customised()): ?>
-	<style><?php echo article_css(); ?></style>
-	<script><?php echo article_js(); ?></script>
-	<?php endif; ?>
-</head>
-<body>
-
 	<?php if(PLAIN_NO_HEADER == false AND PLAIN_NO_HEADER_TITLE == false): ?>
 	<header id="header"<?php if(PLAIN_HEADER_IMAGE !== ""): echo ' style="background:url('.PLAIN_HEADER_IMAGE.') repeat-x !important;"'; endif; ?>>
 		<div id="wrap"<?php if(PLAIN_NO_SIDEBAR == true): echo ' class="no-sidebar"'; endif; ?>>
