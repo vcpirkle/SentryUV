@@ -225,8 +225,8 @@ class Wrapper {
 
 
 						<!-- Logo -->
-						<a class="logo pull-left" href="index.html">
-							<img src="assets/images/logo_dark.png" alt="" />
+						<a class="logo pull-left" href="<?php Config::getBaseUrl(); ?>">
+							<img src="<?php Config::getBaseUrl(); ?>assets/images/logo_dark.png" alt="" />
 						</a>
 
 						<!-- 
@@ -311,7 +311,7 @@ class Wrapper {
 
       <div class="col-md-3">
       <!-- Footer Logo -->
-      <img class="footer-logo" src="assets/images/logo-footer.png" alt="" />
+      <img class="footer-logo" src="<?php Config::getBaseUrl(); ?>assets/images/logo-footer.png" alt="" />
 
       <!-- Small Description -->
       <p>Sentry UV, Inc. is a global provider of ultraviolet solutions.</p>
@@ -381,7 +381,7 @@ class Wrapper {
       <h4 class="letter-spacing-1">KEEP IN TOUCH</h4>
       <p>Subscribe to Our Newsletter to get Important News &amp; Offers</p>
 
-      <form class="validate" action="php/newsletter.php" method="post" data-success="Subscribed! Thank you!" data-toastr-position="bottom-right">
+      <form class="validate" action="<?php Config::getBaseUrl(); ?>php/newsletter.php" method="post" data-success="Subscribed! Thank you!" data-toastr-position="bottom-right">
       <div class="input-group">
       <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
       <input type="email" id="email" name="email" class="form-control required" placeholder="Enter your Email">
@@ -459,7 +459,7 @@ class Wrapper {
 
 
       <!-- JAVASCRIPT FILES -->
-      <script type="text/javascript">var plugin_path = 'assets/plugins/';</script>
+      <script type="text/javascript">var plugin_path = '<?php Config::getBaseUrl(); ?>assets/plugins/';</script>
       <script type="text/javascript" src="<?php echo Config::getBaseDir(); ?>assets/plugins/jquery/jquery-2.2.3.min.js"></script>
 
       <script type="text/javascript" src="<?php echo Config::getBaseDir(); ?>assets/js/scripts.js"></script>
