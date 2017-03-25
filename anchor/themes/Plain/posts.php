@@ -60,13 +60,11 @@
                   </li>
                   <li>
                      <i class="fa fa-folder-open-o"></i> 
+                     
+                     <a class="category" href="<?php echo article_category_url(); ?>">
+                        <span class="font-lato"><?php echo article_category(); ?></span>
+                     </a>
 
-                     <a class="category" href="#">
-                        <span class="font-lato">Category 1</span>
-                     </a>
-                     <a class="category" href="#">
-                        <span class="font-lato">Category 2</span>
-                     </a>
                   </li>
                   <li>
                      <a href="#">
