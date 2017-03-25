@@ -334,8 +334,6 @@
 </section>
 <!-- / -->
 
-
-	<?php endif; ?>
 <?php else: ?>
     <p>404...</p>
 <?php endif; ?>
