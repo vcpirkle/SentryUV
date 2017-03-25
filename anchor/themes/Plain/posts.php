@@ -63,7 +63,7 @@
                   </li>
                </ul>
 
-               <p><?php echo substr(article_markdown(),0,250); ?></p>
+               <p><?php echo substr(article_markdown(),0,500); ?></p>
 
                <a href="<?php echo article_url(); ?>" class="btn btn-reveal btn-default">
                   <i class="fa fa-plus"></i>
