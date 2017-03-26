@@ -22,19 +22,23 @@
             <?php $postImage2 = article_custom_field('post_image_2'); ?>
             <?php $postImage3 = article_custom_field('post_image_3'); ?>
 
+               <?php if(!empty($postImage1) && !empty($postImage2)): ?>
                <!-- OWL SLIDER -->
-               <!--<div class="owl-carousel buttons-autohide controlls-over" data-plugin-options='{"items": 1, "autoPlay": 3000, "autoHeight": false, "navigation": true, "pagination": true, "transitionStyle":"fadeUp", "progressBar":"false"}'>
-                  <div>
-                     <img class="img-responsive" src="assets/images/demo/content_slider/23-min.jpg" alt="">
+                  <div class="owl-carousel buttons-autohide controlls-over" data-plugin-options='{"items": 1, "autoPlay": 3000, "autoHeight": false, "navigation": true, "pagination": true, "transitionStyle":"fadeUp", "progressBar":"false"}'>
+                     <div>
+                        <img class="img-responsive" src="<?php echo $postImage1; ?>" alt="<?php echo article_title(); ?>">
+                     </div>
+                     <div>
+                        <img class="img-responsive" src="<?php echo $postImage2; ?>" alt="<?php echo article_title(); ?>">
+                     </div>
+                     <?php if(!empty($postImage3)): ?>
+                     <div>
+                        <img class="img-responsive" src="<?php echo $postImage3; ?>" alt="<?php echo article_title(); ?>">
+                     </div>
+                     <?php endif; ?>
                   </div>
-                  <div>
-                     <img class="img-responsive" src="assets/images/demo/content_slider/21-min.jpg" alt="">
-                  </div>
-                  <div>
-                     <img class="img-responsive" src="assets/images/demo/content_slider/3-min.jpg" alt="">
-                  </div>
-               </div>-->
-               <!-- /OWL SLIDER -->
+                  <!-- /OWL SLIDER -->
+               <?php endif; ?>
                
                <!-- IMAGE -->
                <?php if(!empty($postImage1)): ?>
