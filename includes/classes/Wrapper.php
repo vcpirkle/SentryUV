@@ -172,9 +172,7 @@ class Wrapper {
                   <?php if($user->isSystemAdmin()) { ?>
                      <li class="text-welcome">Welcome to SentryUV, <strong><?php echo $user->getField('firstName'); ?> <?php echo $user->getField('lastName'); ?></strong></li>
                      <li><a href="logout">LOGOUT</a></li>
-                  <?php } ?>
-                  
-                  <?php else { ?>
+                  <?php } else { ?>
                      <li class="text-welcome">Welcome to SentryUV</li>
                      <li><a href="login">LOGIN</a></li>
                   <?php } ?>
