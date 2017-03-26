@@ -38,8 +38,7 @@
 
          <!-- breadcrumbs -->
          <ol class="breadcrumb">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Pages</a></li>
+            <li><a href="<?php echo Config::getBaseDir(); ?>">Home</a></li>
             <li class="active">Login</li>
          </ol><!-- /breadcrumbs -->
 

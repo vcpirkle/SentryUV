@@ -24,7 +24,7 @@
 
       <!-- breadcrumbs -->
       <ol class="breadcrumb">
-         <li><a href="#">Home</a></li>
+         <li><a href="javascript:void(0)">Home</a></li>
          <li class="active">Blog</li>
       </ol><!-- /breadcrumbs -->
 

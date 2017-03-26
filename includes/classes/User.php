@@ -195,6 +195,7 @@ class User extends SoftDelete {
          self::$fields["lastSigninDate"] = "integer";
          self::$fields["signinAttemptCount"] = "integer";
          self::$fields["userLevel"] = "integer";
+         self::$fields["anchorUser"] = "integer";
       }
 
       return self::$fields;
