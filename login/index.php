@@ -31,7 +31,7 @@
          .shadow-before-3 	= shadow 3 header top
          .shadow-after-3 	= shadow 3 header bottom
    -->
-   <section class="page-header">
+   <section class="page-header page-header-md">
       <div class="container">
 
          <h1>LOGIN</h1>
