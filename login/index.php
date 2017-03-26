@@ -9,28 +9,44 @@
    }
 
    $wrapper = new Wrapper();
-   $wrapper->setTitle('SentryUV');
+   $wrapper->setTitle('SentryUV - Login');
+   
+   $session = Session::getSession();
+   $user = $session->getUser();
+   $loginSuccess = false;
+   
+   $isSubmit = isset($_POST['issubmit']) ? $_POST['issubmit'] : false;
+   $email = '';
+   if($isSubmit == '1') {
+      $email = isset($_POST['email']) ? $_POST['email'] : '';
+      $password = isset($_POST['password']) ? $_POST['password'] : '';
+      if(User::login($email, $password)) {
+         $loginSuccess = true;
+      }
+      
+      $session = Session::getSession();
+      $user = $session->getUser();
+   }
+   
+   if($user && $user->isSystemAdmin()) {
+      
+      //TODO: Redirect to admin area
+      
+      header('Location: '. Config::getBaseDir() );
+      exit();
+   }
+   
    $wrapper->writeHeader();
 ?>
 
 
-   <!-- 
-      PAGE HEADER 
-      
-      CLASSES:
-         .page-header-xs	= 20px margins
-         .page-header-md	= 50px margins
-         .page-header-lg	= 80px margins
-         .page-header-xlg= 130px margins
-         .dark			= dark page header
-
-         .shadow-before-1 	= shadow 1 header top
-         .shadow-after-1 	= shadow 1 header bottom
-         .shadow-before-2 	= shadow 2 header top
-         .shadow-after-2 	= shadow 2 header bottom
-         .shadow-before-3 	= shadow 3 header top
-         .shadow-after-3 	= shadow 3 header bottom
-   -->
+   <script type="text/javascript">
+      function setSubmit() {
+         $('#isSubmit').val('1');
+      }
+   </script>
+   
+   
    <section class="page-header page-header-md">
       <div class="container">
 
@@ -45,8 +61,6 @@
       </div>
    </section>
    <!-- /PAGE HEADER -->
-
-
 
 
    <!-- -->
@@ -72,17 +86,17 @@
                <h2 class="size-16">LOGIN</h2>
 
                <!-- login form -->
-               <form method="post" action="#" autocomplete="off">
+               <form name="form" role="form" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>" >
                   <div class="clearfix">
                      
                      <!-- Email -->
                      <div class="form-group">
-                        <input type="text" name="email" class="form-control" placeholder="Email" required="">
+                        <input type="text" id="email" name="email" class="form-control" placeholder="Email" required="" value="<?php echo $email; ?>">
                      </div>
                      
                      <!-- Password -->
                      <div class="form-group">
-                        <input type="password" name="password" class="form-control" placeholder="Password" required="">
+                        <input type="password" id="password" name="password" placeholder="Password" class="form-control" required="">
                      </div>
                         
                   </div>
@@ -99,8 +113,8 @@
                      </div>
                      
                      <div class="col-md-6 col-sm-6 col-xs-6 text-right">
-
-                        <button class="btn btn-primary">OK, LOG IN</button>
+                     
+                        <button type="submit" onclick="setSubmit();" class="btn btn-primary">Login</button>
 
                      </div>
                      
@@ -108,11 +122,26 @@
                   
                </form>
                <!-- /login form -->
+               
+                <?php 
+                  if($isSubmit && $loginSuccess == false) {?>
+                  
+                     <!-- ALERT -->
+                     <div class="alert alert-mini alert-danger margin-bottom-30">
+                        <strong>Login Incorrect:</strong> Your email or password was incorrect.
+                     </div><!-- /ALERT -->
+                <?php
+                  }
+                  else if($isSubmit && !$user->isSystemAdmin()) { ?>
+                  
+                     <!-- ALERT -->
+                     <div class="alert alert-mini alert-danger margin-bottom-30">
+                        <strong>Access Denied:</strong> You do not have permissions to the Console.
+                     </div><!-- /ALERT -->
 
-               <!-- ALERT -->
-               <div class="alert alert-mini alert-danger margin-bottom-30">
-                  <strong>Oh snap!</strong> Login Incorrect!
-               </div><!-- /ALERT -->
+               <?php
+                  } ?>
+
 
             </div>
             <!-- /LOGIN -->
@@ -123,7 +152,6 @@
       </div>
    </section>
    <!-- / -->
-
 
 <?php 
          
