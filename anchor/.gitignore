@@ -9,9 +9,9 @@ Thumbs.db
 *.txt
 
 # generated config
-/anchor/config/app.php
-/anchor/config/db.php
-/anchor/config/session.php
+!/anchor/config/app.php
+!/anchor/config/db.php
+!/anchor/config/session.php
 
 # user mod_rewrite
 !/.htaccess
@@ -34,7 +34,7 @@ Thumbs.db
 !/content/index.php
 
 # plugins
-/plugins/*
+!/plugins/*
 
 # phpunit tests
 /tests
@@ -49,4 +49,4 @@ robots.txt
 humans.txt
 
 # Composer vendor
-vendor/
+!/vendor/
