@@ -63,7 +63,7 @@
                <?php endif; ?>
 
                <!-- IMAGE -->
-               <?php if(!empty($postImage1)): ?>
+               <?php if(!empty($postImage1) && empty($postImage2)): ?>
                   <figure class="margin-bottom-20">
                      <img class="img-responsive" src="<?php echo $postImage1; ?>" alt="<?php echo article_title(); ?>">
                   </figure>

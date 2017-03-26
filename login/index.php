@@ -18,6 +18,7 @@
    $isSubmit = isset($_POST['issubmit']) ? $_POST['issubmit'] : false;
    $email = '';
    if($isSubmit == '1') {
+      
       $email = isset($_POST['email']) ? $_POST['email'] : '';
       $password = isset($_POST['password']) ? $_POST['password'] : '';
       if(User::login($email, $password)) {
@@ -86,7 +87,7 @@
                <h2 class="size-16">LOGIN</h2>
 
                <!-- login form -->
-               <form name="form" role="form" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>" >
+               <form name="form" method="post" enctype="multipart/form-data" action="<?php echo $_SERVER['PHP_SELF']; ?>" autocomplete="off">
                   <div class="clearfix">
                      
                      <!-- Email -->
@@ -119,7 +120,7 @@
                      </div>
                      
                   </div>
-                  
+                  <input type="hidden" id="isSubmit" name="isSubmit" value="0" />
                </form>
                <!-- /login form -->
                

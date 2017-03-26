@@ -41,10 +41,10 @@
                <?php endif; ?>
                
                <!-- IMAGE -->
-               <?php if(!empty($postImage1)): ?>
-               <figure class="margin-bottom-20">
-                  <img class="img-responsive" src="<?php echo $postImage1; ?>" alt="<?php echo article_title(); ?>">
-               </figure>
+               <?php if(!empty($postImage1) && empty($postImage2)): ?>
+                  <figure class="margin-bottom-20">
+                     <img class="img-responsive" src="<?php echo $postImage1; ?>" alt="<?php echo article_title(); ?>">
+                  </figure>
                <?php endif; ?>
 
                <h2><a href="blog/<?php echo article_slug(); ?>.html" title="<?php echo article_title(); ?>"><?php echo article_title(); ?></a></h2>
