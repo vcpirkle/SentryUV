@@ -162,7 +162,29 @@ class Wrapper {
       <!-- wrapper -->
       <div id="wrapper"<?php print ($this->baseClass != '' ? ' class="' + $this->baseClass + '"' : ''); ?> >
       
-      			<!-- 
+         <!-- Top Bar -->
+			<div id="topBar">
+				<div class="container">
+
+					<!-- right -->
+					<ul class="top-links list-inline pull-right">
+                  
+                  <?php if($user->isSystemAdmin()) { ?>
+                     <li class="text-welcome">Welcome to SentryUV, <strong><?php echo $user->getField('firstName'); ?> <?php echo $user->getField('lastName'); ?></strong></li>
+                     <li><a href="logout">LOGOUT</a></li>
+                  <?php } ?>
+                  
+                  <?php else { ?>
+                     <li class="text-welcome">Welcome to SentryUV</li>
+                     <li><a href="login">LOGIN</a></li>
+                  <?php } ?>
+					</ul>
+
+				</div>
+			</div>
+			<!-- /Top Bar -->
+      
+            <!-- 
 				AVAILABLE HEADER CLASSES
 
 				Default nav height: 96px
