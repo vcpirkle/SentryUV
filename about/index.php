@@ -83,7 +83,7 @@
 
                      <p><strong>To local, state, & federal government</strong>: Sentry pledges itself to be a responsible participant in government. We feel the need to provide leadership, if called upon. For the greatest Nation on earth and the Country that has given us the Free Enterprise system we pledge to be a loyal corporate citizen.</p>
 
-                     <p>— Roy & Mark Underwood Founders of Sentry UV, Inc</p>
+                     <p>- Roy & Mark Underwood Founders of Sentry UV, Inc</p>
                      
                      
                   </div>
