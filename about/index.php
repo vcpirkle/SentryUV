@@ -51,7 +51,7 @@
             <!-- LEFT -->
             <div class="col-md-9">
 
-               <img class="pull-left" src="assets/images/demo/smart-min.png" alt="" />
+               <img class="pull-left" src="<?php echo Config::getBaseDir(); ?>assets/images/demo/smart-min.png" alt="" />
                
                <div class="heading-title">
                   <h2>Who We Are?</h2>
@@ -68,7 +68,7 @@
                   <div class="col-sm-6">
                      <div class="heading-title heading-border-bottom heading-color">
                         <h3>OUR CREED</h3>
-                        <p><strong>TO GOD BE THE GLORY</strong> Sentry Ultraviolet, Inc. (“Sentry”) sees its responsibilities to several segments of society. First and foremost honest and fair dealings will be the foundation on which we will build relationships.To the consumer: We pledge always high quality products. These products are to be of the best workmanship and priced fairly.</p>
+                        <p><strong>TO GOD BE THE GLORY</strong> Sentry Ultraviolet, Inc. ("Sentry") sees its responsibilities to several segments of society. First and foremost honest and fair dealings will be the foundation on which we will build relationships.To the consumer: We pledge always high quality products. These products are to be of the best workmanship and priced fairly.</p>
                      </div>
 
                      <p><strong>To the distributors & retailers</strong>: We pledge high quality products sold at a fair price. Products they will not have to apologize for and products that they can make a reasonable and fair profit. Service and support for them and their customers and products that are proudly American made.</p>
@@ -94,7 +94,7 @@
                         <p>our experience is all you need</p>
                      </div>
 
-                     <p>Founded in 1995 by Roy & Mark UnderwoodSentry UV, Inc. is well established as one of the industry’s leading ultraviolet manufacturing companies with excellent results in various UV sterilization applications.Roy Underwood, N.D. President of Sentry UV, Inc. (“Sentry”) has studied under Dr. Bolton of Bolton Photosciences, Inc. IUVA continuing educational programs and others and continues to use Bolton’s UVCal to confirm NSF and EPA science for Sentry reactors. Sentry has helped establish UV and its many applications, such as, chloramines destruction, improved air quality with a patent for the evaporator coil, where pathogens live and breed, to a patented process for sewage vents thus helping eliminate one of the main culprits of the “Sick Building Syndrome”.</p>
+                     <p>Founded in 1995 by Roy & Mark UnderwoodSentry UV, Inc. is well established as one of the industry’s leading ultraviolet manufacturing companies with excellent results in various UV sterilization applications.Roy Underwood, N.D. President of Sentry UV, Inc. ("Sentry") has studied under Dr. Bolton of Bolton Photosciences, Inc. IUVA continuing educational programs and others and continues to use Bolton’s UVCal to confirm NSF and EPA science for Sentry reactors. Sentry has helped establish UV and its many applications, such as, chloramines destruction, improved air quality with a patent for the evaporator coil, where pathogens live and breed, to a patented process for sewage vents thus helping eliminate one of the main culprits of the "Sick Building Syndrome".</p>
 
                      <p>Reinventing our UV’s to allow for a smaller foot print through factoring in reflectivity from highly polished stainless steel setting an industry standard for many. Making maintenance of our UV’s easier with patented Quick Disconnects, thus allowing easy access to the quartz sleeves for cleaning and inspection and eliminating the need, in most applications, for a Manuel or Automated wiper system, plus Sentry’s successful disinfection for slow flow rates to much faster flow rates. As the world and many industries are finding out about UV and its benefits, look for Sentry UV to continue to make this all natural very GREEN science available for new applications. By setting precedence for performance, reliability, and affordability you can always rely on Sentry Ultraviolet products.</p>
 
