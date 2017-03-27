@@ -290,10 +290,24 @@ Route::collection(array('before' => 'auth,csrf,install_exists'), function() {
 		Delete post
 	*/
 	Route::get('admin/posts/delete/(:num)', function($id) {
+      
+      //Delete and unlink custom fields
+      $fields = Extend::fields('post', $id);
+      foreach($fields as $extend) {
+         if(isset($extend->value->filename) and strlen($extend->value->filename)) {
+            Query::table(Extend::table($extend->type . '_meta'))
+               ->where('extend', '=', $extend->id)
+               ->where($extend->type, '=', $id)->delete();
+
+            $resource = PATH . 'content' . DS . $extend->value->filename;
+            file_exists($resource) and unlink(PATH . 'content' . DS . $extend->value->filename);
+         }
+      }
+      
 		Post::find($id)->delete();
 
 		Comment::where('post', '=', $id)->delete();
-
+      
 		Query::table(Base::table('post_meta'))->where('post', '=', $id)->delete();
 
 		Notify::success(__('posts.deleted'));
