@@ -104,51 +104,6 @@
 
                </div>
 
-
-               <div class="margin-top-60">
-
-                  <div class="heading-title heading-border-bottom heading-color text-center">
-                     <h3>Why Choose Us?</h3>
-                     <p>Why choose us over our competitors?</p>
-                  </div>
-                  <p>Sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla augue justo nibh ac diam.</p>
-
-                  <div class="row">
-
-                     <div class="col-sm-4">
-                        <ul class="list-unstyled list-icons">
-                           <li><i class="fa fa-check text-success"></i> Nulla ipsum dolor lacus, suscipit.</li>
-                           <li><i class="fa fa-check text-success"></i> Quisque lorem tortor fringilla sed.</li>
-                           <li><i class="fa fa-check text-success"></i> Aenean ligula non imperdiet sagittis</li>
-                           <li><i class="fa fa-check text-success"></i> Suspendisse a pellentesque dui.</li>
-                           <li><i class="fa fa-check text-success"></i> Congue sodales nulla id arcu</li>
-                        </ul>
-                     </div>
-
-                     <div class="col-sm-4">
-                        <ul class="list-unstyled list-icons">
-                           <li><i class="fa fa-check text-success"></i> Nulla ipsum dolor lacus, suscipit.</li>
-                           <li><i class="fa fa-check text-success"></i> Quisque lorem tortor fringilla sed.</li>
-                           <li><i class="fa fa-check text-success"></i> Aenean ligula non imperdiet sagittis</li>
-                           <li><i class="fa fa-check text-success"></i> Suspendisse a pellentesque dui.</li>
-                           <li><i class="fa fa-check text-success"></i> Congue sodales nulla id arcu</li>
-                        </ul>
-                     </div>
-
-                     <div class="col-sm-4">
-                        <ul class="list-unstyled list-icons">
-                           <li><i class="fa fa-check text-success"></i> Nulla ipsum dolor lacus, suscipit.</li>
-                           <li><i class="fa fa-check text-success"></i> Quisque lorem tortor fringilla sed.</li>
-                           <li><i class="fa fa-check text-success"></i> Aenean ligula non imperdiet sagittis</li>
-                           <li><i class="fa fa-check text-success"></i> Suspendisse a pellentesque dui.</li>
-                           <li><i class="fa fa-check text-success"></i> Congue sodales nulla id arcu</li>
-                        </ul>
-                     </div>
-
-                  </div>
-
-               </div>
-
             </div>
             <!-- /LEFT -->
 
@@ -227,6 +182,175 @@
    </section>
    <!-- / -->
 
+		<!-- Member -->
+	<section class="nopadding">
+		
+		<div class="row nomargin">
+		
+			<!-- LEFT -->
+			<div class="col-md-6 col-sm-6 nopadding nomargin">
+
+				<img class="img-responsive" src="assets/images/demo/people/1200x800/2-min.jpg" alt="image" />
+
+			</div>
+
+			<!-- RIGHT -->
+			<div class="col-md-6 col-sm-6 nopadding nomargin">
+			
+				<div class="padding-40">
+		
+					<h2>John Doe</h2>
+					<p>Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus. Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum.</p>
+
+
+					<div class="row margin-top-60">
+						
+						<div class="col-md-6 col-sm-6">
+							<p class="font-lato size-18">Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum. Donec id elit non mi porta gravida at eget metus.</p>
+						</div>
+
+						<!-- skills -->
+						<div class="col-md-6 col-sm-6">
+
+							<h5 class="nomargin"><span class="pull-right">90%</span>WEB DESIGN</h5>
+							<div class="progress progress-xs"><!-- progress bar -->
+								<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%; min-width: 2em;"></div>
+							</div><!-- /progress bar -->
+
+							<h5 class="nomargin"><span class="pull-right">98%</span>HTML/CSS </h5>
+							<div class="progress progress-xs"><!-- progress bar -->
+								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style="width: 98%; min-width: 2em;"></div>
+							</div><!-- /progress bar -->
+
+						</div>
+						<!-- skills -->
+
+					</div>
+					
+					<hr />
+
+					<!-- social icons -->
+					<div class="text-center">
+
+						<a href="#" class="social-icon social-icon-transparent social-facebook" data-toggle="tooltip" data-placement="top" title="Facebook">
+							<i class="icon-facebook"></i>
+							<i class="icon-facebook"></i>
+						</a>
+
+						<a href="#" class="social-icon social-icon-transparent social-twitter" data-toggle="tooltip" data-placement="top" title="Twitter">
+							<i class="icon-twitter"></i>
+							<i class="icon-twitter"></i>
+						</a>
+
+						<a href="#" class="social-icon social-icon-transparent social-linkedin" data-toggle="tooltip" data-placement="top" title="Linkedin">
+							<i class="icon-linkedin"></i>
+							<i class="icon-linkedin"></i>
+						</a>
+					
+					</div>
+					<!-- /social icons -->
+
+					</div>
+
+
+				</div>
+			</div>
+
+		</div>
+		
+	</section>
+	<!-- /Member -->
+
+
+
+
+	<!-- Member -->
+	<section class="nopadding">
+		
+		<div class="row nomargin">
+
+			<!-- RIGHT -->
+			<div class="col-md-6 col-sm-6 nopadding nomargin">
+			
+				<div class="padding-40">
+		
+					<h2>Melissa Doe</h2>
+					<p>Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus. Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum.</p>
+
+					<div class="row margin-top-60">
+						
+						<div class="col-md-6 col-sm-6">
+							<p>Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+							<p class="font-lato size-18">Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum. Donec id elit non mi porta gravida at eget metus.</p>
+						</div>
+
+						<!-- skills -->
+						<div class="col-md-6 col-sm-6">
+
+							<h5 class="nomargin"><span class="pull-right">90%</span>WEB DESIGN</h5>
+							<div class="progress progress-xs"><!-- progress bar -->
+								<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%; min-width: 2em;"></div>
+							</div><!-- /progress bar -->
+
+							<h5 class="nomargin"><span class="pull-right">98%</span>HTML/CSS </h5>
+							<div class="progress progress-xs"><!-- progress bar -->
+								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style="width: 98%; min-width: 2em;"></div>
+							</div><!-- /progress bar -->
+
+							<h5 class="nomargin"><span class="pull-right">60%</span>JAVASCRIPT </h5>
+							<div class="progress progress-xs"><!-- progress bar -->
+								<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%; min-width: 2em;"></div>
+							</div><!-- /progress bar -->
+
+							<h5 class="nomargin"><span class="pull-right">88%</span>PHP/MYSQL</h5>
+							<div class="progress progress-xs"><!-- progress bar -->
+								<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100" style="width: 88%; min-width: 2em;"></div>
+							</div><!-- /progress bar -->
+
+						</div>
+						<!-- skills -->
+
+					</div>
+					
+					<hr />
+
+					<!-- social icons -->
+					<div class="text-center">
+
+						<a href="#" class="social-icon social-icon-transparent social-facebook" data-toggle="tooltip" data-placement="top" title="Facebook">
+							<i class="icon-facebook"></i>
+							<i class="icon-facebook"></i>
+						</a>
+
+						<a href="#" class="social-icon social-icon-transparent social-twitter" data-toggle="tooltip" data-placement="top" title="Twitter">
+							<i class="icon-twitter"></i>
+							<i class="icon-twitter"></i>
+						</a>
+
+						<a href="#" class="social-icon social-icon-transparent social-linkedin" data-toggle="tooltip" data-placement="top" title="Linkedin">
+							<i class="icon-linkedin"></i>
+							<i class="icon-linkedin"></i>
+						</a>
+					
+					</div>
+					<!-- /social icons -->
+
+
+				</div>
+			</div>
+
+		
+			<!-- LEFT -->
+			<div class="col-md-6 col-sm-6 nopadding nomargin">
+
+				<img class="img-responsive" src="assets/images/demo/people/1200x800/1-min.jpg" alt="image" />
+
+			</div>
+
+		</div>
+		
+	</section>
+	<!-- /Member -->
 
 <?php 
          
