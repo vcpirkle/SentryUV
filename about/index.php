@@ -182,7 +182,7 @@
    </section>
    <!-- / -->
 
-		<!-- Member -->
+	<!-- Member -->
 	<section class="nopadding">
 		
 		<div class="row nomargin">
@@ -190,7 +190,7 @@
 			<!-- LEFT -->
 			<div class="col-md-6 col-sm-6 nopadding nomargin">
 
-				<img class="img-responsive" src="assets/images/demo/people/1200x800/2-min.jpg" alt="image" />
+				<img class="img-responsive" src="../assets/images/demo/people/1200x800/roy_underwood.jpg" alt="image" />
 
 			</div>
 
@@ -199,25 +199,30 @@
 			
 				<div class="padding-40">
 		
-					<h2>John Doe</h2>
-					<p>Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus. Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum.</p>
+					
+					<cite style="margin-bottom: 32px; display: block;">
+						<h2 style="margin-bottom: 0;">Roy Underwood</h2>
+						<span>President – Sentry UV</span>
+					</cite>
+					
+					<p>Roy is Founder and President of Sentry UV Inc. He founded the company in 1995 and is responsible for the products’ unique reactor designs and ongoing Research & Development. </p>
 
 
 					<div class="row margin-top-60">
 						
 						<div class="col-md-6 col-sm-6">
-							<p class="font-lato size-18">Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum. Donec id elit non mi porta gravida at eget metus.</p>
+							<p class="font-lato size-18">An inventor with several patents, he was part of the team that developed the Space Station water recovery filtration system. He holds an N.D. degree in natural sciences and continues to help Sentry UV, Inc. be a leader in the field of ultraviolet light technology.</p>
 						</div>
 
 						<!-- skills -->
 						<div class="col-md-6 col-sm-6">
 
-							<h5 class="nomargin"><span class="pull-right">90%</span>WEB DESIGN</h5>
+							<h5 class="nomargin"><span class="pull-right">90%</span>Research & Development</h5>
 							<div class="progress progress-xs"><!-- progress bar -->
 								<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%; min-width: 2em;"></div>
 							</div><!-- /progress bar -->
 
-							<h5 class="nomargin"><span class="pull-right">98%</span>HTML/CSS </h5>
+							<h5 class="nomargin"><span class="pull-right">98%</span>Ultraviolet Light Technology</h5>
 							<div class="progress progress-xs"><!-- progress bar -->
 								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style="width: 98%; min-width: 2em;"></div>
 							</div><!-- /progress bar -->
@@ -261,9 +266,6 @@
 	</section>
 	<!-- /Member -->
 
-
-
-
 	<!-- Member -->
 	<section class="nopadding">
 		
@@ -274,35 +276,27 @@
 			
 				<div class="padding-40">
 		
-					<h2>Melissa Doe</h2>
-					<p>Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus. Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum.</p>
+					<cite style="margin-bottom: 32px; display: block;">
+						<h2 style="margin-bottom: 0;">Mark Underwood</h2>
+						<span>General Manager – Sentry UV</span>
+					</cite>
+					<p>Mark is Co-Founder and General Manager of Sentry UV Inc., and is responsible for production and development. Mark is married with a daughter and son and lives in Atlanta, Georgia.</p>
 
 					<div class="row margin-top-60">
 						
 						<div class="col-md-6 col-sm-6">
-							<p>Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
-							<p class="font-lato size-18">Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum. Donec id elit non mi porta gravida at eget metus.</p>
+							<p class="font-lato size-18">He has over 20 years of experience in ultraviolet technologies, and has been involved in the commercial pool industry since 2004.</p>
 						</div>
 
 						<!-- skills -->
 						<div class="col-md-6 col-sm-6">
 
-							<h5 class="nomargin"><span class="pull-right">90%</span>WEB DESIGN</h5>
+							<h5 class="nomargin"><span class="pull-right">94%</span>Production & Development</h5>
 							<div class="progress progress-xs"><!-- progress bar -->
-								<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%; min-width: 2em;"></div>
+								<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="94" aria-valuemin="0" aria-valuemax="100" style="width: 94%; min-width: 2em;"></div>
 							</div><!-- /progress bar -->
 
-							<h5 class="nomargin"><span class="pull-right">98%</span>HTML/CSS </h5>
-							<div class="progress progress-xs"><!-- progress bar -->
-								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style="width: 98%; min-width: 2em;"></div>
-							</div><!-- /progress bar -->
-
-							<h5 class="nomargin"><span class="pull-right">60%</span>JAVASCRIPT </h5>
-							<div class="progress progress-xs"><!-- progress bar -->
-								<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%; min-width: 2em;"></div>
-							</div><!-- /progress bar -->
-
-							<h5 class="nomargin"><span class="pull-right">88%</span>PHP/MYSQL</h5>
+							<h5 class="nomargin"><span class="pull-right">88%</span>Commercial Pool Industry</h5>
 							<div class="progress progress-xs"><!-- progress bar -->
 								<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100" style="width: 88%; min-width: 2em;"></div>
 							</div><!-- /progress bar -->
@@ -343,7 +337,7 @@
 			<!-- LEFT -->
 			<div class="col-md-6 col-sm-6 nopadding nomargin">
 
-				<img class="img-responsive" src="assets/images/demo/people/1200x800/1-min.jpg" alt="image" />
+				<img class="img-responsive" src="../assets/images/demo/people/1200x800/mark_underwood.jpg" alt="image" />
 
 			</div>
 
