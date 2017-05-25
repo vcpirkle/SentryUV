@@ -294,9 +294,9 @@
 
 							</div>
 
-						</div><!-- /description -->
+						</div> <!-- /description -->
 
-					</div><!-- /item -->
+					</div> <!-- /item -->
 					
 					
 					<div class="row mix design"><!-- item -->
