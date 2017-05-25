@@ -71,7 +71,7 @@
 											</a>
 
 											<!-- details -->
-											<a class="ico-rounded" href="portfolio-single-slider.html">
+											<a class="ico-rounded" href="aqua-guard-pvc-120-watt.php">
 												<span class="glyphicon glyphicon-option-horizontal size-20"></span>
 											</a>
 
@@ -98,7 +98,7 @@
 						
 						<div class="col-md-5"><!-- description -->
 							<h2>
-								<a href="portfolio-single-slider.html">SentryUV Aqua Guard&trade; PVC 120 WATT</a>
+								<a href="aqua-guard-pvc-120-watt.php">SentryUV Aqua Guard&trade; PVC 120 WATT</a>
 							</h2>
 							<ul class="list-inline categories nomargin">
 								<li><a href="#">SentryUV Aqua Guard&trade;</a></li>
@@ -128,7 +128,7 @@
 									</li>
 								</ul>
 
-								<a class="btn btn-lg btn-default btn-bordered size-15" href="portfolio-single-slider.html">PRODUCT DETAIL</a>
+								<a class="btn btn-lg btn-default btn-bordered size-15" href="aqua-guard-pvc-120-watt.php">PRODUCT DETAIL</a>
 
 							</div>
 
@@ -152,7 +152,7 @@
 											</a>
 
 											<!-- details -->
-											<a class="ico-rounded" href="portfolio-single-slider.html">
+											<a class="ico-rounded" href="aqua-guard-pvc-120-watt.php">
 												<span class="glyphicon glyphicon-option-horizontal size-20"></span>
 											</a>
 
@@ -179,7 +179,7 @@
 						
 						<div class="col-md-5"><!-- description -->
 							<h2>
-								<a href="portfolio-single-slider.html">SentryUV Aqua Guard&trade; PVC 120 WATT</a>
+								<a href="aqua-guard-pvc-120-watt.php">SentryUV Aqua Guard&trade; PVC 120 WATT</a>
 							</h2>
 							<ul class="list-inline categories nomargin">
 								<li><a href="#">SentryUV Aqua Guard&trade;</a></li>
@@ -209,7 +209,7 @@
 									</li>
 								</ul>
 
-								<a class="btn btn-lg btn-default btn-bordered size-15" href="portfolio-single-slider.html">PRODUCT DETAIL</a>
+								<a class="btn btn-lg btn-default btn-bordered size-15" href="aqua-guard-pvc-120-watt.php">PRODUCT DETAIL</a>
 
 							</div>
 
@@ -233,7 +233,7 @@
 											</a>
 
 											<!-- details -->
-											<a class="ico-rounded" href="portfolio-single-slider.html">
+											<a class="ico-rounded" href="aqua-guard-pvc-120-watt.php">
 												<span class="glyphicon glyphicon-option-horizontal size-20"></span>
 											</a>
 
@@ -260,7 +260,7 @@
 						
 						<div class="col-md-5"><!-- description -->
 							<h2>
-								<a href="portfolio-single-slider.html">SentryUV Aqua Guard&trade; PVC 120 WATT</a>
+								<a href="aqua-guard-pvc-120-watt.php">SentryUV Aqua Guard&trade; PVC 120 WATT</a>
 							</h2>
 							<ul class="list-inline categories nomargin">
 								<li><a href="#">SentryUV Aqua Guard&trade;</a></li>
@@ -290,7 +290,7 @@
 									</li>
 								</ul>
 
-								<a class="btn btn-lg btn-default btn-bordered size-15" href="portfolio-single-slider.html">PRODUCT DETAIL</a>
+								<a class="btn btn-lg btn-default btn-bordered size-15" href="aqua-guard-pvc-120-watt.php">PRODUCT DETAIL</a>
 
 							</div>
 
@@ -314,7 +314,7 @@
 											</a>
 
 											<!-- details -->
-											<a class="ico-rounded" href="portfolio-single-slider.html">
+											<a class="ico-rounded" href="aqua-guard-pvc-120-watt.php">
 												<span class="glyphicon glyphicon-option-horizontal size-20"></span>
 											</a>
 
@@ -341,7 +341,7 @@
 						
 						<div class="col-md-5"><!-- description -->
 							<h2>
-								<a href="portfolio-single-slider.html">SentryUV Aqua Guard&trade; PVC 120 WATT</a>
+								<a href="aqua-guard-pvc-120-watt.php">SentryUV Aqua Guard&trade; PVC 120 WATT</a>
 							</h2>
 							<ul class="list-inline categories nomargin">
 								<li><a href="#">SentryUV Aqua Guard&trade;</a></li>
@@ -371,7 +371,7 @@
 									</li>
 								</ul>
 
-								<a class="btn btn-lg btn-default btn-bordered size-15" href="portfolio-single-slider.html">PRODUCT DETAIL</a>
+								<a class="btn btn-lg btn-default btn-bordered size-15" href="aqua-guard-pvc-120-watt.php">PRODUCT DETAIL</a>
 
 							</div>
 
