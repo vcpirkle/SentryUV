@@ -98,7 +98,7 @@
 						
 						<div class="col-md-5"><!-- description -->
 							<h2>
-								<a href="portfolio-single-slider.html">Nature Photography</a>
+								<a href="portfolio-single-slider.html">SentryUV Aqua Guard&trade; PVC 120 WATT</a>
 							</h2>
 							<ul class="list-inline categories nomargin">
 								<li><a href="#">SentryUV Aqua Guard&trade;</a></li>
@@ -112,7 +112,7 @@
 								<ul class="list-unstyled">
 									<li>
 										<i class="fa fa-check"></i> 
-										<strong>Technologies:</strong> low pressure high output amalgam lamp technology
+										<strong>Technologies:</strong> high output amalgam lamp technology
 									</li>
 									<li>
 										<i class="fa fa-check"></i> 
@@ -128,7 +128,7 @@
 									</li>
 								</ul>
 
-								<a class="btn btn-lg btn-default btn-bordered size-15" href="portfolio-single-slider.html">PROJECT DETAIL</a>
+								<a class="btn btn-lg btn-default btn-bordered size-15" href="portfolio-single-slider.html">PRODUCT DETAIL</a>
 
 							</div>
 
@@ -137,7 +137,7 @@
 					</div><!-- /item -->
 
 
-					<div class="row mix development"><!-- item -->
+					<div class="row mix design"><!-- item -->
 
 						<div class="col-md-7"><!-- image -->
 							<div class="item-box">
@@ -147,7 +147,7 @@
 										<span class="inner">
 
 											<!-- lightbox -->
-											<a class="ico-rounded lightbox" href="assets/images/demo/mockups/1200x800/7-min.jpg" data-plugin-options='{"type":"image"}'>
+											<a class="ico-rounded lightbox" href="../assets/images/products/aqua-guard-pvc-120-watt.png" data-plugin-options='{"type":"image"}'>
 												<span class="fa fa-plus size-20"></span>
 											</a>
 
@@ -158,44 +158,67 @@
 
 										</span>
 									</span>
-									<img class="img-responsive" src="assets/images/demo/mockups/800x553/7-min.jpg" width="800" height="533" alt="">
+
+									<!-- carousel -->
+									<div class="owl-carousel buttons-autohide controlls-over nomargin" data-plugin-options='{"singleItem": true, "autoPlay": 4000, "navigation": false, "pagination": true, "transitionStyle":"goDown"}'>
+										<div>
+											<img class="img-responsive" src="../assets/images/products/aqua-guard-pvc-120-watt.png" width="800" height="533" alt="">
+										</div>
+										<div>
+											<img class="img-responsive" src="../assets/images/products/aqua-guard-pvc-120-watt.png" width="800" height="533" alt="">
+										</div>
+										<div>
+											<img class="img-responsive" src="../assets/images/products/aqua-guard-pvc-120-watt.png" width="800" height="533" alt="">
+										</div>
+									</div>
+									<!-- /carousel -->
+
 								</figure>
 							</div>
 						</div><!-- /image -->
 						
 						<div class="col-md-5"><!-- description -->
 							<h2>
-								<a href="portfolio-single-slider.html">Interior Design</a>
+								<a href="portfolio-single-slider.html">SentryUV Aqua Guard&trade; PVC 120 WATT</a>
 							</h2>
 							<ul class="list-inline categories nomargin">
-								<li><a href="#">Design</a></li>
+								<li><a href="#">SentryUV Aqua Guard&trade;</a></li>
+								<li><a href="#">PVC</a></li>
 							</ul>
 
 							<div class="margin-top-30"><!-- description -->
 
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Ut enim massa, sodales tempor convallis et, iaculis ac massa. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque.</p>
+								<p>Designed to treat swimming pool and spa's and many other applications with flows of up to 100 gallons per minute. The SAG120-APVC is your answer to cryptosporidium control and chloramines destruction in commercial swimming pools and spa's and other applications.</p>
 
 								<ul class="list-unstyled">
 									<li>
 										<i class="fa fa-check"></i> 
-										<strong>Technologies:</strong> Wood, Steel
+										<strong>Technologies:</strong> high output amalgam lamp technology
 									</li>
 									<li>
 										<i class="fa fa-check"></i> 
-										<strong>Date:</strong> 29th June, 2015
+										<strong>Technical Specifications:</strong> 120 Watts
+									</li>
+									<li>
+										<i class="fa fa-check"></i> 
+										<strong>Liner:</strong> 316-L stainless steel to give reflection and to protect the PVC
+									</li>
+									<li>
+										<i class="fa fa-check"></i> 
+										<strong>Flow Rate:</strong> (gpm) ~100 gallons per minute
 									</li>
 								</ul>
 
-								<a class="btn btn-lg btn-default btn-bordered size-15" href="portfolio-single-slider.html">PROJECT DETAIL</a>
+								<a class="btn btn-lg btn-default btn-bordered size-15" href="portfolio-single-slider.html">PRODUCT DETAIL</a>
 
 							</div>
 
 						</div><!-- /description -->
 
 					</div><!-- /item -->
-
-
-					<div class="row mix photography"><!-- item -->
+					
+					
+					<div class="row mix design"><!-- item -->
 
 						<div class="col-md-7"><!-- image -->
 							<div class="item-box">
@@ -205,7 +228,7 @@
 										<span class="inner">
 
 											<!-- lightbox -->
-											<a class="ico-rounded lightbox" href="assets/images/demo/mockups/1200x800/8-min.jpg" data-plugin-options='{"type":"image"}'>
+											<a class="ico-rounded lightbox" href="../assets/images/products/aqua-guard-pvc-120-watt.png" data-plugin-options='{"type":"image"}'>
 												<span class="fa fa-plus size-20"></span>
 											</a>
 
@@ -216,36 +239,139 @@
 
 										</span>
 									</span>
-									<img class="img-responsive" src="assets/images/demo/mockups/800x553/8-min.jpg" width="800" height="533" alt="">
+
+									<!-- carousel -->
+									<div class="owl-carousel buttons-autohide controlls-over nomargin" data-plugin-options='{"singleItem": true, "autoPlay": 4000, "navigation": false, "pagination": true, "transitionStyle":"goDown"}'>
+										<div>
+											<img class="img-responsive" src="../assets/images/products/aqua-guard-pvc-120-watt.png" width="800" height="533" alt="">
+										</div>
+										<div>
+											<img class="img-responsive" src="../assets/images/products/aqua-guard-pvc-120-watt.png" width="800" height="533" alt="">
+										</div>
+										<div>
+											<img class="img-responsive" src="../assets/images/products/aqua-guard-pvc-120-watt.png" width="800" height="533" alt="">
+										</div>
+									</div>
+									<!-- /carousel -->
+
 								</figure>
 							</div>
 						</div><!-- /image -->
 						
 						<div class="col-md-5"><!-- description -->
 							<h2>
-								<a href="portfolio-single-slider.html">Outdoor Art</a>
+								<a href="portfolio-single-slider.html">SentryUV Aqua Guard&trade; PVC 120 WATT</a>
 							</h2>
 							<ul class="list-inline categories nomargin">
-								<li><a href="#">Development</a></li>
-								<li><a href="#">Photography</a></li>
+								<li><a href="#">SentryUV Aqua Guard&trade;</a></li>
+								<li><a href="#">PVC</a></li>
 							</ul>
 
 							<div class="margin-top-30"><!-- description -->
 
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Ut enim massa, sodales tempor convallis et, iaculis ac massa. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque.</p>
+								<p>Designed to treat swimming pool and spa's and many other applications with flows of up to 100 gallons per minute. The SAG120-APVC is your answer to cryptosporidium control and chloramines destruction in commercial swimming pools and spa's and other applications.</p>
 
 								<ul class="list-unstyled">
 									<li>
 										<i class="fa fa-check"></i> 
-										<strong>Technologies:</strong> PHP, Mysql, Redis
+										<strong>Technologies:</strong> high output amalgam lamp technology
 									</li>
 									<li>
 										<i class="fa fa-check"></i> 
-										<strong>Date:</strong> 29th June, 2015
+										<strong>Technical Specifications:</strong> 120 Watts
+									</li>
+									<li>
+										<i class="fa fa-check"></i> 
+										<strong>Liner:</strong> 316-L stainless steel to give reflection and to protect the PVC
+									</li>
+									<li>
+										<i class="fa fa-check"></i> 
+										<strong>Flow Rate:</strong> (gpm) ~100 gallons per minute
 									</li>
 								</ul>
 
-								<a class="btn btn-lg btn-default btn-bordered size-15" href="portfolio-single-slider.html">PROJECT DETAIL</a>
+								<a class="btn btn-lg btn-default btn-bordered size-15" href="portfolio-single-slider.html">PRODUCT DETAIL</a>
+
+							</div>
+
+						</div><!-- /description -->
+
+					</div><!-- /item -->
+					
+					
+					<div class="row mix design"><!-- item -->
+
+						<div class="col-md-7"><!-- image -->
+							<div class="item-box">
+								<figure>
+									<span class="item-hover">
+										<span class="overlay dark-5"></span>
+										<span class="inner">
+
+											<!-- lightbox -->
+											<a class="ico-rounded lightbox" href="../assets/images/products/aqua-guard-pvc-120-watt.png" data-plugin-options='{"type":"image"}'>
+												<span class="fa fa-plus size-20"></span>
+											</a>
+
+											<!-- details -->
+											<a class="ico-rounded" href="portfolio-single-slider.html">
+												<span class="glyphicon glyphicon-option-horizontal size-20"></span>
+											</a>
+
+										</span>
+									</span>
+
+									<!-- carousel -->
+									<div class="owl-carousel buttons-autohide controlls-over nomargin" data-plugin-options='{"singleItem": true, "autoPlay": 4000, "navigation": false, "pagination": true, "transitionStyle":"goDown"}'>
+										<div>
+											<img class="img-responsive" src="../assets/images/products/aqua-guard-pvc-120-watt.png" width="800" height="533" alt="">
+										</div>
+										<div>
+											<img class="img-responsive" src="../assets/images/products/aqua-guard-pvc-120-watt.png" width="800" height="533" alt="">
+										</div>
+										<div>
+											<img class="img-responsive" src="../assets/images/products/aqua-guard-pvc-120-watt.png" width="800" height="533" alt="">
+										</div>
+									</div>
+									<!-- /carousel -->
+
+								</figure>
+							</div>
+						</div><!-- /image -->
+						
+						<div class="col-md-5"><!-- description -->
+							<h2>
+								<a href="portfolio-single-slider.html">SentryUV Aqua Guard&trade; PVC 120 WATT</a>
+							</h2>
+							<ul class="list-inline categories nomargin">
+								<li><a href="#">SentryUV Aqua Guard&trade;</a></li>
+								<li><a href="#">PVC</a></li>
+							</ul>
+
+							<div class="margin-top-30"><!-- description -->
+
+								<p>Designed to treat swimming pool and spa's and many other applications with flows of up to 100 gallons per minute. The SAG120-APVC is your answer to cryptosporidium control and chloramines destruction in commercial swimming pools and spa's and other applications.</p>
+
+								<ul class="list-unstyled">
+									<li>
+										<i class="fa fa-check"></i> 
+										<strong>Technologies:</strong> high output amalgam lamp technology
+									</li>
+									<li>
+										<i class="fa fa-check"></i> 
+										<strong>Technical Specifications:</strong> 120 Watts
+									</li>
+									<li>
+										<i class="fa fa-check"></i> 
+										<strong>Liner:</strong> 316-L stainless steel to give reflection and to protect the PVC
+									</li>
+									<li>
+										<i class="fa fa-check"></i> 
+										<strong>Flow Rate:</strong> (gpm) ~100 gallons per minute
+									</li>
+								</ul>
+
+								<a class="btn btn-lg btn-default btn-bordered size-15" href="portfolio-single-slider.html">PRODUCT DETAIL</a>
 
 							</div>
 
