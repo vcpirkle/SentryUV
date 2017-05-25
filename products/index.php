@@ -56,7 +56,7 @@
 
 				<div class="mix-grid">
 
-					<div class="row mix design"><!-- item -->
+					<div class="row mix pvc"><!-- item -->
 
 						<div class="col-md-7"><!-- image -->
 							<div class="item-box">
@@ -137,7 +137,7 @@
 					</div><!-- /item -->
 
 
-					<div class="row mix design"><!-- item -->
+					<div class="row mix pvc"><!-- item -->
 
 						<div class="col-md-7"><!-- image -->
 							<div class="item-box">
@@ -218,7 +218,7 @@
 					</div><!-- /item -->
 					
 					
-					<div class="row mix design"><!-- item -->
+					<div class="row mix uv"><!-- item -->
 
 						<div class="col-md-7"><!-- image -->
 							<div class="item-box">
@@ -299,7 +299,7 @@
 					</div> <!-- /item -->
 					
 					
-					<div class="row mix design"><!-- item -->
+					<div class="row mix uv"><!-- item -->
 
 						<div class="col-md-7"><!-- image -->
 							<div class="item-box">
