@@ -120,7 +120,7 @@
 									</li>
 									<li>
 										<i class="fa fa-check"></i> 
-										<strong>Liner:</strong> 316-L stainless steel to give reflection and to protect the PVC
+										<strong>Liner:</strong> 316-L stainless steel
 									</li>
 									<li>
 										<i class="fa fa-check"></i> 
@@ -201,7 +201,7 @@
 									</li>
 									<li>
 										<i class="fa fa-check"></i> 
-										<strong>Liner:</strong> 316-L stainless steel to give reflection and to protect the PVC
+										<strong>Liner:</strong> 316-L stainless steel
 									</li>
 									<li>
 										<i class="fa fa-check"></i> 
@@ -282,7 +282,7 @@
 									</li>
 									<li>
 										<i class="fa fa-check"></i> 
-										<strong>Liner:</strong> 316-L stainless steel to give reflection and to protect the PVC
+										<strong>Liner:</strong> 316-L stainless steel
 									</li>
 									<li>
 										<i class="fa fa-check"></i> 
@@ -363,7 +363,7 @@
 									</li>
 									<li>
 										<i class="fa fa-check"></i> 
-										<strong>Liner:</strong> 316-L stainless steel to give reflection and to protect the PVC
+										<strong>Liner:</strong> 316-L stainless steel
 									</li>
 									<li>
 										<i class="fa fa-check"></i> 
