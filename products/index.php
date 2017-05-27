@@ -4,7 +4,6 @@
 
    $wrapper = new Wrapper();
    $wrapper->setTitle('SentryUV - Products');
-	$wrapper->addScript(Config::getBaseDir(). '/products/products.js');
    $wrapper->writeHeader();
 ?>
 
