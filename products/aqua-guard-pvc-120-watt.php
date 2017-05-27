@@ -27,13 +27,13 @@
 			<section class="page-header page-header-xs">
 				<div class="container">
 
-					<h1>This is the product title</h1>
+					<h1>SentryUV Aqua Guard&trade; PVC 120 WATT</h1>
 
 					<!-- breadcrumbs -->
 					<ol class="breadcrumb">
 						<li><a href="#">Home</a></li>
 						<li><a href="#">Shop</a></li>
-						<li class="active">Single</li>
+						<li class="active">SentryUV Aqua Guard&trade; PVC 120 WATT</li>
 					</ol><!-- /breadcrumbs -->
 
 				</div>
@@ -69,40 +69,40 @@
 											.top-right
 											.top-left
 									-->
-									<a class="lightbox bottom-right" href="assets/images/demo/shop/products/1000x1500/p5.jpg" data-plugin-options='{"type":"image"}'><i class="glyphicon glyphicon-search"></i></a>
+									<a class="lightbox bottom-right" href="../assets/images/products/aqua-guard-pvc-120-watt.png" data-plugin-options='{"type":"image"}'><i class="glyphicon glyphicon-search"></i></a>
 
 									<!-- 
 										image 
 										
 										Extra: add .image-bw class to force black and white!
 									-->
-									<img class="img-responsive" src="assets/images/demo/shop/products/1000x1500/p5.jpg" width="1200" height="1500" alt="This is the product title" />
+									<img class="img-responsive" src="../assets/images/products/aqua-guard-pvc-120-watt.png" width="800" height="533" alt="SentryUV Aqua Guard&trade; PVC 120 WATT" />
 								</figure>
 
 							</div>
 
 							<!-- Thumbnails (required height:100px) -->
 							<div data-for="zoom-primary" class="zoom-more owl-carousel owl-padding-3 featured" data-plugin-options='{"singleItem": false, "autoPlay": false, "navigation": true, "pagination": false}'>
-								<a class="thumbnail active" href="assets/images/demo/shop/products/1000x1500/p5.jpg">
-									<img src="assets/images/demo/shop/products/100x100/p5.jpg" height="100" alt="" />
+								<a class="thumbnail active" href="../assets/images/products/aqua-guard-pvc-120-watt.png">
+									<img src="../assets/images/products/aqua-guard-pvc-120-watt.png" height="100" alt="" />
 								</a>
-								<a class="thumbnail" href="assets/images/demo/shop/products/1000x1500/p6.jpg">
-									<img src="assets/images/demo/shop/products/100x100/p6.jpg" height="100" alt="" />
+								<a class="thumbnail" href="../assets/images/products/aqua-guard-pvc-120-watt.png">
+									<img src="../assets/images/products/aqua-guard-pvc-120-watt.png" height="100" alt="" />
 								</a>
-								<a class="thumbnail" href="assets/images/demo/shop/products/1000x1500/p7.jpg">
-									<img src="assets/images/demo/shop/products/100x100/p7.jpg" height="100" alt="" />
+								<a class="thumbnail" href="../assets/images/products/aqua-guard-pvc-120-watt.png">
+									<img src="../assets/images/products/aqua-guard-pvc-120-watt.png" height="100" alt="" />
 								</a>
-								<a class="thumbnail" href="assets/images/demo/shop/products/1000x1500/p8.jpg">
-									<img src="assets/images/demo/shop/products/100x100/p8.jpg" height="100" alt="" />
+								<a class="thumbnail" href="../assets/images/products/aqua-guard-pvc-120-watt.png">
+									<img src="../assets/images/products/aqua-guard-pvc-120-watt.png" height="100" alt="" />
 								</a>
-								<a class="thumbnail" href="assets/images/demo/shop/products/1000x1500/p9.jpg">
-									<img src="assets/images/demo/shop/products/100x100/p9.jpg" height="100" alt="" />
+								<a class="thumbnail" href="../assets/images/products/aqua-guard-pvc-120-watt.png">
+									<img src="../assets/images/products/aqua-guard-pvc-120-watt.png" height="100" alt="" />
 								</a>
-								<a class="thumbnail" href="assets/images/demo/shop/products/1000x1500/p10.jpg">
-									<img src="assets/images/demo/shop/products/100x100/p10.jpg" height="100" alt="" />
+								<a class="thumbnail" href="../assets/images/products/aqua-guard-pvc-120-watt.png">
+									<img src="../assets/images/products/aqua-guard-pvc-120-watt.png" height="100" alt="" />
 								</a>
-								<a class="thumbnail" href="assets/images/demo/shop/products/1000x1500/p11.jpg">
-									<img src="assets/images/demo/shop/products/100x100/p11.jpg" height="100" alt="" />
+								<a class="thumbnail" href="../assets/images/products/aqua-guard-pvc-120-watt.png">
+									<img src="../assets/images/products/aqua-guard-pvc-120-watt.png" height="100" alt="" />
 								</a>
 							</div>
 							<!-- /Thumbnails -->
@@ -141,7 +141,7 @@
 
 
 							<!-- short description -->
-							<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							<p>Designed to treat swimming pool and spa's and many other applications with flows of up to 100 gallons per minute. The SAG120-APVC is your answer to cryptosporidium control and chloramines destruction in commercial swimming pools and spa's and other applications.</p>
 							<!-- /short description -->
 
 
@@ -158,84 +158,6 @@
 							<!-- FORM -->
 							<form class="clearfix form-inline nomargin" method="get" action="shop-cart.html">
 								<input type="hidden" name="product_id" value="1" />
-
-								<!-- see assets/js/view/demo.shop.js -->
-								<input type="hidden" id="color" name="color" value="yellow" />
-								<input type="hidden" id="qty" name="qty" value="1" />
-								<input type="hidden" id="size" name="size" value="5" />
-								<!-- see assets/js/view/demo.shop.js -->
-
-								<div class="btn-group pull-left product-opt-color">
-									<button type="button" class="btn btn-default dropdown-toggle product-color-dd noradius" data-toggle="dropdown">&nbsp;
-										<span class="caret"></span> 
-										<span id="product-selected-color" class="tag shop-color" style="background-color:#F0E68C"></span>
-									</button>
-
-									<!-- 
-										href = required to be hex color starting with: #
-										data-val = color name or color id from the database 
-									-->
-									<ul id="product-color-dd" class="dropdown-menu clearfix" role="menu">
-										<li class="active"><a class="tag shop-color" data-val="purple" href="#800080" style="background-color:#800080"></a></li>
-										<li><a class="tag shop-color" data-val="red" href="#FF0000" style="background-color:#FF0000"></a></li>
-										<li><a class="tag shop-color" data-val="pink" href="#FF0080" style="background-color:#FF0080"></a></li>
-										<li><a class="tag shop-color" data-val="orange" href="#FF6600" style="background-color:#FF6600"></a></li>
-										<li><a class="tag shop-color" data-val="grey" href="#E0DCC8" style="background-color:#E0DCC8"></a></li>
-										<li><a class="tag shop-color" data-val="yellow" href="#F0E68C" style="background-color:#F0E68C"></a></li>
-										<li><a class="tag shop-color" data-val="light-yellow" href="#FFFFD0" style="background-color:#FFFFD0"></a></li>
-										<li><a class="tag shop-color" style="background-color:#4B0082"></a></li>
-										<li><a class="tag shop-color" data-val="dark-grey" href="#666666" style="background-color:#666666"></a></li>
-										<li><a class="tag shop-color" data-val="green" href="#00FF00" style="background-color:#00FF00"></a></li>
-									</ul>
-								</div><!-- /btn-group -->
-
-								<div class="btn-group pull-left product-opt-size">
-									<button type="button" class="btn btn-default dropdown-toggle product-size-dd noradius" data-toggle="dropdown">
-										<span class="caret"></span>
-										Size <small id="product-selected-size">(<span>5</span>)</small>
-									</button>
-
-									<!-- data-val = size value or size id -->
-									<ul id="product-size-dd" class="dropdown-menu" role="menu">
-										<li class="active"><a data-val="5" href="#">5</a></li>
-										<li><a data-val="5.5" href="#">5.5</a></li>
-										<li><a data-val="6" href="#">6</a></li>
-										<li><a data-val="6.5" href="#">6.5</a></li>
-										<li><a data-val="7" href="#">7</a></li>
-										<li><a data-val="7.5" href="#">7.7</a></li>
-										<li><a data-val="8" href="#">8</a></li>
-										<li><a data-val="8.5" href="#">8.5</a></li>
-										<li><a data-val="9" href="#">9</a></li>
-										<li><a data-val="9.5" href="#">9.5</a></li>
-										<li><a data-val="10" href="#">10</a></li>
-										<li><a data-val="10.5" href="#">10.5</a></li>
-										<li><a data-val="11" href="#">11</a></li>
-										<li><a data-val="11.5" href="#">11.5</a></li>
-										<li><a data-val="12" href="#">12</a></li>
-										<li><a data-val="13" href="#">13</a></li>
-										<li><a data-val="14" href="#">14</a></li>
-									</ul>
-								</div><!-- /btn-group -->
-
-								<div class="btn-group pull-left product-opt-qty">
-									<button type="button" class="btn btn-default dropdown-toggle product-qty-dd noradius" data-toggle="dropdown">
-										<span class="caret"></span>
-										Qty <small id="product-selected-qty">(<span>5</span>)</small>
-									</button>
-
-									<ul id="product-qty-dd" class="dropdown-menu clearfix" role="menu">
-										<li class="active"><a data-val="1" href="#">1</a></li>
-										<li><a data-val="2" href="#">2</a></li>
-										<li><a data-val="3" href="#">3</a></li>
-										<li><a data-val="4" href="#">4</a></li>
-										<li><a data-val="5" href="#">5</a></li>
-										<li><a data-val="6" href="#">6</a></li>
-										<li><a data-val="7" href="#">7</a></li>
-										<li><a data-val="8" href="#">8</a></li>
-										<li><a data-val="9" href="#">9</a></li>
-										<li><a data-val="10" href="#">10</a></li>
-									</ul>
-								</div><!-- /btn-group -->
 
 								<button class="btn btn-primary pull-left product-add-cart noradius">ADD TO CART</button>
 							
@@ -323,47 +245,23 @@
 
 						<!-- DESCRIPTION -->
 						<div role="tabpanel" class="tab-pane fade in active" id="description">
-							<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Aliquam fermentum commodo magna, id pretium nisi elementum at. Nulla molestie, ligula in fringilla rhoncus, risus leo dictum est, nec egestas nunc sem tincidunt turpis. Sed posuere consectetur est at lobortis.</p>
-							<p>Donec blandit ultrices condimentum. Aliquam fermentum commodo magna, id pretium nisi elementum at. Nulla molestie, ligula in fringilla rhoncus, risus leo dictum est, nec egestas nunc sem tincidunt turpis. Sed posuere consectetur est at lobortis.</p>
+							<p>The SAG120-APVC uses low pressure high output amalgam lamp technology to achieve a 4 log reduction for cryptosporidium and other similar pathogens in water. The SAG120-APVC is designed with a patented unique quick disconnect double sealed sleeve that allows for easy access to lamps and sleeves while taking up limited space in an in-line system. This provides a significant advantage for those applications where space is limited and allows it to fit in most retrofit locations either mounted vertically or horizontally.</p>
+
+							<p>The SAG120-APVC offers additional killing power due to a highly polished and reflective interior 316L stainless steel lining. A science we have used for 20 p;us years. No breaking down of the PVC into harmful contaminants. This new reactor design allows for our newly designed multiple wave length lamps that will perform at maximum 254nm up to 30% more than MP systems and 185nm for oxidation in water temps up to 130 degrees F. These new lamps outlast regular low pressure lamps by 4,000 hours and medium pressure lamps by 7,000 hours.</p>
+
+							<p>There is no need for expensive automated wipers on our SAG120-APVC as our Patented Quick Disconnect double sealed sleeve allows access to sleeves in seconds for complete and thorough cleaning and inspection of sleeves and wiping several sleeves in just minutes. Have peace of mind knowing that the sleeves are actually clean and no fractures in the sleeve. Much less than medium pressure, longer lasting and better built than low cost PVC systems. The SAG120-APVC is designed and built to work in freshwater and saltwater pools, fracking water low-flow sewage, fountains, spas, ponds, zoos, aquariums, and many other applications. Call to discuss your needs.</p>
+
+							<p>Technical SpecificationsWatts > 120</p>
+
+							<p>Liner > 316-L stainless steel to give reflection and to protect the PVC</p>
+
+							<p>Flow Rate (gpm) > ~100 gallons per minute</p>
 						</div>
 						
 						<!-- SPECIFICATIONS -->
 						<div role="tabpanel" class="tab-pane fade" id="specs">
 							<div class="table-responsive">
-								<table class="table table-hover">
-									<thead>
-										<tr>
-											<th>Column name</th>
-											<th>Column name</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>Size</td>
-											<td>2XL</td>
-										</tr>
-										<tr>
-											<td>Color</td>
-											<td>Red</td>
-										</tr>
-										<tr>
-											<td>Weight</td>
-											<td>132lbs</td>
-										</tr>
-										<tr>
-											<td>Height</td>
-											<td>74cm</td>
-										</tr>
-										<tr>
-											<td>Bluetooth</td>
-											<td><i class="fa fa-check text-success"></i> YES</td>
-										</tr>
-										<tr>
-											<td>Wi-Fi</td>
-											<td><i class="glyphicon glyphicon-remove text-danger"></i> NO</td>
-										</tr>
-									</tbody>
-								</table>
+								<iframe src="sag120-apvc_specifications.pdf" style="width: 100%; height: 600px;"></iframe>
 							</div>
 						</div>
 						
@@ -372,7 +270,7 @@
 							<!-- REVIEW ITEM -->
 							<div class="block margin-bottom-60">
 
-								<span class="user-avatar"><!-- user-avatar -->
+								<span cass="user-avatar"><!-- user-avatar -->
 									<img class="pull-left media-object" src="assets/images/avatar2.jpg" width="64" height="64" alt="">
 								</span>
 
