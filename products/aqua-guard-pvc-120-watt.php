@@ -235,9 +235,9 @@
 
 
 					<ul id="myTab" class="nav nav-tabs nav-top-border margin-top-80" role="tablist">
-						<li role="presentation" class="active"><a href="#description" role="tab" data-toggle="tab">Description</a></li>
-						<li role="presentation"><a href="#specs" role="tab" data-toggle="tab">Specifications</a></li>
-						<li role="presentation"><a href="#reviews" role="tab" data-toggle="tab">Reviews (2)</a></li>
+						<li role="presentation" class=" description active"><a href="#description" role="tab" data-toggle="tab">Description</a></li>
+						<li role="presentation"><a class="specs" href="#specs" role="tab" data-toggle="tab">Specifications</a></li>
+						<li role="presentation"><a class="reviews" href="#reviews" role="tab" data-toggle="tab">Reviews (2)</a></li>
 					</ul>
 
 
@@ -261,7 +261,7 @@
 						<!-- SPECIFICATIONS -->
 						<div role="tabpanel" class="tab-pane fade" id="specs">
 							<div class="table-responsive">
-								<iframe src="sag120-apvc_specifications.pdf#page=1&view=FitH,100" style="width: 100%; height: 600px;"></iframe>
+								<iframe id="frameSpecs" style="width: 100%; height: 600px;"></iframe>
 							</div>
 						</div>
 						
@@ -679,7 +679,19 @@
 			</section>
 			<!-- / -->
 
+<script type="text/javascript">
 
+$(function() {
+	var specUrl = 'sag120-apvc_specifications.pdf#page=1&view=FitH,100';
+	
+	$('#myTab a.specs').on('shown.bs.tab', function() {
+		if($('#frameSpecs').attr('src') == null || $('#frameSpecs').attr('src') == '') {
+			$('#frameSpecs').attr('src', specUrl);
+		}
+	});
+});
+
+</script>
 
 
 
