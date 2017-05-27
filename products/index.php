@@ -5,6 +5,7 @@
    $wrapper = new Wrapper();
    $wrapper->setTitle('SentryUV - Products');
    $wrapper->writeHeader();
+	$wrapper->addScript('products.js');
 ?>
 
    <!-- 
