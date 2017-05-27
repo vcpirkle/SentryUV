@@ -261,7 +261,7 @@
 						<!-- SPECIFICATIONS -->
 						<div role="tabpanel" class="tab-pane fade" id="specs">
 							<div class="table-responsive">
-								<iframe src="sag120-apvc_specifications.pdf#view=FitH" style="width: 100%; height: 600px;"></iframe>
+								<iframe src="sag120-apvc_specifications.pdf#page=1&view=FitH,100" style="width: 100%; height: 600px;"></iframe>
 							</div>
 						</div>
 						
