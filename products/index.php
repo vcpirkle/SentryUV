@@ -313,12 +313,12 @@
 										<span class="inner">
 
 											<!-- lightbox -->
-											<a class="ico-rounded lightbox" href="../assets/images/products/aqua-guard-pvc-120-watt.png" data-plugin-options='{"type":"image"}'>
+											<a class="ico-rounded lightbox" href="../assets/images/products/aqua-guard-uv-240-watt.jpg" data-plugin-options='{"type":"image"}'>
 												<span class="fa fa-plus size-20"></span>
 											</a>
 
 											<!-- details -->
-											<a class="ico-rounded" href="aqua-guard-pvc-120-watt.php">
+											<a class="ico-rounded" href="aqua-guard-uv-240-watt.php">
 												<span class="glyphicon glyphicon-option-horizontal size-20"></span>
 											</a>
 
@@ -328,13 +328,13 @@
 									<!-- carousel -->
 									<div class="owl-carousel buttons-autohide controlls-over nomargin" data-plugin-options='{"singleItem": true, "autoPlay": 4000, "navigation": false, "pagination": true, "transitionStyle":"goDown"}'>
 										<div>
-											<img class="img-responsive" src="../assets/images/products/aqua-guard-pvc-120-watt.png" width="800" height="533" alt="">
+											<img class="img-responsive" src="../assets/images/products/aqua-guard-uv-240-watt.jpg" width="800" height="533" alt="">
 										</div>
 										<div>
-											<img class="img-responsive" src="../assets/images/products/aqua-guard-pvc-120-watt.png" width="800" height="533" alt="">
+											<img class="img-responsive" src="../assets/images/products/aqua-guard-uv-240-watt.jpg" width="800" height="533" alt="">
 										</div>
 										<div>
-											<img class="img-responsive" src="../assets/images/products/aqua-guard-pvc-120-watt.png" width="800" height="533" alt="">
+											<img class="img-responsive" src="../assets/images/products/aqua-guard-uv-240-watt.jpg" width="800" height="533" alt="">
 										</div>
 									</div>
 									<!-- /carousel -->
@@ -345,16 +345,16 @@
 						
 						<div class="col-md-5"><!-- description -->
 							<h2>
-								<a href="aqua-guard-pvc-120-watt.php">SentryUV Aqua Guard&trade; PVC 120 WATT</a>
+								<a href="aqua-guard-uv-240-watt.php">SentryUV Aqua Guard&trade; UV 240 WATT</a>
 							</h2>
 							<ul class="list-inline categories nomargin">
 								<li><a href="#">SentryUV Aqua Guard&trade;</a></li>
-								<li><a href="#">PVC</a></li>
+								<li><a href="#">UV</a></li>
 							</ul>
 
 							<div class="margin-top-30"><!-- description -->
 
-								<p>Designed to treat swimming pool and spa's and many other applications with flows of up to 100 gallons per minute. The SAG120-APVC is your answer to cryptosporidium control and chloramines destruction in commercial swimming pools and spa's and other applications.</p>
+								<p>Designed to treat single pass flows up to 172,800 gallons per day. The SAG240-A can effectively disinfect water for drinking, pools, larger spas, small sewage treatment, recovery water, irrigation water, fracking water, and other commercial applications.The SAG240-A uses low pressure high output Amalgam lamp technology to achieve a 4 log reduction for Crytosporidum and other similar pathogens in water. </p>
 
 								<ul class="list-unstyled">
 									<li>
@@ -363,7 +363,7 @@
 									</li>
 									<li>
 										<i class="fa fa-check"></i> 
-										<strong>Technical Specifications:</strong> 120 Watts
+										<strong>Technical Specifications:</strong> 240 Watts
 									</li>
 									<li>
 										<i class="fa fa-check"></i> 
@@ -371,11 +371,15 @@
 									</li>
 									<li>
 										<i class="fa fa-check"></i> 
-										<strong>Flow Rate:</strong> (gpm) ~100 gallons per minute
+										<strong>Flow Rate:</strong> (gpm) ~120 gallons per minute
+									</li>
+									<li>
+										<i class="fa fa-check"></i> 
+										<strong>Flow Rate (daily):</strong> 172,800 gallons per day
 									</li>
 								</ul>
 
-								<a class="btn btn-lg btn-default btn-bordered size-15" href="aqua-guard-pvc-120-watt.php">PRODUCT DETAIL</a>
+								<a class="btn btn-lg btn-default btn-bordered size-15" href="aqua-guard-uv-240-watt.php">PRODUCT DETAIL</a>
 
 							</div>
 
