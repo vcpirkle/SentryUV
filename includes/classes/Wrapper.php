@@ -489,6 +489,16 @@ class Wrapper {
       <!-- LAYER SLIDER -->
       <script type="text/javascript" src="<?php echo Config::getBaseDir(); ?>assets/plugins/slider.layerslider/js/layerslider_pack.js"></script>
       <script type="text/javascript" src="<?php echo Config::getBaseDir(); ?>assets/js/view/demo.layerslider_slider.js"></script>
+		
+		<?php
+        foreach($this->scripts as $script) {
+            print('      <script type="text/javascript" src="'. $script. '"></script>'. "\n");
+        } ?>
+		  
+	   <?php
+		foreach($this->styles as $style) {
+            print('	<link rel="stylesheet" type="text/css" href="'. $style. '" />'. "\n");
+        }?>
 
       </body>
       </html>
