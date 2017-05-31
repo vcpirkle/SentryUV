@@ -262,7 +262,7 @@
 						<!-- SPECIFICATIONS -->
 						<div role="tabpanel" class="tab-pane fade" id="specs">
 							<div class="table-responsive">
-								<iframe id="frameSpecs" style="width: 100%; height: 600px;"></iframe>
+								<iframe id="frameSpecs" style="width: 100%; height: 600px;" pdf-url="sag120-apvc_specifications.pdf"></iframe>
 							</div>
 						</div>
 						

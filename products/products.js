@@ -1,9 +1,12 @@
 $(function() {
-	var specUrl = 'sag120-apvc_specifications.pdf#page=1&view=FitH,100';
+	var paramsUrl = '#page=1&view=FitH,100';
 	
 	$('#myTab a.specs').on('shown.bs.tab', function() {
+		
+		var pdfUrl = $('#frameSpecs').attr('pdf-url');
+		
 		if($('#frameSpecs').attr('src') == null || $('#frameSpecs').attr('src') == '') {
-			$('#frameSpecs').attr('src', specUrl);
+			$('#frameSpecs').attr('src', pdfUrl + paramsUrl);
 		}
 	});
 });

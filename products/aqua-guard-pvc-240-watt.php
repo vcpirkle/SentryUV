@@ -28,13 +28,13 @@
 			<section class="page-header page-header-xs">
 				<div class="container">
 
-					<h1>SentryUV Aqua Guard&trade; PVC 120 WATT</h1>
+					<h1>SentryUV Aqua Guard&trade; PVC 240 WATT</h1>
 
 					<!-- breadcrumbs -->
 					<ol class="breadcrumb">
 						<li><a href="#">Home</a></li>
 						<li><a href="#">Shop</a></li>
-						<li class="active">SentryUV Aqua Guard&trade; PVC 120 WATT</li>
+						<li class="active">SentryUV Aqua Guard&trade; PVC 240 WATT</li>
 					</ol><!-- /breadcrumbs -->
 
 				</div>
@@ -70,40 +70,40 @@
 											.top-right
 											.top-left
 									-->
-									<a class="lightbox bottom-right" href="../assets/images/products/aqua-guard-pvc-120-watt.png" data-plugin-options='{"type":"image"}'><i class="glyphicon glyphicon-search"></i></a>
+									<a class="lightbox bottom-right" href="../assets/images/products/aqua-guard-pvc-240-watt.png" data-plugin-options='{"type":"image"}'><i class="glyphicon glyphicon-search"></i></a>
 
 									<!-- 
 										image 
 										
 										Extra: add .image-bw class to force black and white!
 									-->
-									<img class="img-responsive" src="../assets/images/products/aqua-guard-pvc-120-watt.png" width="800" height="533" alt="SentryUV Aqua Guard&trade; PVC 120 WATT" />
+									<img class="img-responsive" src="../assets/images/products/aqua-guard-pvc-240-watt.png" width="800" height="533" alt="SentryUV Aqua Guard&trade; PVC 240 WATT" />
 								</figure>
 
 							</div>
 
 							<!-- Thumbnails (required height:100px) -->
 							<div data-for="zoom-primary" class="zoom-more owl-carousel owl-padding-3 featured" data-plugin-options='{"singleItem": false, "autoPlay": false, "navigation": true, "pagination": false}'>
-								<a class="thumbnail active" href="../assets/images/products/aqua-guard-pvc-120-watt.png">
-									<img src="../assets/images/products/aqua-guard-pvc-120-watt.png" height="100" alt="" />
+								<a class="thumbnail active" href="../assets/images/products/aqua-guard-pvc-240-watt.png">
+									<img src="../assets/images/products/aqua-guard-pvc-240-watt.png" height="100" alt="" />
 								</a>
-								<a class="thumbnail" href="../assets/images/products/aqua-guard-pvc-120-watt.png">
-									<img src="../assets/images/products/aqua-guard-pvc-120-watt.png" height="100" alt="" />
+								<a class="thumbnail" href="../assets/images/products/aqua-guard-pvc-240-watt.png">
+									<img src="../assets/images/products/aqua-guard-pvc-240-watt.png" height="100" alt="" />
 								</a>
-								<a class="thumbnail" href="../assets/images/products/aqua-guard-pvc-120-watt.png">
-									<img src="../assets/images/products/aqua-guard-pvc-120-watt.png" height="100" alt="" />
+								<a class="thumbnail" href="../assets/images/products/aqua-guard-pvc-240-watt.png">
+									<img src="../assets/images/products/aqua-guard-pvc-240-watt.png" height="100" alt="" />
 								</a>
-								<a class="thumbnail" href="../assets/images/products/aqua-guard-pvc-120-watt.png">
-									<img src="../assets/images/products/aqua-guard-pvc-120-watt.png" height="100" alt="" />
+								<a class="thumbnail" href="../assets/images/products/aqua-guard-pvc-240-watt.png">
+									<img src="../assets/images/products/aqua-guard-pvc-240-watt.png" height="100" alt="" />
 								</a>
-								<a class="thumbnail" href="../assets/images/products/aqua-guard-pvc-120-watt.png">
-									<img src="../assets/images/products/aqua-guard-pvc-120-watt.png" height="100" alt="" />
+								<a class="thumbnail" href="../assets/images/products/aqua-guard-pvc-240-watt.png">
+									<img src="../assets/images/products/aqua-guard-pvc-240-watt.png" height="100" alt="" />
 								</a>
-								<a class="thumbnail" href="../assets/images/products/aqua-guard-pvc-120-watt.png">
-									<img src="../assets/images/products/aqua-guard-pvc-120-watt.png" height="100" alt="" />
+								<a class="thumbnail" href="../assets/images/products/aqua-guard-pvc-240-watt.png">
+									<img src="../assets/images/products/aqua-guard-pvc-240-watt.png" height="100" alt="" />
 								</a>
-								<a class="thumbnail" href="../assets/images/products/aqua-guard-pvc-120-watt.png">
-									<img src="../assets/images/products/aqua-guard-pvc-120-watt.png" height="100" alt="" />
+								<a class="thumbnail" href="../assets/images/products/aqua-guard-pvc-240-watt.png">
+									<img src="../assets/images/products/aqua-guard-pvc-240-watt.png" height="100" alt="" />
 								</a>
 							</div>
 							<!-- /Thumbnails -->
@@ -142,7 +142,7 @@
 
 
 							<!-- short description -->
-							<p>Designed to treat swimming pool and spa's and many other applications with flows of up to 100 gallons per minute. The SAG120-APVC is your answer to cryptosporidium control and chloramines destruction in commercial swimming pools and spa's and other applications.</p>
+							<p>Designed to treat swimming pool and spa's with flows of up to 175 gallons per minute. The SAG240-APVC is your answer to cryptosporidium control and chloramines destruction in commercial swimming pools and spa's and other applications. (see below).The SAG 240-APVC uses low pressure high output amalgam lamp technology to achieve a 4 log reduction for cryptosporidium and other similar pathogens in water. The SAG240-APVC is designed with a unique quick disconnect that allows for easy access to lamps and sleeves while taking up limited space in an in-line system. This provides a significant advantage for those applications where space is limited and allows it to fit in most retrofit locations either mounted vertically or horizontally.</p>
 							<!-- /short description -->
 
 
@@ -246,23 +246,22 @@
 
 						<!-- DESCRIPTION -->
 						<div role="tabpanel" class="tab-pane fade in active" id="description">
-							<p>The SAG120-APVC uses low pressure high output amalgam lamp technology to achieve a 4 log reduction for cryptosporidium and other similar pathogens in water. The SAG120-APVC is designed with a patented unique quick disconnect double sealed sleeve that allows for easy access to lamps and sleeves while taking up limited space in an in-line system. This provides a significant advantage for those applications where space is limited and allows it to fit in most retrofit locations either mounted vertically or horizontally.</p>
+							
+							<p>The SAG240-APVC offers additional killing power due to a highly polished and reflective interior 316L stainless steel lining.  A science we have used for 20 plus years. This new reactor design allows for our newly designed multiple wave length lamps that will perform at maximum 254nm and 185nm in water temps up to 130 degrees F. These new lamps outlast regular low pressure lamps by 4,000 hours and medium pressure lamps by 7,000 hours.</p>
 
-							<p>The SAG120-APVC offers additional killing power due to a highly polished and reflective interior 316L stainless steel lining. A science we have used for 20 p;us years. No breaking down of the PVC into harmful contaminants. This new reactor design allows for our newly designed multiple wave length lamps that will perform at maximum 254nm up to 30% more than MP systems and 185nm for oxidation in water temps up to 130 degrees F. These new lamps outlast regular low pressure lamps by 4,000 hours and medium pressure lamps by 7,000 hours.</p>
+							<p>There is no need for expensive automated wipers on our SAG240-APVC as our Patented Quick Disconnect allows access to sleeves in seconds for complete and thorough cleaning by even wiping several sleeves in just minutes. Have peace of mind knowing that the sleeves are actually clean. Much less than medium pressure, longer lasting and better built than low cost PVC systems. The SAG240-APVC is designed and built to work in freshwater and saltwater pools, fracking water, low-flow sewage, fountains, spas, ponds, zoos, aquariums, and many other applications. Call to discuss your needs.</p>
 
-							<p>There is no need for expensive automated wipers on our SAG120-APVC as our Patented Quick Disconnect double sealed sleeve allows access to sleeves in seconds for complete and thorough cleaning and inspection of sleeves and wiping several sleeves in just minutes. Have peace of mind knowing that the sleeves are actually clean and no fractures in the sleeve. Much less than medium pressure, longer lasting and better built than low cost PVC systems. The SAG120-APVC is designed and built to work in freshwater and saltwater pools, fracking water low-flow sewage, fountains, spas, ponds, zoos, aquariums, and many other applications. Call to discuss your needs.</p>
-
-							<p>Technical SpecificationsWatts > 120</p>
+							<p>Technical Specifications > Watts240</p>
 
 							<p>Liner > 316-L stainless steel to give reflection and to protect the PVC</p>
 
-							<p>Flow Rate (gpm) > ~100 gallons per minute</p>
+							<p>Flow Rate (gpm) > ~175 gallons per minute</p>
 						</div>
 						
 						<!-- SPECIFICATIONS -->
 						<div role="tabpanel" class="tab-pane fade" id="specs">
 							<div class="table-responsive">
-								<iframe id="frameSpecs" style="width: 100%; height: 600px;"></iframe>
+								<iframe id="frameSpecs" style="width: 100%; height: 600px;" pdf-url="sag240-apvc_specifications.pdf"></iframe>
 							</div>
 						</div>
 						
