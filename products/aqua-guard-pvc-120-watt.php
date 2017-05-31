@@ -137,7 +137,7 @@
 								<span class="pull-right text-danger"><i class="glyphicon glyphicon-remove"></i> Out of Stock</span>
 								-->
 
-								<strong>SKU:</strong> UY7321987
+								<strong>SKU:</strong> SAG120-APVC
 							</div>
 
 
