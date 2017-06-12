@@ -131,59 +131,6 @@
 							<!-- /short description -->
 
 
-							<!-- countdown -->
-							<div class="text-center">
-								<h5>Limited Offer</h5>
-								<div class="countdown" data-from="January 31, 2018 15:03:26" data-labels="years,months,weeks,days,hour,min,sec"><!-- Example Date From: December 31, 2018 15:03:26 --></div>
-							</div>
-							<!-- /countdown -->
-
-
-							<hr />
-
-							<!-- FORM -->
-							<form class="clearfix form-inline nomargin" method="get" action="shop-cart.html">
-								<input type="hidden" name="product_id" value="1" />
-
-								<button class="btn btn-primary pull-left product-add-cart noradius">ADD TO CART</button>
-							
-							</form>
-							<!-- /FORM -->
-
-
-							<hr />
-
-							<!-- Share -->
-							<div class="pull-right">
-
-								<a href="#" class="social-icon social-icon-sm social-icon-transparent social-facebook pull-left" data-toggle="tooltip" data-placement="top" title="Facebook">
-									<i class="icon-facebook"></i>
-									<i class="icon-facebook"></i>
-								</a>
-
-								<a href="#" class="social-icon social-icon-sm social-icon-transparent social-twitter pull-left" data-toggle="tooltip" data-placement="top" title="Twitter">
-									<i class="icon-twitter"></i>
-									<i class="icon-twitter"></i>
-								</a>
-
-								<a href="#" class="social-icon social-icon-sm social-icon-transparent social-gplus pull-left" data-toggle="tooltip" data-placement="top" title="Google plus">
-									<i class="icon-gplus"></i>
-									<i class="icon-gplus"></i>
-								</a>
-
-								<a href="#" class="social-icon social-icon-sm social-icon-transparent social-linkedin pull-left" data-toggle="tooltip" data-placement="top" title="Linkedin">
-									<i class="icon-linkedin"></i>
-									<i class="icon-linkedin"></i>
-								</a>
-
-							</div>
-							<!-- /Share -->
-
-
-							<!-- rating -->
-							<div class="rating rating-4 size-13 margin-top-10 width-100"><!-- rating-0 ... rating-5 --></div>
-							<!-- /rating -->
-
 						</div>
 						<!-- /ITEM DESC -->
 
