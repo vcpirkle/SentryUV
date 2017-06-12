@@ -114,22 +114,7 @@
 						<!-- ITEM DESC -->
 						<div class="col-lg-5 col-sm-8">
 
-							<!-- buttons -->
-							<div class="pull-right">
-								<!-- replace data-item-id width the real item ID - used by js/view/demo.shop.js -->
-								<a class="btn btn-default add-wishlist" href="#" data-item-id="1" data-toggle="tooltip" title="Add To Wishlist"><i class="fa fa-heart nopadding"></i></a>
-								<a class="btn btn-default add-compare" href="#" data-item-id="1" data-toggle="tooltip" title="Add To Compare"><i class="fa fa-bar-chart-o nopadding" data-toggle="tooltip"></i></a>
-							</div>
-							<!-- /buttons -->
 
-							<!-- price -->
-							<div class="shop-item-price">
-								<span class="line-through nopadding-left">$98.00</span>
-								$78.00
-							</div>
-							<!-- /price -->
-
-							<hr />
 
 							<div class="clearfix margin-bottom-30">
 								<span class="pull-right text-success"><i class="fa fa-check"></i> In Stock</span>
