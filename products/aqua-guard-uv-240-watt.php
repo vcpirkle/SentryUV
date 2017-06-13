@@ -28,13 +28,13 @@
 			<section class="page-header page-header-xs">
 				<div class="container">
 
-					<h1>SentryUV Aqua Guard&trade; UV 240 WATT</h1>
+					<h1>SentryUV Aqua Guard&trade; UV 240</h1>
 
 					<!-- breadcrumbs -->
 					<ol class="breadcrumb">
 						<li><a href="#">Home</a></li>
 						<li><a href="#">Shop</a></li>
-						<li class="active">SentryUV Aqua Guard&trade; UV 240 WATT</li>
+						<li class="active">SentryUV Aqua Guard&trade; UV 240</li>
 					</ol><!-- /breadcrumbs -->
 
 				</div>
@@ -170,7 +170,6 @@
 					<ul id="myTab" class="nav nav-tabs nav-top-border margin-top-80" role="tablist">
 						<li role="presentation" class=" description active"><a href="#description" role="tab" data-toggle="tab">Description</a></li>
 						<li role="presentation"><a class="specs" href="#specs" role="tab" data-toggle="tab">Specifications</a></li>
-						<li role="presentation"><a class="reviews" href="#reviews" role="tab" data-toggle="tab">Reviews (2)</a></li>
 					</ul>
 
 
@@ -199,127 +198,7 @@
 							</div>
 						</div>
 						
-						<!-- REVIEWS -->
-						<div role="tabpanel" class="tab-pane fade" id="reviews">
-							<!-- REVIEW ITEM -->
-							<div class="block margin-bottom-60">
 
-								<span cass="user-avatar"><!-- user-avatar -->
-									<img class="pull-left media-object" src="assets/images/avatar2.jpg" width="64" height="64" alt="">
-								</span>
-
-								<div class="media-body">
-									<h4 class="media-heading size-14">
-										John Doe &ndash; 
-										<span class="text-muted">June 29, 2014 - 11:23</span> &ndash;
-										<span class="size-14 text-muted"><!-- stars -->
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star-o"></i>
-										</span>
-									</h4>
-									
-									<p>
-										Proin eget tortor risus. Cras ultricies ligula sed magna dictum porta. Pellentesque in ipsum id orci porta dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque.
-									</p>
-
-								</div>
-
-							</div>
-							<!-- /REVIEW ITEM -->
-
-							<!-- REVIEW ITEM -->
-							<div class="block margin-bottom-60">
-
-								<span class="user-avatar"><!-- user-avatar -->
-									<img class="pull-left media-object" src="assets/images/avatar2.jpg" width="64" height="64" alt="">
-								</span>
-
-								<div class="media-body">
-									<h4 class="media-heading size-14">
-										John Doe &ndash; 
-										<span class="text-muted">June 29, 2014 - 11:23</span> &ndash;
-										<span class="size-14 text-muted"><!-- stars -->
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star-o"></i>
-											<i class="fa fa-star-o"></i>
-										</span>
-									</h4>
-									
-									<p>
-										Proin eget tortor risus. Cras ultricies ligula sed magna dictum porta. Pellentesque in ipsum id orci porta dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque.
-									</p>
-
-								</div>
-
-							</div>
-							<!-- /REVIEW ITEM -->
-
-
-							<!-- REVIEW FORM -->
-							<h4 class="page-header margin-bottom-40">ADD A REVIEW</h4>
-							<form method="post" action="#" id="form">
-								
-								<div class="row margin-bottom-10">
-									
-									<div class="col-md-6 margin-bottom-10">
-										<!-- Name -->
-										<input type="text" name="name" id="name" class="form-control" placeholder="Name *" maxlength="100" required="">
-									</div>
-									
-									<div class="col-md-6">
-										<!-- Email -->
-										<input type="email" name="email" id="email" class="form-control" placeholder="Email *" maxlength="100" required="">
-									</div>
-									
-								</div>
-								
-								<!-- Comment -->
-								<div class="margin-bottom-30">
-									<textarea name="text" id="text" class="form-control" rows="6" placeholder="Comment" maxlength="1000"></textarea>
-								</div>
-
-								<!-- Stars -->
-								<div class="product-star-vote clearfix">
-
-									<label class="radio pull-left">
-										<input type="radio" name="product-review-vote" value="1" />
-										<i></i> 1 Star
-									</label>
-
-									<label class="radio pull-left">
-										<input type="radio" name="product-review-vote" value="2" />
-										<i></i> 2 Stars
-									</label>
-
-									<label class="radio pull-left">
-										<input type="radio" name="product-review-vote" value="3" />
-										<i></i> 3 Stars
-									</label>
-
-									<label class="radio pull-left">
-										<input type="radio" name="product-review-vote" value="4" />
-										<i></i> 4 Stars
-									</label>
-
-									<label class="radio pull-left">
-										<input type="radio" name="product-review-vote" value="5" />
-										<i></i> 5 Stars
-									</label>
-
-								</div>
-
-								<!-- Send Button -->
-								<button type="submit" class="btn btn-primary"><i class="fa fa-check"></i> Send Review</button>
-								
-							</form>
-							<!-- /REVIEW FORM -->
-
-						</div>
 					</div>
 
 

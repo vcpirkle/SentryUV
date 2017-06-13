@@ -98,7 +98,7 @@
 						
 						<div class="col-md-5"><!-- description -->
 							<h2>
-								<a href="aqua-guard-pvc-120-watt.php">SentryUV Aqua Guard&trade; PVC 120 WATT</a>
+								<a href="aqua-guard-pvc-120-watt.php">SentryUV Aqua Guard&trade; PVC 120</a>
 							</h2>
 							<ul class="list-inline categories nomargin">
 								<li><a href="#">SentryUV Aqua Guard&trade;</a></li>
@@ -179,7 +179,7 @@
 						
 						<div class="col-md-5"><!-- description -->
 							<h2>
-								<a href="aqua-guard-pvc-240-watt.php">SentryUV Aqua Guard&trade; PVC 240 WATT</a>
+								<a href="aqua-guard-pvc-240-watt.php">SentryUV Aqua Guard&trade; PVC 240</a>
 							</h2>
 							<ul class="list-inline categories nomargin">
 								<li><a href="#">SentryUV Aqua Guard&trade;</a></li>
@@ -260,7 +260,7 @@
 						
 						<div class="col-md-5"><!-- description -->
 							<h2>
-								<a href="aqua-guard-uv-120-watt.php">SentryUV Aqua Guard&trade; UV 120 WATT</a>
+								<a href="aqua-guard-uv-120-watt.php">SentryUV Aqua Guard&trade; UV 120</a>
 							</h2>
 							<ul class="list-inline categories nomargin">
 								<li><a href="#">SentryUV Aqua Guard&trade;</a></li>
@@ -345,7 +345,7 @@
 						
 						<div class="col-md-5"><!-- description -->
 							<h2>
-								<a href="aqua-guard-uv-240-watt.php">SentryUV Aqua Guard&trade; UV 240 WATT</a>
+								<a href="aqua-guard-uv-240-watt.php">SentryUV Aqua Guard&trade; UV 240</a>
 							</h2>
 							<ul class="list-inline categories nomargin">
 								<li><a href="#">SentryUV Aqua Guard&trade;</a></li>
