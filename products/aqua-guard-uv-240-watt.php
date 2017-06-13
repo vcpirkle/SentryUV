@@ -32,8 +32,8 @@
 
 					<!-- breadcrumbs -->
 					<ol class="breadcrumb">
-						<li><a href="#">Home</a></li>
-						<li><a href="#">Shop</a></li>
+						<li><a href="<?php echo Config::getBaseDir(); ?>">Home</a></li>
+						<li><a href="../">Products</a></li>
 						<li class="active">SentryUV Aqua Guard&trade; UV 240</li>
 					</ol><!-- /breadcrumbs -->
 
