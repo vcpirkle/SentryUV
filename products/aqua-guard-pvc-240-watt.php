@@ -25,7 +25,7 @@
 					.shadow-before-3 	= shadow 3 header top
 					.shadow-after-3 	= shadow 3 header bottom
 			-->
-			<section class="page-header page-header-xs">
+			<section class="page-header page-header">
 				<div class="container">
 
 					<h1>SentryUV Aqua Guard&trade; PVC 240</h1>
@@ -33,7 +33,7 @@
 					<!-- breadcrumbs -->
 					<ol class="breadcrumb">
 						<li><a href="<?php echo Config::getBaseDir(); ?>">Home</a></li>
-						<li><a href="../">Products</a></li>
+						<li><a href="<?php echo Config::getBaseDir(); ?>products">Products</a></li>
 						<li class="active">SentryUV Aqua Guard&trade; PVC 240</li>
 					</ol><!-- /breadcrumbs -->
 
